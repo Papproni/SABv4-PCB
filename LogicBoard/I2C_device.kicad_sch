@@ -1,0 +1,432 @@
+(kicad_sch
+	(version 20260101)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "9f3502c1-a00b-4982-994d-4d9549dd3f34")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(bus_entry
+		(at 60.96 62.865)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fe3bc17-4902-41ab-890b-6cc652136730")
+	)
+	(bus_entry
+		(at 60.96 67.31)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc8b33c7-6bf0-40ea-8c97-f88d39b97292")
+	)
+	(wire
+		(pts
+			(xy 81.28 66.675) (xy 72.39 66.675)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11e9a84f-a7aa-401f-a1d2-0475fe5f3d4b")
+	)
+	(bus
+		(pts
+			(xy 60.96 60.325) (xy 60.96 73.025)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bfbb15f-5ad5-4232-a14f-9bbc2410190b")
+	)
+	(bus
+		(pts
+			(xy 70.485 60.325) (xy 60.96 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7415f401-c8f1-4345-b540-1468a22b5be0")
+	)
+	(wire
+		(pts
+			(xy 63.5 65.405) (xy 72.39 65.405)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "939e6a7c-8abe-4098-93c3-89f1e4f8acdb")
+	)
+	(wire
+		(pts
+			(xy 72.39 65.405) (xy 72.39 66.675)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a74d7927-2a48-4614-a02a-7c57b5d2ffd4")
+	)
+	(wire
+		(pts
+			(xy 69.85 69.85) (xy 69.85 73.025)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b125b882-50fc-4335-973b-b0442fa20620")
+	)
+	(wire
+		(pts
+			(xy 63.5 69.85) (xy 69.85 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9ecca9e-20e5-438f-88d5-a853fc7f2100")
+	)
+	(label "I2C.SDA"
+		(at 72.39 66.675 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "64c21bda-37cf-4f0d-bc77-0938a35cc2bf")
+	)
+	(label "I2C.SCL"
+		(at 69.85 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b4f7673-368a-4c45-82db-e104a963934b")
+	)
+	(hierarchical_label "I2C{SDA, SCL}"
+		(shape bidirectional)
+		(at 70.485 60.325 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "19f53bdc-80f5-414d-a955-13be483e8a3d")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 69.85 76.835 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21b6e6f7-01d5-4354-9ba7-fe18c4172982")
+		(property "Reference" "R1_DEV1"
+			(at 72.39 75.5649 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 72.39 78.1049 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 68.072 76.835 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 76.835 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 69.85 76.835 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d0de114b-a250-43a4-84b6-b76ebd81f14b")
+		)
+		(pin "2"
+			(uuid "8ac997c4-dc33-4b0b-84a7-85e410156f19")
+		)
+		(instances
+			(project ""
+				(path "/746ace4e-f2ad-47f2-8f96-62fca9d41f01/3dd4b509-a92a-4498-bc0e-7f032eae29ab"
+					(reference "R1_DEV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 81.28 70.485 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa44dbc1-bfe2-49e9-b8a4-cafc03b09cc8")
+		(property "Reference" "R2_DEV1"
+			(at 83.82 69.2149 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 83.82 71.7549 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 79.502 70.485 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 70.485 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 81.28 70.485 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "88ee1647-efe1-4e9d-9a50-1abd25764c71")
+		)
+		(pin "2"
+			(uuid "16de5505-372d-499d-b1b4-a3ce521f0b07")
+		)
+		(instances
+			(project "LogicBoard"
+				(path "/746ace4e-f2ad-47f2-8f96-62fca9d41f01/3dd4b509-a92a-4498-bc0e-7f032eae29ab"
+					(reference "R2_DEV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

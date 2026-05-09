@@ -1,0 +1,762 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "746ace4e-f2ad-47f2-8f96-62fca9d41f01")
+	(paper "A2")
+	(lib_symbols)
+	(bus_entry
+		(at 201.295 158.75)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "919e3743-bde5-4047-8bc6-e61f5347ad85")
+	)
+	(bus
+		(pts
+			(xy 201.295 148.59) (xy 201.295 255.905)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "297f30d3-3f41-4935-a230-bcf4aa2a7364")
+	)
+	(bus
+		(pts
+			(xy 244.475 296.545) (xy 244.475 202.565)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ae7c285-b06b-48a3-a759-0208c9700219")
+	)
+	(bus
+		(pts
+			(xy 154.94 263.525) (xy 241.935 263.525)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b4a10a2-f756-4c02-8b99-49ae3042834c")
+	)
+	(wire
+		(pts
+			(xy 151.13 290.83) (xy 185.42 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c9b2724-7c4c-403b-abf1-256d238846a2")
+	)
+	(wire
+		(pts
+			(xy 176.149 156.21) (xy 198.755 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "501e27f8-79b4-46bc-8cb3-feccbbd78dc9")
+	)
+	(wire
+		(pts
+			(xy 172.72 104.775) (xy 247.65 104.775)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b7a2650-7d3f-4a4f-a3c4-3caa72f3b519")
+	)
+	(bus
+		(pts
+			(xy 172.72 111.76) (xy 247.65 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61765174-edf2-48e6-9bf7-63ec0040321a")
+	)
+	(bus
+		(pts
+			(xy 241.935 263.525) (xy 241.935 188.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8126ab7c-15c8-48df-a95e-7b7741ab2d8e")
+	)
+	(wire
+		(pts
+			(xy 172.72 106.68) (xy 247.65 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8676f2fd-3bfd-472b-b9d4-4b968895d4fc")
+	)
+	(bus
+		(pts
+			(xy 172.72 101.6) (xy 247.65 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "900941b3-22c6-411a-be48-5dbc88b5396e")
+	)
+	(wire
+		(pts
+			(xy 144.78 121.92) (xy 144.78 149.225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1e83a62-a854-496c-9300-4cc20306e85f")
+	)
+	(bus
+		(pts
+			(xy 172.085 78.105) (xy 247.65 78.105)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a48c83ad-8975-4c19-8639-02205d5b1f2d")
+	)
+	(bus
+		(pts
+			(xy 154.94 255.905) (xy 201.295 255.905)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab1a3eb7-65cf-4e50-8a8a-46fc847f83d7")
+	)
+	(bus
+		(pts
+			(xy 151.13 296.545) (xy 244.475 296.545)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad339516-46ae-41cc-8d48-7355a4e6ec47")
+	)
+	(bus
+		(pts
+			(xy 244.475 202.565) (xy 247.65 202.565)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0885ce2-8932-4115-a545-c1dc4055fb0d")
+	)
+	(bus
+		(pts
+			(xy 172.085 83.82) (xy 247.65 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bacde687-43dc-41c0-90b7-ea1a7dafc611")
+	)
+	(bus
+		(pts
+			(xy 172.72 114.935) (xy 247.65 114.935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dab82dc1-539e-450f-ad11-20bb447fc22e")
+	)
+	(bus
+		(pts
+			(xy 241.935 188.595) (xy 247.65 188.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df797b98-09fe-4311-afc1-aa9615504903")
+	)
+	(wire
+		(pts
+			(xy 172.72 108.585) (xy 247.65 108.585)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1b6ac4b-f678-46fc-aafb-00869ad52619")
+	)
+	(label "Bus_Disp_pwr.LED_K"
+		(at 178.308 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a23f977c-d1c5-4418-9017-4f6602af5737")
+	)
+	(sheet
+		(at 134.62 98.425)
+		(size 38.1 23.495)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "414f8d2b-ab9d-49ad-a85f-971f26041d98")
+		(property "Sheetname" "Connectors"
+			(at 134.62 97.7134 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connectors.kicad_sch"
+			(at 134.62 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+5V_O" output
+			(at 144.78 121.92 270)
+			(uuid "b6d9b14a-43a4-46f5-aec4-9a551390ac75")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Host_I2C{SDA,SCL}" bidirectional
+			(at 172.72 101.6 0)
+			(uuid "2d1249f1-bf94-4423-b3bc-85c04e6307d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INT1" bidirectional
+			(at 172.72 104.775 0)
+			(uuid "9f1b658a-5a31-4160-8d50-fad907bca1bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INT2" bidirectional
+			(at 172.72 106.68 0)
+			(uuid "05e1dd35-04b1-43cf-9b62-c19d678fc488")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INT3" bidirectional
+			(at 172.72 108.585 0)
+			(uuid "f80b8826-16cd-4a17-bb87-0180312e7b5e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INTERCOM_SPI{CS,MOSI,MISO,CLK}" bidirectional
+			(at 172.72 111.76 0)
+			(uuid "66f95593-60d6-475d-8d17-37e39efff439")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB{p,n}" bidirectional
+			(at 172.72 114.935 0)
+			(uuid "ce722b23-c76e-46bc-b012-777984c53810")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "LogicBoard"
+				(path "/746ace4e-f2ad-47f2-8f96-62fca9d41f01"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 71.12)
+		(size 37.465 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "41882c02-9bc1-4543-8415-90757237f71a")
+		(property "Sheetname" "Conn_codec"
+			(at 134.62 70.4084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Conn_codec.kicad_sch"
+			(at 134.62 89.4846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2S{SCLK,SCLRK,DIN,DOUT}" bidirectional
+			(at 172.085 78.105 0)
+			(uuid "7d28b456-7585-48dc-b751-a9ebb56a0c87")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI{CS,MOSI,MISO,CLK}" bidirectional
+			(at 172.085 83.82 0)
+			(uuid "13560dc5-0b65-41cd-97ac-8f29a6416c11")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "LogicBoard"
+				(path "/746ace4e-f2ad-47f2-8f96-62fca9d41f01"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 245.11)
+		(size 102.87 28.575)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "50ad5ca4-d2ac-4643-9137-55257bfd4048")
+		(property "Sheetname" "CONN_rgb_display"
+			(at 52.07 244.3984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rgb_display.kicad_sch"
+			(at 52.07 274.2696 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Bus_Disp_control{MODE,DE,VSYNC,HSYNC,B[0..7],R[0..7],G[0..7],DCLK,LR,UD,RESET,DITHB}"
+			bidirectional
+			(at 154.94 263.525 0
+			)
+			(uuid "af736dcd-b1b0-4d30-aabe-a060a4397191")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Bus_Disp_pwr{LED_A,LED_K,VCOM,DVDD,VGH,VGL,AVDD}" bidirectional
+			(at 154.94 255.905 0)
+			(uuid "d04cbc09-25cc-44da-8460-2baf6bf6d10a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "LogicBoard"
+				(path "/746ace4e-f2ad-47f2-8f96-62fca9d41f01"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 126.365 149.225)
+		(size 49.53 60.96)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9adad18d-9e0c-4c2e-84db-76e0ad85ce70")
+		(property "Sheetname" "PowerSection"
+			(at 126.365 148.5134 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerSection.kicad_sch"
+			(at 126.365 210.5156 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+3V3_O" output
+			(at 175.895 163.83 0)
+			(uuid "55d31934-6ba6-4d26-beed-798555ce18dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+5V_I" input
+			(at 144.78 149.225 90)
+			(uuid "e221a63d-7dc5-42b3-8362-7f8ddec18e1b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+10.2V_O" output
+			(at 175.895 156.21 0)
+			(uuid "f5d44d5b-049d-4785-948b-ff8cb154354a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "LogicBoard"
+				(path "/746ace4e-f2ad-47f2-8f96-62fca9d41f01"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 285.115)
+		(size 99.06 33.655)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d3849a56-1425-46a1-b743-0242ccfaa172")
+		(property "Sheetname" "CONN_touch_intf"
+			(at 52.07 284.4034 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CONN_touch_intf.kicad_sch"
+			(at 52.07 319.3546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+3V3" input
+			(at 151.13 290.83 0)
+			(uuid "577a757f-1a9d-447a-8494-ee3e9ec8bf0d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TouchControl{SDA,SCL,RESET,INT}" bidirectional
+			(at 151.13 296.545 0)
+			(uuid "a7cc631d-f63d-47cb-bb72-eefd9d57c1f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "LogicBoard"
+				(path "/746ace4e-f2ad-47f2-8f96-62fca9d41f01"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 247.65 70.485)
+		(size 207.01 139.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d8be815c-f5e1-469b-a5d4-bd153b9ff9b4")
+		(property "Sheetname" "mcu"
+			(at 247.65 69.7734 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 247.65 210.7696 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Bus_Disp_control{MODE,DE,VSYNC,HSYNC,B[0..7],R[0..7],G[0..7],DCLK,LR,UD,RESET,DITHB}"
+			bidirectional
+			(at 247.65 188.595 180
+			)
+			(uuid "6dee4f08-2f49-4de0-9276-e8e3e13107e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HOST_I2C{SDA,SCL}" bidirectional
+			(at 247.65 101.6 180)
+			(uuid "de27fb61-70b0-4b99-b817-9e311bd9c69f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2S{SCLK,SCLRK,DIN,DOUT}" bidirectional
+			(at 247.65 78.105 180)
+			(uuid "f6abca3d-bc72-48af-b7d4-69ada46a3bf5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT1" bidirectional
+			(at 247.65 104.775 180)
+			(uuid "775ae458-c0a1-4c38-8996-04acd0355687")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT2" bidirectional
+			(at 247.65 106.68 180)
+			(uuid "2343ff88-1cff-4288-a87e-b0926863df71")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT3" bidirectional
+			(at 247.65 108.585 180)
+			(uuid "fe919702-735b-479f-b855-2b0fc363b14b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INTERCOM_SPI{CS,MOSI,MISO,CLK}" bidirectional
+			(at 247.65 111.76 180)
+			(uuid "238f9c73-4dfc-4090-82ac-c66a84023ffc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TouchControl{SDA,SCL,RESET,INT}" bidirectional
+			(at 247.65 202.565 180)
+			(uuid "b7b72a11-902a-4b45-9a53-9a28623b89f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB{p,n}" bidirectional
+			(at 247.65 114.935 180)
+			(uuid "70ad0c69-cea8-4838-9ac5-8a0c8f2a21d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CODEC_SPI{CS,MOSI,MISO,CLK}" bidirectional
+			(at 247.65 83.82 180)
+			(uuid "33da0ade-ea5c-4b3d-8ad4-30b1bc83abea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "LogicBoard"
+				(path "/746ace4e-f2ad-47f2-8f96-62fca9d41f01"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
