@@ -582,14 +582,32 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "jlcpcbpart",
+          "name": "jlcpcbpart",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Value"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -632,7 +650,7 @@
         "uuid": "746ace4e-f2ad-47f2-8f96-62fca9d41f01"
       }
     ],
-    "used_designators": "U2,C1-16,L1,#PWR13-28,D1-5,R1-8",
+    "used_designators": "R9",
     "variants": []
   },
   "sheets": [

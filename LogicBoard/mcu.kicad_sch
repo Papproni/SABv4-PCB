@@ -6282,6 +6282,17 @@
 		)
 		(uuid "93cfa475-9624-4f96-be06-0f4b2de07b5c")
 	)
+	(hierarchical_label "FLK_CLK"
+		(shape output)
+		(at 65.405 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9ba9e38c-714a-4c4b-9fd7-f93804b05fdb")
+	)
 	(hierarchical_label "USB{p,n}"
 		(shape bidirectional)
 		(at 66.04 133.985 180)

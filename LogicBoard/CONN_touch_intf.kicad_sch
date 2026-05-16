@@ -918,6 +918,17 @@
 				)
 			)
 		)
+		(property "jlcpcbpart" ""
+			(at 42.545 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "c57e39af-d0ae-4be1-b3f4-c0770b5ca4b4")
 		)

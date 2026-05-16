@@ -3491,6 +3491,17 @@
 				)
 			)
 		)
+		(property "jlcpcbpart" ""
+			(at 31.75 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "32"
 			(uuid "bbb7746f-0da8-46c4-9f54-8f9a64fe5fe4")
 		)
