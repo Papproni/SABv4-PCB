@@ -1682,6 +1682,18 @@
 		)
 	)
 	(junction
+		(at 39.37 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a2012c5-fe02-49eb-a2c5-1986181e39d1")
+	)
+	(junction
+		(at 39.37 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76c10138-a53f-4765-9675-9ae28b65351d")
+	)
+	(junction
 		(at 39.37 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2356,7 +2368,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 54.61) (xy 36.83 54.61)
+			(xy 41.91 54.61) (xy 39.37 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2706,6 +2718,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 54.61) (xy 39.37 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e12d0667-6ee7-4705-ac62-ad66e3782fcb")
+	)
+	(wire
+		(pts
 			(xy 39.37 52.07) (xy 39.37 49.53)
 		)
 		(stroke
@@ -2733,6 +2755,16 @@
 			(type default)
 		)
 		(uuid "ee204862-c5b7-44c0-b3ee-4ac6bc71a1e1")
+	)
+	(wire
+		(pts
+			(xy 39.37 54.61) (xy 36.83 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f705cc22-6113-499c-9013-fc8ab15740c1")
 	)
 	(wire
 		(pts
@@ -2965,12 +2997,12 @@
 		(uuid "473f809c-f48f-425f-88a3-52e2407b2ff2")
 	)
 	(label "Bus_Disp_control.DITHB"
-		(at 47.625 161.29 0)
+		(at 47.625 161.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "4ab49f30-d0dc-4720-9187-1d6d1d32a163")
 	)
@@ -3045,12 +3077,12 @@
 		(uuid "6c8f2fca-ba9d-4262-883f-c3ec3371970f")
 	)
 	(label "Bus_Disp_pwr.VCOM"
-		(at 50.8 158.115 0)
+		(at 50.8 158.115 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "70ea8682-cdf2-4773-8322-8c1663061b2c")
 	)
