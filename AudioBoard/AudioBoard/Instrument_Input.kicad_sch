@@ -1,0 +1,539 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "a7d79a3d-5a0c-489a-91b1-d5022826cc64")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 81.28 66.675) (xy 77.47 66.675)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08144ec8-a477-4961-8ac7-8f3a4681da84")
+	)
+	(wire
+		(pts
+			(xy 58.42 66.675) (xy 58.42 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2711d2a4-efa1-4e8f-845f-f943945cfd20")
+	)
+	(wire
+		(pts
+			(xy 34.925 58.42) (xy 42.545 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b3040b7-10a6-4683-a9b7-e9247f75692d")
+	)
+	(wire
+		(pts
+			(xy 69.85 66.675) (xy 58.42 66.675)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ef4716d-981f-41a7-b570-92cde47e67bb")
+	)
+	(wire
+		(pts
+			(xy 77.47 58.42) (xy 81.28 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "715c28e4-96c7-49ee-8623-6355e6ee7fd1")
+	)
+	(wire
+		(pts
+			(xy 50.165 58.42) (xy 58.42 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76733d1f-10c3-4604-a2c8-31271bd692db")
+	)
+	(hierarchical_label "IN"
+		(shape input)
+		(at 34.925 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "448a66b6-ddc5-42d2-84cf-acd5b4e82707")
+	)
+	(hierarchical_label "VSS"
+		(shape input)
+		(at 38.1 26.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "536400c5-d18c-4e8f-abd4-5378d26d763f")
+	)
+	(hierarchical_label "VDD"
+		(shape input)
+		(at 38.1 24.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6141f154-8807-4fbd-ab5b-926b860f995c")
+	)
+	(hierarchical_label "OUT_P"
+		(shape output)
+		(at 81.28 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9e438905-768b-40da-a79b-4fea983eca3e")
+	)
+	(hierarchical_label "VBIAS"
+		(shape input)
+		(at 38.1 29.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a25443fe-bed7-47c5-a463-d35852ee9638")
+	)
+	(hierarchical_label "OUT_N"
+		(shape output)
+		(at 81.28 66.675 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cb3aaf9d-5b47-4d2c-bed7-7d9c519b5ef4")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 66.675 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "260b2248-e62b-4848-ad57-bb64378fb01e")
+		(property "Reference" "R3"
+			(at 73.66 60.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15k"
+			(at 73.66 63.5 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 73.66 68.453 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 66.675 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 73.66 66.675 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6fa932f0-7286-4bd7-a490-e11811886998")
+		)
+		(pin "2"
+			(uuid "4d591874-8b78-4e62-b6f1-5cffa45121e0")
+		)
+		(instances
+			(project "AudioBoard"
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/553ee5f2-7cb9-4b79-9bd8-4ec1e35b2d16"
+					(reference "R9")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/71f7f4bb-58c8-4780-b049-947f3ce7cad3"
+					(reference "R3")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/9883295b-2e35-48db-89e9-3d6f4831525f"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 58.42 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ba0aa98-7c7c-4c22-a296-35538cc09153")
+		(property "Reference" "R2"
+			(at 73.66 52.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 73.66 54.61 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 73.66 60.198 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 73.66 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2acb5ec5-c0e9-40f2-b4bf-c220731c4490")
+		)
+		(pin "2"
+			(uuid "bc20a7f8-1b1a-495f-8192-c9337b6b73c7")
+		)
+		(instances
+			(project "AudioBoard"
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/553ee5f2-7cb9-4b79-9bd8-4ec1e35b2d16"
+					(reference "R8")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/71f7f4bb-58c8-4780-b049-947f3ce7cad3"
+					(reference "R2")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/9883295b-2e35-48db-89e9-3d6f4831525f"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 46.355 58.42 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb9f59e5-6bd4-4de1-ab25-8e6111dcc7df")
+		(property "Reference" "R1"
+			(at 46.355 52.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 46.355 54.61 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 46.355 60.198 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.355 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 46.355 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b5459d79-1ea9-41da-b661-567ba16f7bd8")
+		)
+		(pin "2"
+			(uuid "0ff206b5-55b0-4f43-99b6-7dd3d6417885")
+		)
+		(instances
+			(project "AudioBoard"
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/553ee5f2-7cb9-4b79-9bd8-4ec1e35b2d16"
+					(reference "R7")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/71f7f4bb-58c8-4780-b049-947f3ce7cad3"
+					(reference "R1")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/9883295b-2e35-48db-89e9-3d6f4831525f"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

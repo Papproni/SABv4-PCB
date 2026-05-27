@@ -1,0 +1,572 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "dd5d876d-fff7-4cb4-baee-a023036d12ae")
+	(paper "A4")
+	(lib_symbols)
+	(junction
+		(at 179.705 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4e481fd-d7b3-4807-927d-b592b13ce044")
+	)
+	(wire
+		(pts
+			(xy 179.705 66.675) (xy 179.705 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19b1d9cc-c433-4a13-91b2-8877c4290ef9")
+	)
+	(wire
+		(pts
+			(xy 179.705 97.79) (xy 179.705 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e9b36be-61fe-4b8b-95aa-bdcab68e59aa")
+	)
+	(wire
+		(pts
+			(xy 186.055 97.79) (xy 179.705 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68d1617c-8b22-4fee-a637-32e161d42926")
+	)
+	(wire
+		(pts
+			(xy 179.705 82.55) (xy 186.055 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3ff9e87-7b7b-4bb8-a0e7-956da1e0dc7a")
+	)
+	(wire
+		(pts
+			(xy 186.055 66.675) (xy 179.705 66.675)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4112dc6-93ad-4a85-92f0-deec0fa70d5f")
+	)
+	(sheet
+		(at 105.41 110.49)
+		(size 27.305 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "16830e07-4680-4afb-a401-9eef6cd884a6")
+		(property "Sheetname" "fsw_conn"
+			(at 105.41 109.7784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fsw_conn.kicad_sch"
+			(at 105.41 155.5246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AudioBoard"
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 186.055 95.25)
+		(size 32.385 9.525)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "553ee5f2-7cb9-4b79-9bd8-4ec1e35b2d16")
+		(property "Sheetname" "Instrument_Input2"
+			(at 186.055 94.5384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Instrument_Input.kicad_sch"
+			(at 186.055 105.3596 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 186.055 97.79 180)
+			(uuid "530d2ad5-fa1d-48d8-8c2c-2e0303d1a789")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT_N" output
+			(at 218.44 96.52 0)
+			(uuid "8e485b14-6d23-45f5-b16c-96cf48171e57")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT_P" output
+			(at 218.44 99.06 0)
+			(uuid "be8a164d-7616-4732-9b78-535ef0ce90d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBIAS" input
+			(at 201.295 95.25 90)
+			(uuid "d89f212e-ee8d-45f1-9be2-70d904f46c19")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD" input
+			(at 204.47 95.25 90)
+			(uuid "8f6b85c8-c58f-4505-8eb4-e75f4e2c461e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSS" input
+			(at 207.01 95.25 90)
+			(uuid "3939c31e-e39e-4099-a384-2323851ade13")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "AudioBoard"
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 231.14 59.69)
+		(size 22.86 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6c99cd00-a4a2-4f1f-8c45-97dcde60f012")
+		(property "Sheetname" "Audio_IO_conn"
+			(at 231.14 58.9784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Audio_IO_conn.kicad_sch"
+			(at 231.14 94.5646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AudioBoard"
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 186.055 64.135)
+		(size 32.385 9.525)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "71f7f4bb-58c8-4780-b049-947f3ce7cad3")
+		(property "Sheetname" "Instrument_Input"
+			(at 186.055 63.4234 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Instrument_Input.kicad_sch"
+			(at 186.055 74.2446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 186.055 66.675 180)
+			(uuid "9a8be7e8-ec8e-4102-b7e8-2514dbc1c44f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT_N" output
+			(at 218.44 65.405 0)
+			(uuid "ab55e8d5-7d1b-444f-8fd7-b3e2bedb484a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT_P" output
+			(at 218.44 67.945 0)
+			(uuid "3e69eb41-ec72-4fc8-92c6-0ab0a0042b78")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBIAS" input
+			(at 201.295 64.135 90)
+			(uuid "eab45fe0-586e-4965-b8c1-db64c196df6f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD" input
+			(at 204.47 64.135 90)
+			(uuid "00d9b42d-c4d0-4dbc-9653-e23f0d39048f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSS" input
+			(at 207.01 64.135 90)
+			(uuid "275cbe0e-3523-450a-8aae-e19f6fb03bd6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "AudioBoard"
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 186.055 80.01)
+		(size 32.385 9.525)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9883295b-2e35-48db-89e9-3d6f4831525f")
+		(property "Sheetname" "Instrument_Input1"
+			(at 186.055 79.2984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Instrument_Input.kicad_sch"
+			(at 186.055 90.1196 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 186.055 82.55 180)
+			(uuid "7e68a0c2-7ba2-4b15-a6ad-16b2eab38684")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT_N" output
+			(at 218.44 81.28 0)
+			(uuid "8de6c75d-2fea-43f9-9555-dcf54000143f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT_P" output
+			(at 218.44 83.82 0)
+			(uuid "f1bfae88-9106-4c2d-b367-f44a7834db50")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBIAS" input
+			(at 201.295 80.01 90)
+			(uuid "efbb3d16-7c84-471c-b2f3-334bf7df91b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD" input
+			(at 204.47 80.01 90)
+			(uuid "bb5eff56-f5a3-4957-8b5a-9a572d5cdd4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSS" input
+			(at 207.01 80.01 90)
+			(uuid "ebcbf6ab-7f9a-459e-bad9-c6f0550b9984")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "AudioBoard"
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 68.58 45.72)
+		(size 44.45 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ee404ad0-726e-426f-8607-a7730f1919f6")
+		(property "Sheetname" "power"
+			(at 68.58 45.0084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 68.58 90.7546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AudioBoard"
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 136.525 55.88)
+		(size 34.925 34.925)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "fab29887-1b28-4c54-9b62-2bd036d5e001")
+		(property "Sheetname" "codec"
+			(at 136.525 55.1684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "codec.kicad_sch"
+			(at 136.525 91.3896 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AudioBoard"
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
