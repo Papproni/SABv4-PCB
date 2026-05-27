@@ -8177,7 +8177,7 @@
 				)
 			)
 		)
-		(property "Value" "1N5818"
+		(property "Value" "MBRS130LT3G"
 			(at 311.4675 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8187,7 +8187,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
+		(property "Footprint" "Diode_SMD:D_SMB"
 			(at 311.15 193.675 0)
 			(hide yes)
 			(show_name no)
@@ -8198,7 +8198,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+		(property "Datasheet" ""
 			(at 311.15 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -8220,7 +8220,7 @@
 				)
 			)
 		)
-		(property "jlcpcbpart" "C437955"
+		(property "jlcpcbpart" "C51771"
 			(at 311.15 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -8346,7 +8346,7 @@
 				)
 			)
 		)
-		(property "Value" "1N5818"
+		(property "Value" "MBRS130LT3G"
 			(at 308.9275 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8356,7 +8356,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
+		(property "Footprint" "Diode_SMD:D_SMB"
 			(at 308.61 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -8367,7 +8367,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+		(property "Datasheet" ""
 			(at 308.61 196.215 0)
 			(hide yes)
 			(show_name no)
@@ -8389,7 +8389,7 @@
 				)
 			)
 		)
-		(property "jlcpcbpart" "C437955"
+		(property "jlcpcbpart" "C51771"
 			(at 308.61 196.215 0)
 			(hide yes)
 			(show_name no)
@@ -8944,7 +8944,7 @@
 				)
 			)
 		)
-		(property "Value" "1N5818"
+		(property "Value" "MBRS130LT3G"
 			(at 209.8675 177.165 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8954,7 +8954,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
+		(property "Footprint" "Diode_SMD:D_SMB"
 			(at 209.55 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -8965,7 +8965,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+		(property "Datasheet" ""
 			(at 209.55 180.975 0)
 			(hide yes)
 			(show_name no)
@@ -8987,7 +8987,7 @@
 				)
 			)
 		)
-		(property "jlcpcbpart" "C437955"
+		(property "jlcpcbpart" "C51771"
 			(at 209.55 180.975 0)
 			(hide yes)
 			(show_name no)
@@ -9685,7 +9685,7 @@
 				)
 			)
 		)
-		(property "Value" "1N5818"
+		(property "Value" "MBRS130LT3G"
 			(at 278.4475 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9695,7 +9695,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
+		(property "Footprint" "Diode_SMD:D_SMB"
 			(at 278.13 154.305 0)
 			(hide yes)
 			(show_name no)
@@ -9706,7 +9706,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+		(property "Datasheet" ""
 			(at 278.13 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -9728,7 +9728,7 @@
 				)
 			)
 		)
-		(property "jlcpcbpart" "C437955"
+		(property "jlcpcbpart" "C51771"
 			(at 278.13 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -10705,7 +10705,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N5818"
+		(property "Value" "MBRS130LT3G"
 			(at 147.32 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10716,7 +10716,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
+		(property "Footprint" "Diode_SMD:D_SMB"
 			(at 152.4 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -10727,7 +10727,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+		(property "Datasheet" ""
 			(at 156.845 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -10749,7 +10749,7 @@
 				)
 			)
 		)
-		(property "jlcpcbpart" "C437955"
+		(property "jlcpcbpart" "C51771"
 			(at 156.845 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -11440,7 +11440,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N5818"
+		(property "Value" "MBRS130LT3G"
 			(at 219.71 188.2774 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11451,7 +11451,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
+		(property "Footprint" "Diode_SMD:D_SMB"
 			(at 221.615 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -11462,7 +11462,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+		(property "Datasheet" ""
 			(at 217.17 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -11484,7 +11484,7 @@
 				)
 			)
 		)
-		(property "jlcpcbpart" "C437955"
+		(property "jlcpcbpart" "C51771"
 			(at 217.17 186.69 90)
 			(hide yes)
 			(show_name no)
