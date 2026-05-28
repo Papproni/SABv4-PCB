@@ -632,7 +632,7 @@
         "uuid": "dd5d876d-fff7-4cb4-baee-a023036d12ae"
       }
     ],
-    "used_designators": "R1-9",
+    "used_designators": "R1-33,100R1-3,C1-28,U1-7,D1-14,#PWR1-19",
     "variants": []
   },
   "sheets": [
@@ -657,16 +657,8 @@
       "Audio_IO_conn"
     ],
     [
-      "71f7f4bb-58c8-4780-b049-947f3ce7cad3",
-      "Instrument_Input"
-    ],
-    [
       "9883295b-2e35-48db-89e9-3d6f4831525f",
       "Instrument_Input1"
-    ],
-    [
-      "553ee5f2-7cb9-4b79-9bd8-4ec1e35b2d16",
-      "Instrument_Input2"
     ]
   ],
   "text_variables": {},
