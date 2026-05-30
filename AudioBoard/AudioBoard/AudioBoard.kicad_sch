@@ -108,6 +108,112 @@
 		)
 	)
 	(sheet
+		(at 186.055 96.52)
+		(size 32.385 9.525)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "60c8136a-bcb6-41ac-b077-3ef422aabe7a")
+		(property "Sheetname" "Instrument_Input2"
+			(at 186.055 95.8084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Instrument_Input.kicad_sch"
+			(at 186.055 106.6296 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 186.055 99.06 180)
+			(uuid "ead3f204-0755-41af-8be4-3fc906351200")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT_N" output
+			(at 218.44 97.79 0)
+			(uuid "e0b522f6-aaa1-4460-b027-9d4902896ccf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT_P" output
+			(at 218.44 100.33 0)
+			(uuid "8ed2f8e2-7bdf-4da8-8bec-b49ac8fa06fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBIAS" input
+			(at 201.295 96.52 90)
+			(uuid "6dad0ad3-1715-44bc-b48d-cdfce6cd0b83")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD" input
+			(at 204.47 96.52 90)
+			(uuid "98687f6a-58c3-4cd3-a091-b79970fb4609")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSS" input
+			(at 207.01 96.52 90)
+			(uuid "ac6db90b-005c-4d9d-a6f8-8d3d6ba5f00e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "AudioBoard"
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 231.14 59.69)
 		(size 22.86 34.29)
 		(exclude_from_sim no)

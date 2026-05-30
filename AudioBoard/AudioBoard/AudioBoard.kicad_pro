@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [],
@@ -582,12 +582,36 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -632,7 +656,7 @@
         "uuid": "dd5d876d-fff7-4cb4-baee-a023036d12ae"
       }
     ],
-    "used_designators": "R1-33,100R1-3,C1-28,U1-7,D1-14,#PWR1-19",
+    "used_designators": "R1-44,100R1-5,C1-56,U1-9,D1-20,#PWR1-41",
     "variants": []
   },
   "sheets": [
@@ -655,6 +679,10 @@
     [
       "6c99cd00-a4a2-4f1f-8c45-97dcde60f012",
       "Audio_IO_conn"
+    ],
+    [
+      "60c8136a-bcb6-41ac-b077-3ef422aabe7a",
+      "Instrument_Input2"
     ],
     [
       "9883295b-2e35-48db-89e9-3d6f4831525f",
