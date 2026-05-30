@@ -2,7 +2,51 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "48217a84-f7e6-4d88-9136-b8c5e464b512")
+	(uuid "f6ff5fd5-b831-4cb4-a9b7-406f33a08ccb")
 	(paper "A4")
 	(lib_symbols)
+	(hierarchical_label "AVDD"
+		(shape output)
+		(at 31.75 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "148d8235-3d42-48a5-a4ec-9836616fc18a")
+	)
+	(hierarchical_label "DVDD"
+		(shape output)
+		(at 31.75 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4b53eb86-468c-48d3-b1a8-66da28868cf8")
+	)
+	(hierarchical_label "VSS"
+		(shape output)
+		(at 31.75 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9a5b6156-4c53-4bf9-8063-02bf834db118")
+	)
+	(hierarchical_label "VDD"
+		(shape output)
+		(at 31.75 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b959e790-d198-438f-b1fa-ebf4b8bc7895")
+	)
 )

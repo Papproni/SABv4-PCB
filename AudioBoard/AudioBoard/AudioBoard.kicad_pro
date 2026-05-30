@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [],
@@ -656,7 +656,7 @@
         "uuid": "dd5d876d-fff7-4cb4-baee-a023036d12ae"
       }
     ],
-    "used_designators": "R1-44,100R1-5,C1-56,U1-9,D1-20,#PWR1-41",
+    "used_designators": "U1,U6-8,D5-16,#PWR6-7,#PWR9-10,#PWR12-13,#PWR15-16,#PWR18-33,C3-4,C6-7,C12-13,C15-16,C18-19,C21-22,C24-25,C27-45,100R2-4,R5-7,R11-12,R14-15,R17-18,R20-21,R23-27,R29-30,R32-37",
     "variants": []
   },
   "sheets": [
@@ -681,12 +681,20 @@
       "Audio_IO_conn"
     ],
     [
-      "60c8136a-bcb6-41ac-b077-3ef422aabe7a",
+      "cf55245f-1586-4bce-8fa5-1c9a37bfc5e8",
       "Instrument_Input2"
     ],
     [
       "9883295b-2e35-48db-89e9-3d6f4831525f",
       "Instrument_Input1"
+    ],
+    [
+      "5eecead1-97c4-44ff-891f-703e17c419df",
+      "Instrument_Input3"
+    ],
+    [
+      "530959e7-e8a8-4094-8a63-7b541d0a1598",
+      "Instrument_Input4"
     ]
   ],
   "text_variables": {},

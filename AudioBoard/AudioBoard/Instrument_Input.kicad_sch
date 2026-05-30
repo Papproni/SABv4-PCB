@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "63b08737-b9f8-4e90-a939-d43563184704")
+	(uuid "30690cc3-d35d-44d6-942a-38bd8b8240fe")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Amplifier_Operational:TL072"
@@ -901,7 +901,7 @@
 		(uuid "36dc267b-b220-498b-bf93-e929d1eb9456")
 	)
 	(junction
-		(at 73.66 34.29)
+		(at 52.705 108.585)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a25b400-8dcb-4cbc-bc0e-ee541286aaa8")
@@ -961,7 +961,7 @@
 		(uuid "ba61061e-0a2d-4206-bbc4-02c85553348e")
 	)
 	(junction
-		(at 73.66 14.605)
+		(at 52.705 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce9db058-01f7-446d-9c57-e3220b8e5063")
@@ -1054,7 +1054,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 20.955) (xy 73.66 22.225)
+			(xy 52.705 95.25) (xy 52.705 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1114,7 +1114,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 14.605) (xy 73.66 14.605)
+			(xy 56.515 88.9) (xy 52.705 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1144,7 +1144,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 14.605) (xy 73.66 15.875)
+			(xy 52.705 88.9) (xy 52.705 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1244,7 +1244,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 14.605) (xy 61.595 14.605)
+			(xy 52.705 88.9) (xy 40.64 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1354,7 +1354,7 @@
 	)
 	(wire
 		(pts
-			(xy 61.595 14.605) (xy 61.595 18.415)
+			(xy 40.64 88.9) (xy 40.64 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1424,7 +1424,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 34.29) (xy 73.66 35.56)
+			(xy 52.705 108.585) (xy 52.705 109.855)
 		)
 		(stroke
 			(width 0)
@@ -1444,7 +1444,7 @@
 	)
 	(wire
 		(pts
-			(xy 61.595 34.29) (xy 61.595 33.655)
+			(xy 40.64 108.585) (xy 40.64 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1604,7 +1604,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 34.29) (xy 77.47 34.29)
+			(xy 52.705 108.585) (xy 56.515 108.585)
 		)
 		(stroke
 			(width 0)
@@ -1644,7 +1644,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 40.64) (xy 73.66 41.91)
+			(xy 52.705 114.935) (xy 52.705 116.205)
 		)
 		(stroke
 			(width 0)
@@ -1734,7 +1734,7 @@
 	)
 	(wire
 		(pts
-			(xy 61.595 34.29) (xy 73.66 34.29)
+			(xy 40.64 108.585) (xy 52.705 108.585)
 		)
 		(stroke
 			(width 0)
@@ -1843,7 +1843,7 @@
 		(uuid "4a7e6833-d55d-4548-976e-722bf028ee37")
 	)
 	(label "VDD"
-		(at 77.47 14.605 0)
+		(at 56.515 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1863,7 +1863,7 @@
 		(uuid "8daecb3f-b24d-496b-b599-526bcf8fc14d")
 	)
 	(label "VSS"
-		(at 77.47 34.29 0)
+		(at 56.515 108.585 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1958,7 +1958,7 @@
 		)
 		(uuid "cb3aaf9d-5b47-4d2c-bed7-7d9c519b5ef4")
 	)
-	(hierarchical_label "+3V3"
+	(hierarchical_label "AVDD"
 		(shape input)
 		(at 38.1 31.75 180)
 		(effects
@@ -2034,20 +2034,39 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 79.375 57.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "7b3cb69f-0817-4e47-9bbc-4b0515711010")
+			(uuid "340e69dc-53f0-4906-ac70-dd044b6e04b3")
 		)
 		(pin "2"
-			(uuid "45986be6-d4e2-47d7-8fab-5f6b40c70d1b")
+			(uuid "299ada5e-0b84-4144-aea9-c040865bb83c")
 		)
 		(instances
 			(project "AudioBoard"
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/60c8136a-bcb6-41ac-b077-3ef422aabe7a"
-					(reference "R11")
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/530959e7-e8a8-4094-8a63-7b541d0a1598"
+					(reference "R25")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/5eecead1-97c4-44ff-891f-703e17c419df"
+					(reference "R12")
 					(unit 1)
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/9883295b-2e35-48db-89e9-3d6f4831525f"
 					(reference "R10")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/cf55245f-1586-4bce-8fa5-1c9a37bfc5e8"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -2120,16 +2139,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "9de9fe92-f56a-4be8-8989-bc0a7d895b08")
+			(uuid "344ad325-1d02-4c0d-9407-7fca13173d25")
 		)
 		(instances
 			(project "AudioBoard"
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/60c8136a-bcb6-41ac-b077-3ef422aabe7a"
-					(reference "#PWR012")
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/530959e7-e8a8-4094-8a63-7b541d0a1598"
+					(reference "#PWR030")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/5eecead1-97c4-44ff-891f-703e17c419df"
+					(reference "#PWR022")
 					(unit 1)
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/9883295b-2e35-48db-89e9-3d6f4831525f"
 					(reference "#PWR08")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/cf55245f-1586-4bce-8fa5-1c9a37bfc5e8"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -2201,14 +2228,25 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 104.775 60.325 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "ec50f724-14e7-4206-a298-533642e50a0c")
+			(uuid "c183f2b6-7984-4e3b-83b2-4a74b95b5c71")
 		)
 		(pin "2"
-			(uuid "33467b50-39f3-4643-b1f0-4f2b22b8350d")
+			(uuid "78165421-8624-4aa6-87e9-0953a02aefc3")
 		)
 		(pin "3"
-			(uuid "8f17d08f-9d35-4779-bdd4-bfd7ca383b10")
+			(uuid "5c051771-8333-4e54-9faf-108da98e780c")
 		)
 		(pin "4"
 			(uuid "88e16fb7-3966-4861-b28b-d4783a9c02e0")
@@ -2227,7 +2265,19 @@
 		)
 		(instances
 			(project "AudioBoard"
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/60c8136a-bcb6-41ac-b077-3ef422aabe7a"
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/530959e7-e8a8-4094-8a63-7b541d0a1598"
+					(reference "U8")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/5eecead1-97c4-44ff-891f-703e17c419df"
+					(reference "U7")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/9883295b-2e35-48db-89e9-3d6f4831525f"
+					(reference "U5")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/cf55245f-1586-4bce-8fa5-1c9a37bfc5e8"
 					(reference "U6")
 					(unit 1)
 				)
@@ -2236,7 +2286,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 73.66 41.91 0)
+		(at 52.705 116.205 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2246,8 +2296,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cc6a21c-6085-4e74-848c-f2be4ac31040")
-		(property "Reference" "#PWR09"
-			(at 73.66 48.26 0)
+		(property "Reference" "#PWR07"
+			(at 52.705 122.555 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2258,7 +2308,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 73.66 46.99 0)
+			(at 52.705 121.285 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2268,7 +2318,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 41.91 0)
+			(at 52.705 116.205 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2279,7 +2329,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 41.91 0)
+			(at 52.705 116.205 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2290,7 +2340,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 41.91 0)
+			(at 52.705 116.205 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2301,16 +2351,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "0322d57a-cdab-4e5e-bf12-39fa0401805b")
+			(uuid "81947dde-8301-4250-a036-8e46d7dee435")
 		)
 		(instances
 			(project "AudioBoard"
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/60c8136a-bcb6-41ac-b077-3ef422aabe7a"
-					(reference "#PWR09")
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/530959e7-e8a8-4094-8a63-7b541d0a1598"
+					(reference "#PWR027")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/5eecead1-97c4-44ff-891f-703e17c419df"
+					(reference "#PWR019")
 					(unit 1)
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/9883295b-2e35-48db-89e9-3d6f4831525f"
 					(reference "#PWR04")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/cf55245f-1586-4bce-8fa5-1c9a37bfc5e8"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -2383,20 +2441,39 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 182.245 79.375 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "269fdb0b-51ed-4800-b78e-78ff0ef4de60")
+			(uuid "12475a46-dcdd-4d54-aa50-35af12fbb8f4")
 		)
 		(pin "1"
-			(uuid "3b75bf0e-ba88-4e52-a16a-2f515cd173f5")
+			(uuid "af4a95a8-bd66-4060-8311-15a8c721a67b")
 		)
 		(instances
 			(project "AudioBoard"
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/60c8136a-bcb6-41ac-b077-3ef422aabe7a"
-					(reference "C24")
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/530959e7-e8a8-4094-8a63-7b541d0a1598"
+					(reference "C44")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/5eecead1-97c4-44ff-891f-703e17c419df"
+					(reference "C33")
 					(unit 1)
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/9883295b-2e35-48db-89e9-3d6f4831525f"
 					(reference "C23")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/cf55245f-1586-4bce-8fa5-1c9a37bfc5e8"
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -2469,15 +2546,38 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 53.975 64.135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "d5d73377-afe7-4e5f-bfec-f2ce1d83201c")
+			(uuid "3db165f7-622c-4422-b032-766b6b5d2c33")
 		)
 		(pin "1"
-			(uuid "c3f01272-6ddb-4653-b9b6-a2eac6b49c7f")
+			(uuid "36db02c7-63fb-4c78-8ae9-92d483aab60a")
 		)
 		(instances
 			(project "AudioBoard"
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/60c8136a-bcb6-41ac-b077-3ef422aabe7a"
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/530959e7-e8a8-4094-8a63-7b541d0a1598"
+					(reference "C37")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/5eecead1-97c4-44ff-891f-703e17c419df"
+					(reference "C4")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/9883295b-2e35-48db-89e9-3d6f4831525f"
+					(reference "C2")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/cf55245f-1586-4bce-8fa5-1c9a37bfc5e8"
 					(reference "C3")
 					(unit 1)
 				)
@@ -2549,20 +2649,39 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 68.58 57.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "30f95d30-f4c5-4947-ad7a-4c1adde07518")
+			(uuid "fc24337b-ba14-4dd0-9021-1058a358d9d7")
 		)
 		(pin "1"
-			(uuid "5d2bfaa8-f298-4255-b925-979250a10734")
+			(uuid "d4605fd0-dae9-4bd0-a503-281029b8183c")
 		)
 		(instances
 			(project "AudioBoard"
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/60c8136a-bcb6-41ac-b077-3ef422aabe7a"
-					(reference "C6")
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/530959e7-e8a8-4094-8a63-7b541d0a1598"
+					(reference "C38")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/5eecead1-97c4-44ff-891f-703e17c419df"
+					(reference "C7")
 					(unit 1)
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/9883295b-2e35-48db-89e9-3d6f4831525f"
 					(reference "C5")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/cf55245f-1586-4bce-8fa5-1c9a37bfc5e8"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -2632,20 +2751,39 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 128.27 86.995 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "b706ff21-07cf-44cc-ad35-50c4410802ec")
+			(uuid "65d84050-0a1b-4560-8c89-9118e042a0dd")
 		)
 		(pin "2"
-			(uuid "0e3383ac-bc4c-485b-b5c9-4bf885588c8b")
+			(uuid "5c5a08ee-f490-4ae2-9c91-2817d603e9b3")
 		)
 		(instances
 			(project "AudioBoard"
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/60c8136a-bcb6-41ac-b077-3ef422aabe7a"
-					(reference "100R2")
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/530959e7-e8a8-4094-8a63-7b541d0a1598"
+					(reference "100R4")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/5eecead1-97c4-44ff-891f-703e17c419df"
+					(reference "100R3")
 					(unit 1)
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/9883295b-2e35-48db-89e9-3d6f4831525f"
 					(reference "100R1")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/cf55245f-1586-4bce-8fa5-1c9a37bfc5e8"
+					(reference "100R2")
 					(unit 1)
 				)
 			)
@@ -2717,6 +2855,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 148.59 84.455 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "efad90d2-4609-40c3-87b7-830289002d3a")
 		)
@@ -2727,23 +2876,35 @@
 			(uuid "2d6824a9-4c14-4147-9775-ea3e87782b24")
 		)
 		(pin "4"
-			(uuid "88e16fb7-3966-4861-b28b-d4783a9c02e0")
+			(uuid "88e16fb7-3966-4861-b28b-d4783a9c02e1")
 		)
 		(pin "7"
-			(uuid "dd72533f-3f47-44f5-a3e1-8d614a21e786")
+			(uuid "eb22249c-9a3d-4f58-b263-6ea789f17fac")
 		)
 		(pin "6"
-			(uuid "f9cb8231-9c2c-4026-8848-86a986191411")
+			(uuid "beb10f19-8027-430e-bdd7-f34d24e88fc9")
 		)
 		(pin "8"
-			(uuid "03649b69-b012-4480-81e1-3861527bef11")
+			(uuid "03649b69-b012-4480-81e1-3861527bef12")
 		)
 		(pin "5"
-			(uuid "7646f02f-e8fe-4ab4-b2ca-72fcbdf634db")
+			(uuid "54576a76-be79-421b-8e44-4a78483a119e")
 		)
 		(instances
 			(project "AudioBoard"
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/60c8136a-bcb6-41ac-b077-3ef422aabe7a"
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/530959e7-e8a8-4094-8a63-7b541d0a1598"
+					(reference "U8")
+					(unit 2)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/5eecead1-97c4-44ff-891f-703e17c419df"
+					(reference "U7")
+					(unit 2)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/9883295b-2e35-48db-89e9-3d6f4831525f"
+					(reference "U5")
+					(unit 2)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/cf55245f-1586-4bce-8fa5-1c9a37bfc5e8"
 					(reference "U6")
 					(unit 2)
 				)
@@ -2817,16 +2978,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "e9dfedc1-c895-4594-8163-1905f21b909e")
+			(uuid "35620b02-9eb8-49c8-b238-4ccbcb3b41cc")
 		)
 		(instances
 			(project "AudioBoard"
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/60c8136a-bcb6-41ac-b077-3ef422aabe7a"
-					(reference "#PWR013")
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/530959e7-e8a8-4094-8a63-7b541d0a1598"
+					(reference "#PWR031")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/5eecead1-97c4-44ff-891f-703e17c419df"
+					(reference "#PWR023")
 					(unit 1)
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/9883295b-2e35-48db-89e9-3d6f4831525f"
 					(reference "#PWR011")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/cf55245f-1586-4bce-8fa5-1c9a37bfc5e8"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -2896,20 +3065,39 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 147.955 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "2d1e0845-dfd6-4669-b0f2-a662d353cb3d")
+			(uuid "8daf48dd-1683-49f4-bea3-90bc361352fd")
 		)
 		(pin "1"
-			(uuid "57ff5d2c-3bbc-4832-ad99-5b4cbef17186")
+			(uuid "9f66af46-b2d6-45c9-95af-a18162681b9e")
 		)
 		(instances
 			(project "AudioBoard"
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/60c8136a-bcb6-41ac-b077-3ef422aabe7a"
-					(reference "C19")
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/530959e7-e8a8-4094-8a63-7b541d0a1598"
+					(reference "C42")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/5eecead1-97c4-44ff-891f-703e17c419df"
+					(reference "C31")
 					(unit 1)
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/9883295b-2e35-48db-89e9-3d6f4831525f"
 					(reference "C14")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/cf55245f-1586-4bce-8fa5-1c9a37bfc5e8"
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -2917,7 +3105,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 73.66 38.1 0)
+		(at 52.705 112.395 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2928,7 +3116,7 @@
 		(fields_autoplaced yes)
 		(uuid "6057af71-37ce-47ab-bf26-6864ba002f86")
 		(property "Reference" "C13"
-			(at 76.2 36.8362 0)
+			(at 55.245 111.1312 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2939,7 +3127,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 76.2 39.3762 0)
+			(at 55.245 113.6712 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2950,7 +3138,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 73.66 38.1 0)
+			(at 52.705 112.395 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2961,7 +3149,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 38.1 0)
+			(at 52.705 112.395 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2972,7 +3160,18 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 73.66 38.1 0)
+			(at 52.705 112.395 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 52.705 112.395 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2983,19 +3182,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "d2a3b084-c911-484d-869e-39b69130eb49")
+			(uuid "e69b0378-4a68-4ac6-a879-f8b05111eb3c")
 		)
 		(pin "1"
-			(uuid "fd9bda32-8693-4693-9667-aee542310f4b")
+			(uuid "28b916d5-99e3-4641-bba3-e84163e5ba5b")
 		)
 		(instances
 			(project "AudioBoard"
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/60c8136a-bcb6-41ac-b077-3ef422aabe7a"
-					(reference "C13")
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/530959e7-e8a8-4094-8a63-7b541d0a1598"
+					(reference "C36")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/5eecead1-97c4-44ff-891f-703e17c419df"
+					(reference "C25")
 					(unit 1)
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/9883295b-2e35-48db-89e9-3d6f4831525f"
 					(reference "C10")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/cf55245f-1586-4bce-8fa5-1c9a37bfc5e8"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -3066,20 +3273,39 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 102.235 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "527b5ff3-4351-4d20-aaa0-2897538d3c32")
+			(uuid "00012c92-85b1-4a00-bb7d-3c4a76435d77")
 		)
 		(pin "2"
-			(uuid "6912c585-d3cc-4253-b0b6-ace421bd7b83")
+			(uuid "ce496853-3cf7-4195-a2aa-9c22a1db425d")
 		)
 		(instances
 			(project "AudioBoard"
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/60c8136a-bcb6-41ac-b077-3ef422aabe7a"
-					(reference "R17")
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/530959e7-e8a8-4094-8a63-7b541d0a1598"
+					(reference "R27")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/5eecead1-97c4-44ff-891f-703e17c419df"
+					(reference "R18")
 					(unit 1)
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/9883295b-2e35-48db-89e9-3d6f4831525f"
 					(reference "R16")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/cf55245f-1586-4bce-8fa5-1c9a37bfc5e8"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -3152,11 +3378,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "0f32ef9a-c65c-4e0f-8932-f424589ff03f")
+			(uuid "8b2c14c8-0bf6-4097-a8ba-b9cf8f7cde65")
 		)
 		(instances
 			(project "AudioBoard"
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/60c8136a-bcb6-41ac-b077-3ef422aabe7a"
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/530959e7-e8a8-4094-8a63-7b541d0a1598"
+					(reference "#PWR029")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/5eecead1-97c4-44ff-891f-703e17c419df"
+					(reference "#PWR021")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/9883295b-2e35-48db-89e9-3d6f4831525f"
+					(reference "#PWR02")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/cf55245f-1586-4bce-8fa5-1c9a37bfc5e8"
 					(reference "#PWR010")
 					(unit 1)
 				)
@@ -3228,20 +3466,39 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 128.27 81.915 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "019348bd-7db9-483b-9aec-a47805128b2b")
+			(uuid "1086df43-adc3-4066-9895-b7b29b3947bb")
 		)
 		(pin "2"
-			(uuid "b7ef048b-065a-4a82-8eb3-f18dca3627d9")
+			(uuid "efa8bec6-c8da-42cc-b0a3-a52fad9874d7")
 		)
 		(instances
 			(project "AudioBoard"
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/60c8136a-bcb6-41ac-b077-3ef422aabe7a"
-					(reference "R20")
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/530959e7-e8a8-4094-8a63-7b541d0a1598"
+					(reference "R34")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/5eecead1-97c4-44ff-891f-703e17c419df"
+					(reference "R21")
 					(unit 1)
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/9883295b-2e35-48db-89e9-3d6f4831525f"
 					(reference "R19")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/cf55245f-1586-4bce-8fa5-1c9a37bfc5e8"
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -3314,20 +3571,39 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 182.245 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "65c5544e-694a-4204-a989-d552d8d73769")
+			(uuid "8b775bfa-7fc3-43b9-b0ba-a2bd3f91ca7d")
 		)
 		(pin "1"
-			(uuid "840cf0df-ea89-4362-8dac-223553517ba2")
+			(uuid "ad5dcafd-2449-45ff-85c4-07634cb7c702")
 		)
 		(instances
 			(project "AudioBoard"
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/60c8136a-bcb6-41ac-b077-3ef422aabe7a"
-					(reference "C21")
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/530959e7-e8a8-4094-8a63-7b541d0a1598"
+					(reference "C43")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/5eecead1-97c4-44ff-891f-703e17c419df"
+					(reference "C32")
 					(unit 1)
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/9883295b-2e35-48db-89e9-3d6f4831525f"
 					(reference "C20")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/cf55245f-1586-4bce-8fa5-1c9a37bfc5e8"
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -3335,7 +3611,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 73.66 18.415 0)
+		(at 52.705 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3346,7 +3622,7 @@
 		(fields_autoplaced yes)
 		(uuid "9f9472e7-0d8a-4ed8-bfe9-4f713f977c4d")
 		(property "Reference" "C12"
-			(at 76.2 17.1512 0)
+			(at 55.245 91.4462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3357,7 +3633,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 76.2 19.6912 0)
+			(at 55.245 93.9862 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3368,7 +3644,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 73.66 18.415 0)
+			(at 52.705 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3379,7 +3655,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 18.415 0)
+			(at 52.705 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3390,7 +3666,18 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 73.66 18.415 0)
+			(at 52.705 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 52.705 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3401,19 +3688,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "b740eb66-07f3-4037-a27a-5b000a0a13f1")
+			(uuid "08114d39-7122-42fd-8b77-1216c485a289")
 		)
 		(pin "1"
-			(uuid "2d4afb1a-acfd-457e-afd6-c3d51e6359ce")
+			(uuid "2269f436-a9dc-40d2-a6de-7ea7f312f8f0")
 		)
 		(instances
 			(project "AudioBoard"
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/60c8136a-bcb6-41ac-b077-3ef422aabe7a"
-					(reference "C12")
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/530959e7-e8a8-4094-8a63-7b541d0a1598"
+					(reference "C35")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/5eecead1-97c4-44ff-891f-703e17c419df"
+					(reference "C22")
 					(unit 1)
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/9883295b-2e35-48db-89e9-3d6f4831525f"
 					(reference "C9")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/cf55245f-1586-4bce-8fa5-1c9a37bfc5e8"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -3484,20 +3779,39 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 101.6 40.005 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "6129ba51-c829-4c40-8bb3-5f765e22c5d6")
+			(uuid "21fadd72-2e64-4d98-9e2a-5db7af60f0c0")
 		)
 		(pin "1"
-			(uuid "00f12530-dd13-4ed8-b0c9-0deeae043627")
+			(uuid "63a21642-c37c-4b5f-9813-dbc37e82455e")
 		)
 		(instances
 			(project "AudioBoard"
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/60c8136a-bcb6-41ac-b077-3ef422aabe7a"
-					(reference "C16")
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/530959e7-e8a8-4094-8a63-7b541d0a1598"
+					(reference "C40")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/5eecead1-97c4-44ff-891f-703e17c419df"
+					(reference "C29")
 					(unit 1)
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/9883295b-2e35-48db-89e9-3d6f4831525f"
 					(reference "C11")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/cf55245f-1586-4bce-8fa5-1c9a37bfc5e8"
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -3593,14 +3907,26 @@
 			)
 		)
 		(pin "2"
-			(uuid "8176f2c9-3f59-47ec-84c5-fb0781b658f5")
+			(uuid "b3dd0f11-0db9-425a-ae77-2ae6626149b1")
 		)
 		(pin "1"
-			(uuid "d2d1ca6c-1dd3-4012-8737-b41b3aad8a27")
+			(uuid "3d9ff67c-e3ca-4d51-9fac-50aaca18f119")
 		)
 		(instances
 			(project "AudioBoard"
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/60c8136a-bcb6-41ac-b077-3ef422aabe7a"
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/530959e7-e8a8-4094-8a63-7b541d0a1598"
+					(reference "D13")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/5eecead1-97c4-44ff-891f-703e17c419df"
+					(reference "D9")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/9883295b-2e35-48db-89e9-3d6f4831525f"
+					(reference "D1")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/cf55245f-1586-4bce-8fa5-1c9a37bfc5e8"
 					(reference "D5")
 					(unit 1)
 				)
@@ -3674,20 +4000,39 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 95.25 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "d8aa244c-db31-4706-98e9-4d06eab90d3a")
+			(uuid "5d44caa2-2965-4c5a-9dbe-4a03418cdd0b")
 		)
 		(pin "1"
-			(uuid "fbb2c7aa-c38c-4216-95a6-f193b048c87e")
+			(uuid "9c449c83-05b8-4460-acc1-b85cdb566b32")
 		)
 		(instances
 			(project "AudioBoard"
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/60c8136a-bcb6-41ac-b077-3ef422aabe7a"
-					(reference "C15")
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/530959e7-e8a8-4094-8a63-7b541d0a1598"
+					(reference "C39")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/5eecead1-97c4-44ff-891f-703e17c419df"
+					(reference "C28")
 					(unit 1)
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/9883295b-2e35-48db-89e9-3d6f4831525f"
 					(reference "C8")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/cf55245f-1586-4bce-8fa5-1c9a37bfc5e8"
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -3757,20 +4102,39 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 86.995 67.945 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "993bc167-1f04-40c8-9565-0b3fa02ef613")
+			(uuid "325a69b0-86c4-40cf-aa2c-23f3c2069907")
 		)
 		(pin "2"
-			(uuid "50922b18-abda-4370-bee5-bdd63620c489")
+			(uuid "0c7eb779-456e-480f-842c-dabba181d174")
 		)
 		(instances
 			(project "AudioBoard"
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/60c8136a-bcb6-41ac-b077-3ef422aabe7a"
-					(reference "R14")
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/530959e7-e8a8-4094-8a63-7b541d0a1598"
+					(reference "R26")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/5eecead1-97c4-44ff-891f-703e17c419df"
+					(reference "R15")
 					(unit 1)
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/9883295b-2e35-48db-89e9-3d6f4831525f"
 					(reference "R13")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/cf55245f-1586-4bce-8fa5-1c9a37bfc5e8"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -3841,20 +4205,39 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 172.085 60.325 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "42cc8a04-820b-4fe5-b8f5-181fcf9b41f6")
+			(uuid "4bfccdac-c3b0-4e81-89dc-771490fe9114")
 		)
 		(pin "2"
-			(uuid "28dd3078-d7d3-409d-b296-9f41c34a3643")
+			(uuid "45c1a776-213d-49da-b236-b4f036df7248")
 		)
 		(instances
 			(project "AudioBoard"
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/60c8136a-bcb6-41ac-b077-3ef422aabe7a"
-					(reference "R32")
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/530959e7-e8a8-4094-8a63-7b541d0a1598"
+					(reference "R37")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/5eecead1-97c4-44ff-891f-703e17c419df"
+					(reference "R33")
 					(unit 1)
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/9883295b-2e35-48db-89e9-3d6f4831525f"
 					(reference "R31")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/cf55245f-1586-4bce-8fa5-1c9a37bfc5e8"
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -3924,20 +4307,39 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 148.59 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "6e42d1c1-e975-41ed-90f2-ce81a943fcc2")
+			(uuid "4396b37f-67d6-4263-afcd-1bc1da45c05c")
 		)
 		(pin "2"
-			(uuid "abb36268-4d4c-4216-b7a1-b882a4449f1d")
+			(uuid "ac093a85-af3e-42e3-883c-b5f4e1442534")
 		)
 		(instances
 			(project "AudioBoard"
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/60c8136a-bcb6-41ac-b077-3ef422aabe7a"
-					(reference "R23")
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/530959e7-e8a8-4094-8a63-7b541d0a1598"
+					(reference "R35")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/5eecead1-97c4-44ff-891f-703e17c419df"
+					(reference "R24")
 					(unit 1)
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/9883295b-2e35-48db-89e9-3d6f4831525f"
 					(reference "R22")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/cf55245f-1586-4bce-8fa5-1c9a37bfc5e8"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -4033,19 +4435,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "4f70625f-810c-4363-af00-5fd27f783bce")
+			(uuid "354c5d0a-c6e5-4ed2-85a6-c47174c5155f")
 		)
 		(pin "1"
-			(uuid "cf85070a-81f6-4b30-a7a7-fa135ec1eed5")
+			(uuid "e08b65dc-ea3b-4acb-a83e-1cd627d588a0")
 		)
 		(instances
 			(project "AudioBoard"
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/60c8136a-bcb6-41ac-b077-3ef422aabe7a"
-					(reference "D8")
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/530959e7-e8a8-4094-8a63-7b541d0a1598"
+					(reference "D16")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/5eecead1-97c4-44ff-891f-703e17c419df"
+					(reference "D12")
 					(unit 1)
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/9883295b-2e35-48db-89e9-3d6f4831525f"
 					(reference "D4")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/cf55245f-1586-4bce-8fa5-1c9a37bfc5e8"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -4117,16 +4527,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "e0922643-47bd-42c6-84a2-44e65ec4a9b6")
+			(uuid "256d99b5-d39d-4009-aee6-4c8cefd959da")
 		)
 		(instances
 			(project "AudioBoard"
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/60c8136a-bcb6-41ac-b077-3ef422aabe7a"
-					(reference "#PWR015")
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/530959e7-e8a8-4094-8a63-7b541d0a1598"
+					(reference "#PWR032")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/5eecead1-97c4-44ff-891f-703e17c419df"
+					(reference "#PWR024")
 					(unit 1)
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/9883295b-2e35-48db-89e9-3d6f4831525f"
 					(reference "#PWR014")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/cf55245f-1586-4bce-8fa5-1c9a37bfc5e8"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -4144,7 +4562,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1b8a865-bfac-412e-9fb8-4360b9051967")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR09"
 			(at 53.975 74.295 0)
 			(hide yes)
 			(show_name no)
@@ -4199,16 +4617,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "6157abbc-cab6-4d4a-b3a6-dc7613836e07")
+			(uuid "ef0310eb-a8a0-4ff2-9ec6-52a5b137946e")
 		)
 		(instances
 			(project "AudioBoard"
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/60c8136a-bcb6-41ac-b077-3ef422aabe7a"
-					(reference "#PWR06")
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/530959e7-e8a8-4094-8a63-7b541d0a1598"
+					(reference "#PWR028")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/5eecead1-97c4-44ff-891f-703e17c419df"
+					(reference "#PWR020")
 					(unit 1)
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/9883295b-2e35-48db-89e9-3d6f4831525f"
 					(reference "#PWR05")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/cf55245f-1586-4bce-8fa5-1c9a37bfc5e8"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4281,16 +4707,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "8c04ea7c-5ae4-4d8d-800c-e03cb2d727a9")
+			(uuid "5a3ab470-f5ba-4887-8d45-6e2b33f7b725")
 		)
 		(instances
 			(project "AudioBoard"
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/60c8136a-bcb6-41ac-b077-3ef422aabe7a"
-					(reference "#PWR018")
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/530959e7-e8a8-4094-8a63-7b541d0a1598"
+					(reference "#PWR033")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/5eecead1-97c4-44ff-891f-703e17c419df"
+					(reference "#PWR025")
 					(unit 1)
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/9883295b-2e35-48db-89e9-3d6f4831525f"
 					(reference "#PWR017")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/cf55245f-1586-4bce-8fa5-1c9a37bfc5e8"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -4298,7 +4732,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL072")
-		(at 64.135 26.035 0)
+		(at 43.18 100.33 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4308,7 +4742,7 @@
 		(dnp no)
 		(uuid "d5c609fa-ac01-412a-9dce-3e42d194009f")
 		(property "Reference" "U6"
-			(at 62.23 25.4 0)
+			(at 41.275 99.695 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4319,7 +4753,7 @@
 			)
 		)
 		(property "Value" "TL072"
-			(at 62.23 27.94 0)
+			(at 41.275 102.235 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4330,7 +4764,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 64.135 26.035 0)
+			(at 43.18 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4341,7 +4775,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 64.135 26.035 0)
+			(at 43.18 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4352,7 +4786,18 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
-			(at 64.135 26.035 0)
+			(at 43.18 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 43.18 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4363,32 +4808,44 @@
 			)
 		)
 		(pin "1"
-			(uuid "efad90d2-4609-40c3-87b7-830289002d3a")
+			(uuid "efad90d2-4609-40c3-87b7-830289002d3b")
 		)
 		(pin "2"
-			(uuid "e856a425-94fb-474c-ad88-8f13123217fb")
+			(uuid "e856a425-94fb-474c-ad88-8f13123217fc")
 		)
 		(pin "3"
-			(uuid "2d6824a9-4c14-4147-9775-ea3e87782b24")
+			(uuid "2d6824a9-4c14-4147-9775-ea3e87782b25")
 		)
 		(pin "4"
-			(uuid "ecee1f74-16b0-44bb-8714-884425583968")
+			(uuid "0a07aaec-b7dd-44d9-b80b-b5140ed8c7b3")
 		)
 		(pin "7"
-			(uuid "1512fb2a-d19c-4945-9f75-550ffb080bf0")
+			(uuid "1512fb2a-d19c-4945-9f75-550ffb080bf1")
 		)
 		(pin "6"
-			(uuid "8f8c0d1c-0edd-42c0-98a9-7e5a6c67c219")
+			(uuid "8f8c0d1c-0edd-42c0-98a9-7e5a6c67c21a")
 		)
 		(pin "8"
-			(uuid "a525d8bf-3b12-44e8-80bf-b8b4db3163a7")
+			(uuid "98969b56-a872-41e1-9c6d-9b3eab2babfd")
 		)
 		(pin "5"
-			(uuid "ecc0808a-cc6c-4023-8f8b-42913f308fd8")
+			(uuid "ecc0808a-cc6c-4023-8f8b-42913f308fd9")
 		)
 		(instances
 			(project "AudioBoard"
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/60c8136a-bcb6-41ac-b077-3ef422aabe7a"
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/530959e7-e8a8-4094-8a63-7b541d0a1598"
+					(reference "U8")
+					(unit 3)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/5eecead1-97c4-44ff-891f-703e17c419df"
+					(reference "U7")
+					(unit 3)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/9883295b-2e35-48db-89e9-3d6f4831525f"
+					(reference "U5")
+					(unit 3)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/cf55245f-1586-4bce-8fa5-1c9a37bfc5e8"
 					(reference "U6")
 					(unit 3)
 				)
@@ -4485,19 +4942,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "80d0bdcb-1063-4850-b912-0bcf215fef76")
+			(uuid "9b0e63da-0d94-48ef-93ef-1ad510f18b10")
 		)
 		(pin "1"
-			(uuid "4fd734e5-f941-4608-859d-98ea20cef26e")
+			(uuid "7db654d4-fa2a-47a1-ac05-14f9aa0f3f71")
 		)
 		(instances
 			(project "AudioBoard"
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/60c8136a-bcb6-41ac-b077-3ef422aabe7a"
-					(reference "D7")
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/530959e7-e8a8-4094-8a63-7b541d0a1598"
+					(reference "D15")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/5eecead1-97c4-44ff-891f-703e17c419df"
+					(reference "D11")
 					(unit 1)
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/9883295b-2e35-48db-89e9-3d6f4831525f"
 					(reference "D3")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/cf55245f-1586-4bce-8fa5-1c9a37bfc5e8"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -4570,20 +5035,39 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 196.215 74.295 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "46e50ca8-ab73-46f7-979c-5ab1a655554c")
+			(uuid "d9449905-d69b-41e1-b51e-d2949ec981d7")
 		)
 		(pin "1"
-			(uuid "ff009ad5-1509-4f32-88c4-1b667b560928")
+			(uuid "8958476e-c807-4fbd-b53c-493a6dffcaad")
 		)
 		(instances
 			(project "AudioBoard"
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/60c8136a-bcb6-41ac-b077-3ef422aabe7a"
-					(reference "C27")
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/530959e7-e8a8-4094-8a63-7b541d0a1598"
+					(reference "C45")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/5eecead1-97c4-44ff-891f-703e17c419df"
+					(reference "C34")
 					(unit 1)
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/9883295b-2e35-48db-89e9-3d6f4831525f"
 					(reference "C26")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/cf55245f-1586-4bce-8fa5-1c9a37bfc5e8"
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -4591,7 +5075,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 73.66 22.225 0)
+		(at 52.705 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4601,8 +5085,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f52b2a4d-1d0c-4c26-90f4-2cd70e3bddde")
-		(property "Reference" "#PWR07"
-			(at 73.66 28.575 0)
+		(property "Reference" "#PWR06"
+			(at 52.705 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4613,7 +5097,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 73.66 27.305 0)
+			(at 52.705 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4623,7 +5107,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 22.225 0)
+			(at 52.705 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4634,7 +5118,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 22.225 0)
+			(at 52.705 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4645,7 +5129,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 22.225 0)
+			(at 52.705 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4656,16 +5140,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "e510eda0-2585-45ce-8d68-b1e2241fad68")
+			(uuid "f9fbd732-5bef-4f65-8e53-953fc09fa1d1")
 		)
 		(instances
 			(project "AudioBoard"
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/60c8136a-bcb6-41ac-b077-3ef422aabe7a"
-					(reference "#PWR07")
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/530959e7-e8a8-4094-8a63-7b541d0a1598"
+					(reference "#PWR026")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/5eecead1-97c4-44ff-891f-703e17c419df"
+					(reference "#PWR016")
 					(unit 1)
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/9883295b-2e35-48db-89e9-3d6f4831525f"
 					(reference "#PWR03")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/cf55245f-1586-4bce-8fa5-1c9a37bfc5e8"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -4738,20 +5230,39 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 134.62 92.075 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "696e74a1-35d5-4b14-bacc-bf85f4abb705")
+			(uuid "9d1e81d7-f856-47a1-9846-c511b48d2386")
 		)
 		(pin "1"
-			(uuid "20e4e5ab-b4f5-4043-9cb3-6b8adb66cefa")
+			(uuid "b600d937-f505-40ab-a06c-a4217b808cd9")
 		)
 		(instances
 			(project "AudioBoard"
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/60c8136a-bcb6-41ac-b077-3ef422aabe7a"
-					(reference "C18")
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/530959e7-e8a8-4094-8a63-7b541d0a1598"
+					(reference "C41")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/5eecead1-97c4-44ff-891f-703e17c419df"
+					(reference "C30")
 					(unit 1)
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/9883295b-2e35-48db-89e9-3d6f4831525f"
 					(reference "C17")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/cf55245f-1586-4bce-8fa5-1c9a37bfc5e8"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -4847,19 +5358,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "c38f13ee-00e4-4c9f-aefb-6af57e83fde4")
+			(uuid "57c1e995-1d3d-4c72-890a-06c4457e4a57")
 		)
 		(pin "1"
-			(uuid "8dedff1b-783e-491e-b568-56641211c47b")
+			(uuid "89a2608a-40dd-4673-b636-cd7344845e13")
 		)
 		(instances
 			(project "AudioBoard"
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/60c8136a-bcb6-41ac-b077-3ef422aabe7a"
-					(reference "D6")
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/530959e7-e8a8-4094-8a63-7b541d0a1598"
+					(reference "D14")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/5eecead1-97c4-44ff-891f-703e17c419df"
+					(reference "D10")
 					(unit 1)
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/9883295b-2e35-48db-89e9-3d6f4831525f"
 					(reference "D2")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/cf55245f-1586-4bce-8fa5-1c9a37bfc5e8"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -4930,20 +5449,39 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 46.355 57.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "4222a154-c9b4-4815-9786-4dfed00c85b3")
+			(uuid "c081ae81-c0fd-4d7f-b39a-0e3c4079dd39")
 		)
 		(pin "2"
-			(uuid "6da4d6c6-d2e5-428e-9ca7-5fcdbd4abfcd")
+			(uuid "60f2d84e-288f-46b1-87de-5e6463c2b6bc")
 		)
 		(instances
 			(project "AudioBoard"
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/60c8136a-bcb6-41ac-b077-3ef422aabe7a"
-					(reference "R5")
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/530959e7-e8a8-4094-8a63-7b541d0a1598"
+					(reference "R7")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/5eecead1-97c4-44ff-891f-703e17c419df"
+					(reference "R6")
 					(unit 1)
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/9883295b-2e35-48db-89e9-3d6f4831525f"
 					(reference "R4")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/cf55245f-1586-4bce-8fa5-1c9a37bfc5e8"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -5014,20 +5552,39 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 171.45 84.455 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "ee44da09-8ccb-4643-898c-d849dec83ce7")
+			(uuid "ed61e60d-3a63-4d60-b8c8-2035f848edcb")
 		)
 		(pin "2"
-			(uuid "4f73a08d-df70-4856-9188-642d2a82a07f")
+			(uuid "aaf30bda-8a1e-4d24-b569-311a23673da6")
 		)
 		(instances
 			(project "AudioBoard"
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/60c8136a-bcb6-41ac-b077-3ef422aabe7a"
-					(reference "R29")
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/530959e7-e8a8-4094-8a63-7b541d0a1598"
+					(reference "R36")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/5eecead1-97c4-44ff-891f-703e17c419df"
+					(reference "R30")
 					(unit 1)
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/9883295b-2e35-48db-89e9-3d6f4831525f"
 					(reference "R28")
+					(unit 1)
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/cf55245f-1586-4bce-8fa5-1c9a37bfc5e8"
+					(reference "R29")
 					(unit 1)
 				)
 			)
