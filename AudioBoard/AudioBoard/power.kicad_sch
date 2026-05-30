@@ -27,6 +27,17 @@
 		)
 		(uuid "4b53eb86-468c-48d3-b1a8-66da28868cf8")
 	)
+	(hierarchical_label "+48V"
+		(shape output)
+		(at 31.75 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8a3e6d7d-60b0-4685-b5d2-828895211b15")
+	)
 	(hierarchical_label "VSS"
 		(shape output)
 		(at 31.75 35.56 180)

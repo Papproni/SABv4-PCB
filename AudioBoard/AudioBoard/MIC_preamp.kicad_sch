@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "01b4f9f3-03b7-42b2-be5b-42b5dcd82b18")
+	(uuid "d029cd13-0e7a-4c23-91c9-0de29cc6de8d")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Amplifier_Operational:NE5532"
@@ -1873,7 +1873,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 27.305) (xy 45.72 27.305)
+			(xy 39.37 27.94) (xy 45.72 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2442,7 +2442,7 @@
 		(uuid "7cc97482-c1cc-4551-b485-b527445de1a5")
 	)
 	(label "+48V"
-		(at 45.72 27.305 0)
+		(at 45.085 27.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2491,6 +2491,126 @@
 		)
 		(uuid "eb87f1f1-92aa-479a-b3a6-d0e7ad304931")
 	)
+	(global_label "AVDD"
+		(shape input)
+		(at 39.37 25.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5a7ce126-8629-46ca-a920-2864faec0116")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.6676 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "VSS"
+		(shape input)
+		(at 39.37 20.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6a19c9f2-ca09-41c4-b3ed-222d3ec768b4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.8772 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "+48V"
+		(shape input)
+		(at 39.37 27.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "918ed031-7aaf-4d52-9bb2-62799cd2146f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.3048 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "VBIAS"
+		(shape input)
+		(at 39.37 22.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "978d3419-cee2-408e-8685-2c3f5f28432b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.1233 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "VDD"
+		(shape input)
+		(at 39.37 17.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aec23c79-3c0d-4d02-91ae-803120351bb4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.7562 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(hierarchical_label "IN_N"
 		(shape input)
 		(at 67.945 90.17 180)
@@ -2513,50 +2633,6 @@
 		)
 		(uuid "325a2a96-afe2-4f8c-8a7d-76a63350064c")
 	)
-	(hierarchical_label "VSS"
-		(shape input)
-		(at 39.37 20.32 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7b0d8da2-255b-42e4-a8e5-ee2b042d24e7")
-	)
-	(hierarchical_label "VBIAS"
-		(shape input)
-		(at 39.37 22.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7defc8db-b290-48f8-aaf8-06532facc8a2")
-	)
-	(hierarchical_label "AVDD"
-		(shape input)
-		(at 39.37 25.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7f70128c-205e-442c-965c-8f5cd3fbc99c")
-	)
-	(hierarchical_label "VDD"
-		(shape input)
-		(at 39.37 17.78 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9c0ba2fd-4838-4b0f-875f-e5ad335de6e6")
-	)
 	(hierarchical_label "OUT_P"
 		(shape output)
 		(at 226.695 56.515 0)
@@ -2578,17 +2654,6 @@
 			(justify left)
 		)
 		(uuid "c0c9e107-a597-42bf-854f-8c4b10a28e3e")
-	)
-	(hierarchical_label "+48V"
-		(shape input)
-		(at 39.37 27.305 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f1935268-460d-4b82-b738-aac51f94b82f")
 	)
 	(symbol
 		(lib_id "power:GND")

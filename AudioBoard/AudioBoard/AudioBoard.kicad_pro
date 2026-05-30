@@ -656,7 +656,7 @@
         "uuid": "dd5d876d-fff7-4cb4-baee-a023036d12ae"
       }
     ],
-    "used_designators": "U1-3,U6-8,D5-16,#PWR6-7,#PWR9-10,#PWR12-13,#PWR15-16,#PWR18-38,C1,C3-4,C6-7,C12-13,C15-16,C18-19,C21-22,C24-25,C27-51,100R2-6,R5-9,R11-12,R14-15,R17-18,R20-21,R23-27,R29-30,R32-42,SW1",
+    "used_designators": "U1-4,U6-15,D5-20,#PWR6-7,#PWR9-10,#PWR12-13,#PWR15-16,#PWR18-42,#PWR47-61,#PWR63-66,#PWR95-112,C1,C3-4,C6-7,C12-13,C15-16,C18-19,C21-22,C24-25,C27-56,C59-66,C69-78,C81-83,C108-152,100R2-8,R5-9,R11-12,R14-15,R17-18,R20-21,R23-27,R29-30,R32-44,R46-52,R59-121,SW1-4",
     "variants": []
   },
   "sheets": [
@@ -695,6 +695,46 @@
     [
       "07626587-873c-4131-ae5a-c23e8e886a82",
       "MIC_preamp"
+    ],
+    [
+      "4ba42e79-a3ed-495e-98de-afec403455a8",
+      "Instrument_output_L"
+    ],
+    [
+      "f3292380-7839-4ae7-9234-9710c22ad032",
+      "Instrument_output_R"
+    ],
+    [
+      "0dcc55d7-2be8-4504-bbfd-4324ac4be66b",
+      "Instrument_L1_send"
+    ],
+    [
+      "40473f21-c5d0-4b61-b8ac-7b143a99a393",
+      "Instrument_L2_send"
+    ],
+    [
+      "e87fe4e0-dcc3-4a3a-a2f4-db36aaf0ad2f",
+      "XLR_output_L"
+    ],
+    [
+      "dc93ab06-88a8-4a45-be5a-487cdf5783e9",
+      "XLR_output_R"
+    ],
+    [
+      "452de2f1-4c35-4ae0-9f85-804d59af2b89",
+      "XLR_O_P"
+    ],
+    [
+      "452de2f1-4c35-4ae0-9f85-804d59af2b89",
+      "XLR_O_P"
+    ],
+    [
+      "11dcaa40-e971-49ab-837d-2cb1f2c35ed1",
+      "XLR_O_N"
+    ],
+    [
+      "11dcaa40-e971-49ab-837d-2cb1f2c35ed1",
+      "XLR_O_N"
     ]
   ],
   "text_variables": {},
