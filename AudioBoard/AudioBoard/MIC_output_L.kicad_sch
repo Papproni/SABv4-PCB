@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "8a233fb3-8c21-4aa0-aec1-3d39e74ccf40")
+	(uuid "799ca927-0f43-4e2c-adab-4252beb89074")
 	(paper "A4")
 	(lib_symbols)
 	(wire
@@ -34,16 +34,6 @@
 			(type default)
 		)
 		(uuid "3c74b830-7509-42b6-9083-7fd730ca5d4d")
-	)
-	(wire
-		(pts
-			(xy 115.57 62.865) (xy 115.57 66.675)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e5b3c38-6ca9-432e-b782-98d1f0fa05f5")
 	)
 	(wire
 		(pts
@@ -97,16 +87,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 49.53) (xy 118.11 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c45e08d7-cfa9-4549-872e-2ebb07a5a933")
-	)
-	(wire
-		(pts
 			(xy 85.09 54.61) (xy 92.71 54.61)
 		)
 		(stroke
@@ -117,26 +97,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 46.99) (xy 115.57 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1f8d47b-467f-4946-b182-0e3d6fa98aa8")
-	)
-	(wire
-		(pts
-			(xy 118.11 65.405) (xy 118.11 66.675)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9ad85a9-0d88-4707-bb6a-703371271d06")
-	)
-	(wire
-		(pts
 			(xy 48.895 27.305) (xy 55.88 27.305)
 		)
 		(stroke
@@ -144,36 +104,6 @@
 			(type default)
 		)
 		(uuid "f04410ca-1a05-4552-9e93-15194e8e25e8")
-	)
-	(label "VSS"
-		(at 118.11 65.405 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1740035b-9448-4c36-a61a-ba68434066d9")
-	)
-	(label "VDD"
-		(at 115.57 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "29e1974f-9ed0-401c-a5de-0e0854b0f14b")
-	)
-	(label "VSS"
-		(at 118.11 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "934b60da-5ab2-4251-bc21-4f9392d08494")
 	)
 	(label "VSS"
 		(at 55.88 29.845 0)
@@ -204,16 +134,6 @@
 			(justify left bottom)
 		)
 		(uuid "d37e1787-bad9-4c28-ba9c-d99ed4533435")
-	)
-	(label "VDD"
-		(at 115.57 62.865 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e359ccdb-d8fa-4d0c-a4f6-791c07c0e185")
 	)
 	(label "VDD"
 		(at 335.915 36.195 0)
@@ -403,26 +323,6 @@
 				(justify right)
 			)
 		)
-		(pin "VDD" input
-			(at 115.57 50.8 90)
-			(uuid "6aee6960-3a9c-45e1-a552-2916d608ccc0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VSS" input
-			(at 118.11 50.8 90)
-			(uuid "b22a5188-96a8-447d-84b6-e89713e807ec")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(instances
 			(project "AudioBoard"
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/e87fe4e0-dcc3-4a3a-a2f4-db36aaf0ad2f"
@@ -495,26 +395,6 @@
 		(pin "OUT" input
 			(at 130.175 69.215 0)
 			(uuid "46f03654-aef3-45a3-8e9b-a0a80aa6934e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VDD" input
-			(at 115.57 66.675 90)
-			(uuid "1c30ff6f-4c01-4e2d-b897-1ee84179d33e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VSS" input
-			(at 118.11 66.675 90)
-			(uuid "08ba3e08-a2cc-4f10-8070-8cb5b23860f1")
 			(effects
 				(font
 					(size 1.27 1.27)
