@@ -656,7 +656,7 @@
         "uuid": "dd5d876d-fff7-4cb4-baee-a023036d12ae"
       }
     ],
-    "used_designators": "U1-4,U6-15,D5-20,#PWR6-7,#PWR9-10,#PWR12-13,#PWR15-16,#PWR18-42,#PWR47-61,#PWR63-66,#PWR95-112,C1,C3-4,C6-7,C12-13,C15-16,C18-19,C21-22,C24-25,C27-56,C59-66,C69-78,C81-83,C108-152,100R2-8,R5-9,R11-12,R14-15,R17-18,R20-21,R23-27,R29-30,R32-44,R46-52,R59-121,SW1-4",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -717,24 +717,24 @@
       "XLR_output_L"
     ],
     [
-      "dc93ab06-88a8-4a45-be5a-487cdf5783e9",
+      "dd7e807f-4b4f-494a-93a3-54e0064135c8",
       "XLR_output_R"
     ],
     [
-      "452de2f1-4c35-4ae0-9f85-804d59af2b89",
-      "XLR_O_P"
+      "11dcaa40-e971-49ab-837d-2cb1f2c35ed1",
+      "XLROUT"
     ],
     [
-      "452de2f1-4c35-4ae0-9f85-804d59af2b89",
-      "XLR_O_P"
+      "c6b4bf78-79ee-434b-a7ef-765d7a62d4c8",
+      "HeadphoneAmplifier"
     ],
     [
       "11dcaa40-e971-49ab-837d-2cb1f2c35ed1",
-      "XLR_O_N"
+      "XLROUT"
     ],
     [
-      "11dcaa40-e971-49ab-837d-2cb1f2c35ed1",
-      "XLR_O_N"
+      "08242efd-44db-486f-bfcb-549ee5bdf808",
+      "HeadphoneAmplifier1"
     ]
   ],
   "text_variables": {},

@@ -17,6 +17,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.965 219.075) (xy 238.125 219.075)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "018d1879-391d-47d9-9fd7-ad71f9768b6e")
+	)
+	(wire
+		(pts
 			(xy 227.965 166.37) (xy 238.76 166.37)
 		)
 		(stroke
@@ -34,16 +44,6 @@
 			(type default)
 		)
 		(uuid "0bc29fe8-c011-4615-a668-24f5b82f7e7f")
-	)
-	(wire
-		(pts
-			(xy 227.965 210.82) (xy 239.395 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "113f3376-6f7d-42df-9ccb-20533f3b55db")
 	)
 	(wire
 		(pts
@@ -67,13 +67,13 @@
 	)
 	(wire
 		(pts
-			(xy 227.965 208.28) (xy 239.395 208.28)
+			(xy 227.965 201.295) (xy 239.395 201.295)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "34d5da65-1975-49f3-8a7f-7348b4db72cd")
+		(uuid "32a84d4e-6380-4e6a-9b0a-756d48dcdf01")
 	)
 	(wire
 		(pts
@@ -127,6 +127,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.965 203.2) (xy 239.395 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "436a8eec-fadf-4874-8562-e24553647025")
+	)
+	(wire
+		(pts
 			(xy 207.01 136.525) (xy 207.01 140.335)
 		)
 		(stroke
@@ -174,16 +184,6 @@
 			(type default)
 		)
 		(uuid "73dc2eee-824d-4e81-b19f-876a08baa99b")
-	)
-	(wire
-		(pts
-			(xy 227.965 196.85) (xy 239.395 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "798e679d-c2f6-4a6d-8c6d-6f6c455ae5bd")
 	)
 	(wire
 		(pts
@@ -247,6 +247,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.965 217.17) (xy 238.125 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c44bb12-0aa4-4e19-9024-daa983ab8343")
+	)
+	(wire
+		(pts
 			(xy 169.545 72.39) (xy 165.1 72.39)
 		)
 		(stroke
@@ -297,6 +307,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.965 232.41) (xy 238.125 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afc4761f-81be-4d05-ba37-c0a3260a85fe")
+	)
+	(wire
+		(pts
 			(xy 227.965 180.975) (xy 238.76 180.975)
 		)
 		(stroke
@@ -314,16 +334,6 @@
 			(type default)
 		)
 		(uuid "b49e13c8-c4a8-4dbc-a2cc-ff7e8f94a413")
-	)
-	(wire
-		(pts
-			(xy 239.395 194.945) (xy 227.965 194.945)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4cb1f59-0afc-41db-9f9d-e7c36f3e0277")
 	)
 	(wire
 		(pts
@@ -407,13 +417,13 @@
 	)
 	(wire
 		(pts
-			(xy 227.965 206.375) (xy 239.395 206.375)
+			(xy 227.965 230.505) (xy 238.125 230.505)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cd338df7-10c6-46f4-9cd1-403f079cb559")
+		(uuid "c83f6d01-4b50-4ec7-bff0-26524643cef2")
 	)
 	(wire
 		(pts
@@ -454,16 +464,6 @@
 			(type default)
 		)
 		(uuid "ddb2c2c0-5a6e-4246-a9df-0b4ff4e018eb")
-	)
-	(wire
-		(pts
-			(xy 227.965 212.725) (xy 239.395 212.725)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dec6b339-85d8-4965-9f22-f635d4e63a58")
 	)
 	(wire
 		(pts
@@ -789,6 +789,82 @@
 			(project "AudioBoard"
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae"
 					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 238.125 229.235)
+		(size 33.655 4.445)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "08242efd-44db-486f-bfcb-549ee5bdf808")
+		(property "Sheetname" "HeadphoneAmplifier1"
+			(at 238.125 228.5234 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "HeadphoneAMP.kicad_sch"
+			(at 238.125 234.2646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN_N" input
+			(at 238.125 230.505 180)
+			(uuid "a50ef208-8a4b-4ad7-8245-4cafed93987e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN_P" input
+			(at 238.125 232.41 180)
+			(uuid "a504b3a2-843b-4884-9db4-b72a2a578800")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT" output
+			(at 271.78 231.14 0)
+			(uuid "86befc9d-2472-4a6d-8e07-372b6d1c670a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "AudioBoard"
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae"
+					(page "19")
 				)
 			)
 		)
@@ -1189,6 +1265,82 @@
 		)
 	)
 	(sheet
+		(at 238.125 215.9)
+		(size 33.655 4.445)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c6b4bf78-79ee-434b-a7ef-765d7a62d4c8")
+		(property "Sheetname" "HeadphoneAmplifier"
+			(at 238.125 215.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "HeadphoneAMP.kicad_sch"
+			(at 238.125 220.9296 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN_N" input
+			(at 238.125 217.17 180)
+			(uuid "e7d713a1-9895-41f0-ae8d-f2d92884a59c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN_P" input
+			(at 238.125 219.075 180)
+			(uuid "720817e5-134e-4179-a779-8013425f7657")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT" output
+			(at 271.78 217.805 0)
+			(uuid "d218d226-230a-4c1c-aade-64406dfd95a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "AudioBoard"
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 133.985 187.325)
 		(size 43.18 9.525)
 		(exclude_from_sim no)
@@ -1264,8 +1416,8 @@
 		)
 	)
 	(sheet
-		(at 239.395 205.105)
-		(size 36.83 9.525)
+		(at 239.395 200.025)
+		(size 36.83 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1278,9 +1430,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "dc93ab06-88a8-4a45-be5a-487cdf5783e9")
+		(uuid "dd7e807f-4b4f-494a-93a3-54e0064135c8")
 		(property "Sheetname" "XLR_output_R"
-			(at 239.395 204.3934 0)
+			(at 239.395 199.3134 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1291,7 +1443,7 @@
 			)
 		)
 		(property "Sheetfile" "MIC_output_L.kicad_sch"
-			(at 239.395 215.2146 0)
+			(at 239.395 205.6896 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1302,7 +1454,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 239.395 205.105 0)
+			(at 239.395 200.025 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1313,8 +1465,8 @@
 			)
 		)
 		(pin "IN_N_N" input
-			(at 239.395 206.375 180)
-			(uuid "39e33056-6449-4a69-96e8-c65984c1c71f")
+			(at 239.395 201.295 180)
+			(uuid "acbbc85c-8e7b-43ce-a1ea-94f66f325c3f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1323,28 +1475,8 @@
 			)
 		)
 		(pin "IN_N_P" input
-			(at 239.395 208.28 180)
-			(uuid "b433c2ab-eaa6-4f18-b8d2-6cba25d67129")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "IN_P_N" input
-			(at 239.395 210.82 180)
-			(uuid "c5b9f884-f164-4fba-a1e4-91e34cccd068")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "IN_P_P" input
-			(at 239.395 212.725 180)
-			(uuid "8b6d0718-419c-48eb-8e0e-a931725c0615")
+			(at 239.395 203.2 180)
+			(uuid "8fb5ca4d-9add-4e04-a92e-826c274b896c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1353,8 +1485,8 @@
 			)
 		)
 		(pin "OUT_N" output
-			(at 276.225 207.01 0)
-			(uuid "515a3eb1-d3fb-4940-9c1e-eab88ed1f465")
+			(at 276.225 201.295 0)
+			(uuid "f429b8fe-7d7c-4605-83a8-66fdf4d03125")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1363,8 +1495,8 @@
 			)
 		)
 		(pin "OUT_P" output
-			(at 276.225 211.455 0)
-			(uuid "456bd6b9-8f03-4e57-9652-c675b1afba43")
+			(at 276.225 203.2 0)
+			(uuid "c2668756-0a26-41c5-8e10-2e66abff418f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1382,7 +1514,7 @@
 	)
 	(sheet
 		(at 239.395 189.23)
-		(size 36.83 9.525)
+		(size 36.83 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1408,7 +1540,7 @@
 			)
 		)
 		(property "Sheetfile" "MIC_output_L.kicad_sch"
-			(at 239.395 199.3396 0)
+			(at 239.395 194.8946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1449,28 +1581,8 @@
 				(justify left)
 			)
 		)
-		(pin "IN_P_N" input
-			(at 239.395 194.945 180)
-			(uuid "8aa2b148-561f-445a-b779-ea883d41bbf6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "IN_P_P" input
-			(at 239.395 196.85 180)
-			(uuid "6d5ab275-d1d4-4218-8566-cf35ac706773")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "OUT_N" output
-			(at 276.225 191.135 0)
+			(at 276.225 190.5 0)
 			(uuid "b4b7ed53-bef7-4f75-9210-255e460e58d0")
 			(effects
 				(font
@@ -1480,7 +1592,7 @@
 			)
 		)
 		(pin "OUT_P" output
-			(at 276.225 195.58 0)
+			(at 276.225 192.405 0)
 			(uuid "44445aec-31c8-4157-ae03-1e2ea3f417b5")
 			(effects
 				(font
@@ -1993,7 +2105,7 @@
 			)
 		)
 		(pin "OUT6_N" output
-			(at 227.965 194.945 0)
+			(at 227.965 201.295 0)
 			(uuid "d05dbf12-7aad-40c9-b520-ba1d376a2fec")
 			(effects
 				(font
@@ -2003,7 +2115,7 @@
 			)
 		)
 		(pin "OUT6_P" output
-			(at 227.965 196.85 0)
+			(at 227.965 203.2 0)
 			(uuid "587f3582-d26a-4e42-b8ea-dba9afeb16be")
 			(effects
 				(font
@@ -2013,7 +2125,7 @@
 			)
 		)
 		(pin "OUT7_N" output
-			(at 227.965 206.375 0)
+			(at 227.965 217.17 0)
 			(uuid "e8140ccb-a53f-4fea-a0c4-ae15c5ae5e02")
 			(effects
 				(font
@@ -2023,7 +2135,7 @@
 			)
 		)
 		(pin "OUT7_P" output
-			(at 227.965 208.28 0)
+			(at 227.965 219.075 0)
 			(uuid "3006a735-26ce-4280-bb50-bcf6bb99ff39")
 			(effects
 				(font
@@ -2033,7 +2145,7 @@
 			)
 		)
 		(pin "OUT8_N" output
-			(at 227.965 210.82 0)
+			(at 227.965 230.505 0)
 			(uuid "0e4a74af-ebe5-493a-8916-570470246eb4")
 			(effects
 				(font
@@ -2043,7 +2155,7 @@
 			)
 		)
 		(pin "OUT8_P" output
-			(at 227.965 212.725 0)
+			(at 227.965 232.41 0)
 			(uuid "ad352232-a78a-443c-be56-b7c38b849415")
 			(effects
 				(font

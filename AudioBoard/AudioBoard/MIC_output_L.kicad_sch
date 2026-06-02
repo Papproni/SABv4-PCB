@@ -17,16 +17,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 68.58) (xy 92.71 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3953b12d-e7e4-4d56-8e08-6372471476dd")
-	)
-	(wire
-		(pts
 			(xy 328.93 38.735) (xy 335.915 38.735)
 		)
 		(stroke
@@ -34,26 +24,6 @@
 			(type default)
 		)
 		(uuid "3c74b830-7509-42b6-9083-7fd730ca5d4d")
-	)
-	(wire
-		(pts
-			(xy 85.09 70.485) (xy 92.71 70.485)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b51fab2-4a38-4c83-a825-c88c1199e962")
-	)
-	(wire
-		(pts
-			(xy 136.525 69.215) (xy 130.175 69.215)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64822b3d-992a-4498-8a22-ab45ab58e793")
 	)
 	(wire
 		(pts
@@ -145,16 +115,53 @@
 		)
 		(uuid "f71efcec-8c85-4ded-a148-5c496329a8ed")
 	)
-	(hierarchical_label "IN_P_N"
+	(global_label "VSS"
 		(shape input)
-		(at 85.09 68.58 180)
+		(at 48.895 29.845 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "022b8342-02c5-4291-b9e8-4b547bb351a8")
+		(uuid "1c18fe50-f850-4404-bbdb-12d05d0081af")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 42.4022 29.845 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "VDD"
+		(shape input)
+		(at 48.895 27.305 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "509e5652-0948-41c6-8296-f2fa9fe630b0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 42.2812 27.305 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(hierarchical_label "VSS"
 		(shape input)
@@ -189,17 +196,6 @@
 		)
 		(uuid "2785e2c0-220f-4181-baec-59a47b3d9562")
 	)
-	(hierarchical_label "VDD"
-		(shape input)
-		(at 48.895 27.305 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "50ce54b0-3edc-464d-9e39-088ad49eab02")
-	)
 	(hierarchical_label "OUT_N"
 		(shape output)
 		(at 135.89 53.34 0)
@@ -211,28 +207,6 @@
 		)
 		(uuid "6e874e12-d7b8-4c35-9c3b-e6399990d5d3")
 	)
-	(hierarchical_label "IN_P_P"
-		(shape input)
-		(at 85.09 70.485 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7d441ff5-6d17-4570-aa61-690e0751f266")
-	)
-	(hierarchical_label "VSS"
-		(shape input)
-		(at 48.895 29.845 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "84fbf1d5-8033-4bb8-b8b0-269c512164e7")
-	)
 	(hierarchical_label "IN_N_P"
 		(shape input)
 		(at 85.09 54.61 180)
@@ -243,17 +217,6 @@
 			(justify right)
 		)
 		(uuid "b1e92d96-d49b-4dfb-82ac-2ca33680a571")
-	)
-	(hierarchical_label "OUT_P"
-		(shape output)
-		(at 136.525 69.215 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f08a8213-5217-4896-a423-f6e75d8b990f")
 	)
 	(sheet
 		(at 92.71 50.8)
@@ -271,7 +234,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "11dcaa40-e971-49ab-837d-2cb1f2c35ed1")
-		(property "Sheetname" "XLR_O_N"
+		(property "Sheetname" "XLROUT"
 			(at 92.71 50.0884 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -295,7 +258,7 @@
 		)
 		(pin "IN_N" input
 			(at 92.71 52.705 180)
-			(uuid "df1f50dc-1c91-4dad-ae20-65f019ce0711")
+			(uuid "a3b90654-5be4-4b5f-9adf-a92039faf0c0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -305,7 +268,7 @@
 		)
 		(pin "IN_P" input
 			(at 92.71 54.61 180)
-			(uuid "c45d8f9c-4185-4914-af58-7d6afbe8cdc5")
+			(uuid "406c6f22-68ad-4d03-8f81-713ffdd1d4d5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -315,7 +278,7 @@
 		)
 		(pin "OUT" input
 			(at 130.175 53.34 0)
-			(uuid "de9ec509-8625-4480-a4f5-e8e26a297f47")
+			(uuid "1fb173f5-e172-4216-9929-577b56091dd8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -328,87 +291,8 @@
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/e87fe4e0-dcc3-4a3a-a2f4-db36aaf0ad2f"
 					(page "18")
 				)
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/dc93ab06-88a8-4a45-be5a-487cdf5783e9"
-					(page "19")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 92.71 66.675)
-		(size 37.465 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "452de2f1-4c35-4ae0-9f85-804d59af2b89")
-		(property "Sheetname" "XLR_O_P"
-			(at 92.71 65.9634 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Instrument_output.kicad_sch"
-			(at 92.71 72.3396 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "IN_N" input
-			(at 92.71 68.58 180)
-			(uuid "2fb7704d-b802-4d11-afc9-3e18b45c641e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "IN_P" input
-			(at 92.71 70.485 180)
-			(uuid "01684882-3657-4f3c-87ee-d124c8283749")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "OUT" input
-			(at 130.175 69.215 0)
-			(uuid "46f03654-aef3-45a3-8e9b-a0a80aa6934e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "AudioBoard"
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/e87fe4e0-dcc3-4a3a-a2f4-db36aaf0ad2f"
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/dd7e807f-4b4f-494a-93a3-54e0064135c8"
 					(page "16")
-				)
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/dc93ab06-88a8-4a45-be5a-487cdf5783e9"
-					(page "17")
 				)
 			)
 		)

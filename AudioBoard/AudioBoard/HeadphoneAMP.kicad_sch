@@ -1,0 +1,133 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "0088919d-d905-4873-b77d-a497f716275c")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 60.96 54.61) (xy 67.945 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ff25e96-3b88-468f-9b6a-3eabf8d1c94d")
+	)
+	(wire
+		(pts
+			(xy 147.955 78.105) (xy 142.24 78.105)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45785611-8848-4450-96b6-95d1ce31b338")
+	)
+	(wire
+		(pts
+			(xy 97.155 79.375) (xy 104.775 79.375)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6ecd491-5ae3-4670-bfa8-821b070bcf79")
+	)
+	(wire
+		(pts
+			(xy 60.96 52.07) (xy 67.945 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eacf0685-dab8-4650-a2c8-5f60f1db80ae")
+	)
+	(wire
+		(pts
+			(xy 97.155 77.47) (xy 104.775 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f18c2cc8-d763-4425-85fa-c8cf1ba9eab1")
+	)
+	(label "VSS"
+		(at 67.945 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a5502ac-bc9f-4e73-9117-1933435ab715")
+	)
+	(label "VDD"
+		(at 67.945 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b5ec875-58cc-4983-87cc-5eb58a4a956b")
+	)
+	(hierarchical_label "IN_N"
+		(shape input)
+		(at 97.155 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3cde8db2-4dff-40a1-89c3-de78fc858dea")
+	)
+	(hierarchical_label "VDD"
+		(shape input)
+		(at 60.96 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "61eeec1a-3ffa-43cf-8b47-ccf542e96861")
+	)
+	(hierarchical_label "VSS"
+		(shape input)
+		(at 60.96 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "acc6364a-2855-4d66-bafe-aea19ca1a1c5")
+	)
+	(hierarchical_label "IN_P"
+		(shape input)
+		(at 97.155 79.375 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d140266d-fa5c-43fe-aad6-07ea9feed15d")
+	)
+	(hierarchical_label "OUT"
+		(shape output)
+		(at 147.955 78.105 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f506e1ee-48c5-4cc9-882f-ab53c42a5d2e")
+	)
+)

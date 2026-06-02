@@ -4393,28 +4393,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "4692c631-598c-40fe-b496-e4c27fc874ab")
+			(uuid "4692c631-598c-40fe-b496-e4c27fc874ac")
 		)
 		(pin "8"
-			(uuid "909bfc37-b610-419a-b387-990effe12c3a")
+			(uuid "909bfc37-b610-419a-b387-990effe12c3b")
 		)
 		(pin "5"
-			(uuid "73e13db2-7c76-4252-8761-ed1582d950fe")
+			(uuid "73e13db2-7c76-4252-8761-ed1582d950ff")
 		)
 		(pin "2"
-			(uuid "23738b15-52a7-4d5f-978a-f5740ffb7d7d")
+			(uuid "23738b15-52a7-4d5f-978a-f5740ffb7d7e")
 		)
 		(pin "3"
-			(uuid "7b0c6bae-11e1-437b-b723-8bceba6677f9")
+			(uuid "7b0c6bae-11e1-437b-b723-8bceba6677fa")
 		)
 		(pin "6"
-			(uuid "408bb412-6a60-47b1-b5d9-c7cb82493d22")
+			(uuid "408bb412-6a60-47b1-b5d9-c7cb82493d23")
 		)
 		(pin "7"
-			(uuid "103cee89-cd9d-4c90-954c-b34c4fa08cfc")
+			(uuid "103cee89-cd9d-4c90-954c-b34c4fa08cfd")
 		)
 		(pin "4"
-			(uuid "0c597214-3c62-473b-a60e-f0e39c8483fb")
+			(uuid "0c597214-3c62-473b-a60e-f0e39c8483fc")
 		)
 		(instances
 			(project "AudioBoard"
@@ -5072,10 +5072,10 @@
 			(uuid "540994e4-ea62-4037-ab06-18ea506de68c")
 		)
 		(pin "8"
-			(uuid "909bfc37-b610-419a-b387-990effe12c3a")
+			(uuid "909bfc37-b610-419a-b387-990effe12c3c")
 		)
 		(pin "5"
-			(uuid "73e13db2-7c76-4252-8761-ed1582d950fe")
+			(uuid "73e13db2-7c76-4252-8761-ed1582d95100")
 		)
 		(pin "2"
 			(uuid "9669d45a-b675-4742-b9ce-284dabc9d159")
@@ -5084,13 +5084,13 @@
 			(uuid "1e35be46-47ad-403d-b85e-352642b397be")
 		)
 		(pin "6"
-			(uuid "408bb412-6a60-47b1-b5d9-c7cb82493d22")
+			(uuid "408bb412-6a60-47b1-b5d9-c7cb82493d24")
 		)
 		(pin "7"
-			(uuid "103cee89-cd9d-4c90-954c-b34c4fa08cfc")
+			(uuid "103cee89-cd9d-4c90-954c-b34c4fa08cfe")
 		)
 		(pin "4"
-			(uuid "0c597214-3c62-473b-a60e-f0e39c8483fb")
+			(uuid "0c597214-3c62-473b-a60e-f0e39c8483fd")
 		)
 		(instances
 			(project "AudioBoard"
