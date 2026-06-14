@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "haoyu") (type "KiCad") (uri "${KIPRJMOD}/haoyu.pretty") (options "") (descr ""))
+)

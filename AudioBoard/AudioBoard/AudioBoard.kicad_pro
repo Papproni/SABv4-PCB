@@ -606,6 +606,24 @@
           "label": "Sim.Device",
           "name": "Sim.Device",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB",
+          "name": "JLCPCB",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KiLib_Generator",
+          "name": "KiLib_Generator",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -735,6 +753,18 @@
     [
       "08242efd-44db-486f-bfcb-549ee5bdf808",
       "HeadphoneAmplifier1"
+    ],
+    [
+      "1be5cbb9-85cd-45d8-b0f1-73b7fc7bb211",
+      "PhantomPower"
+    ],
+    [
+      "24ef0f70-6cbf-4c31-95c2-48bcee616c0a",
+      "AnalogPower"
+    ],
+    [
+      "90fb3efd-d3f7-4792-a5a6-0ef3ff553a4e",
+      "LoPower"
     ]
   ],
   "text_variables": {},

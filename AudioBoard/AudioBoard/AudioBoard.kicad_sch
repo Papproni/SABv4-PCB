@@ -157,6 +157,16 @@
 	)
 	(wire
 		(pts
+			(xy 108.585 133.985) (xy 133.985 133.985)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b4fb54e-7d9e-4fae-b23d-07ce48f7f6a1")
+	)
+	(wire
+		(pts
 			(xy 177.165 191.135) (xy 185.42 191.135)
 		)
 		(stroke
@@ -264,6 +274,16 @@
 			(type default)
 		)
 		(uuid "98799d93-f5fd-45dc-95dd-514b8230c451")
+	)
+	(wire
+		(pts
+			(xy 108.585 151.765) (xy 133.985 151.765)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a7b0180-2259-4dd9-9463-f1ff56223cc9")
 	)
 	(wire
 		(pts
@@ -497,13 +517,23 @@
 	)
 	(wire
 		(pts
-			(xy 169.545 74.93) (xy 165.1 74.93)
+			(xy 165.1 68.58) (xy 169.545 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f759b138-b759-424c-bad8-9df0c00457fc")
+	)
+	(wire
+		(pts
+			(xy 108.585 154.94) (xy 133.985 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa089733-e88c-4530-ae23-f6ac061c401c")
 	)
 	(wire
 		(pts
@@ -661,7 +691,7 @@
 	)
 	(global_label "VDD"
 		(shape input)
-		(at 169.545 74.93 0)
+		(at 169.545 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -671,7 +701,7 @@
 		)
 		(uuid "e9a4304d-6b55-44a7-aa4d-51c9be7eacbc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.1588 74.93 0)
+			(at 176.1588 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1144,8 +1174,8 @@
 		)
 	)
 	(sheet
-		(at 83.185 159.385)
-		(size 22.86 34.29)
+		(at 81.915 127)
+		(size 26.67 76.2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1160,7 +1190,7 @@
 		)
 		(uuid "6c99cd00-a4a2-4f1f-8c45-97dcde60f012")
 		(property "Sheetname" "Audio_IO_conn"
-			(at 83.185 158.6734 0)
+			(at 81.915 126.2884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1171,7 +1201,7 @@
 			)
 		)
 		(property "Sheetfile" "Audio_IO_conn.kicad_sch"
-			(at 83.185 194.2596 0)
+			(at 81.915 203.7846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1179,6 +1209,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "ins_in" output
+			(at 108.585 133.985 0)
+			(uuid "dac43242-90e6-411d-922c-4236f8322a8b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "xlr_in_n" output
+			(at 108.585 154.94 0)
+			(uuid "2ea67f80-cb15-4b42-9653-045365ac1984")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "xlr_in_p" output
+			(at 108.585 151.765 0)
+			(uuid "00acae2d-20d8-439a-890d-9ca15298035a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -1227,7 +1287,7 @@
 			)
 		)
 		(pin "IN" input
-			(at 133.985 132.715 180)
+			(at 133.985 133.985 180)
 			(uuid "7e68a0c2-7ba2-4b15-a6ad-16b2eab38684")
 			(effects
 				(font
@@ -1647,46 +1707,6 @@
 				(justify left top)
 			)
 		)
-		(pin "AVDD" output
-			(at 165.1 50.165 0)
-			(uuid "607a4286-1dac-4003-b239-51d2ff489987")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DVDD" output
-			(at 165.1 46.355 0)
-			(uuid "99d40a7e-c0b9-4551-83a8-37236fa295a1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VDD" output
-			(at 165.1 74.93 0)
-			(uuid "ba46466b-5159-489b-9577-d06ac319ca47")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VSS" output
-			(at 165.1 72.39 0)
-			(uuid "12d4f6e6-fe99-4140-9bcd-84623d6fcbcb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "+48V" output
 			(at 165.1 81.28 0)
 			(uuid "53eab563-7377-4dd6-b595-7e9559b19b76")
@@ -1695,6 +1715,66 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "+3V3A" output
+			(at 165.1 50.165 0)
+			(uuid "22f84c3c-fd71-4ef9-9e10-1e305598c22d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+3V3D" output
+			(at 165.1 46.355 0)
+			(uuid "cce43a85-b1de-4772-a213-fd0d9dee5c08")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+5V" output
+			(at 165.1 42.545 0)
+			(uuid "7748fdc6-f6de-44c4-a81e-48a0b0821722")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+15V" output
+			(at 165.1 68.58 0)
+			(uuid "34422c87-2fc9-4fbc-9a10-58c3134af53a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "-15V" output
+			(at 165.1 72.39 0)
+			(uuid "531a910d-018c-484a-8382-21a24826bbe6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VIN" input
+			(at 119.38 64.135 180)
+			(uuid "625d7d3b-0417-4b91-afe3-f685a1f0e345")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

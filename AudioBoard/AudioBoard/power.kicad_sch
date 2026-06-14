@@ -4,60 +4,846 @@
 	(generator_version "10.0")
 	(uuid "f6ff5fd5-b831-4cb4-a9b7-406f33a08ccb")
 	(paper "A4")
-	(lib_symbols)
-	(hierarchical_label "AVDD"
-		(shape output)
-		(at 31.75 27.94 180)
+	(lib_symbols
+		(symbol "Device:Polyfuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Polyfuse"
+				(at 2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Polyfuse_0_1"
+				(polyline
+					(pts
+						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.762 2.54)
+					(end 0.762 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyfuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "PWR SPECS\nVoltage: +18-24 V\nCurrent: 500mA\n\n"
+		(exclude_from_sim no)
+		(at 23.495 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
+		)
+		(uuid "b4939485-fd1d-4f88-9d70-1567f615b55a")
+	)
+	(junction
+		(at 73.025 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a95818b8-8339-4495-a47c-9d50d57e9f54")
+	)
+	(junction
+		(at 73.025 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca8ac411-feed-4dbc-86b2-7f174c6f1e8c")
+	)
+	(junction
+		(at 73.025 59.055)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8f8f59f-97c0-4262-be47-00aea2d4a3c9")
+	)
+	(wire
+		(pts
+			(xy 26.035 38.1) (xy 48.895 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05cc4dd4-0172-4326-a800-a897ccb8f9e2")
+	)
+	(wire
+		(pts
+			(xy 121.285 73.66) (xy 121.285 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08355681-72f7-4808-8d43-1a1477a42097")
+	)
+	(wire
+		(pts
+			(xy 73.025 73.66) (xy 84.455 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e71a651-e4b5-4000-b71d-6d812843eda4")
+	)
+	(wire
+		(pts
+			(xy 128.27 57.15) (xy 142.24 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4298f7fa-b680-490f-9325-aff346422ffe")
+	)
+	(wire
+		(pts
+			(xy 73.025 59.055) (xy 84.455 59.055)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fc692b9-fbf2-4411-be03-60a231eabd73")
+	)
+	(wire
+		(pts
+			(xy 121.285 67.31) (xy 142.24 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50c8f4c7-03b0-4aca-bb74-1db112fc8ecc")
+	)
+	(wire
+		(pts
+			(xy 128.27 41.91) (xy 128.27 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67c577a3-29f0-4742-87ae-2884955df947")
+	)
+	(wire
+		(pts
+			(xy 130.175 37.465) (xy 116.205 37.465)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eca00d0-89f4-4e59-9152-475511ab443f")
+	)
+	(wire
+		(pts
+			(xy 73.025 73.66) (xy 73.025 74.295)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b72c84b-f937-4196-a3fc-3b77be5775b4")
+	)
+	(wire
+		(pts
+			(xy 121.285 60.96) (xy 121.285 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91b4f4b4-0d72-4a1c-824b-5f0cac799eab")
+	)
+	(wire
+		(pts
+			(xy 142.24 54.61) (xy 130.175 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b284a00-9e8d-4623-8bdd-554af5251bd2")
+	)
+	(wire
+		(pts
+			(xy 125.73 59.69) (xy 142.24 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a131c1a6-6c03-45ac-b385-c0143fe683c4")
+	)
+	(wire
+		(pts
+			(xy 56.515 38.1) (xy 73.025 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2c02ab2-fcd6-4864-b79e-cf35d9213ee0")
+	)
+	(wire
+		(pts
+			(xy 123.19 57.785) (xy 123.19 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a71fe5e5-db51-4aa6-8e4b-aef93f4acd09")
+	)
+	(wire
+		(pts
+			(xy 116.205 41.91) (xy 128.27 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac679678-ce16-4f8f-bd58-020101599fb8")
+	)
+	(wire
+		(pts
+			(xy 73.025 38.1) (xy 73.025 59.055)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0f5c98f-c00f-4d4b-8a45-8fe28ee3b034")
+	)
+	(wire
+		(pts
+			(xy 116.205 57.785) (xy 123.19 57.785)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3cbb817-c133-4c6b-b545-51040ae8b40b")
+	)
+	(wire
+		(pts
+			(xy 121.285 64.77) (xy 142.24 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6046e47-3b3b-4e9c-95ab-2a87db89f445")
+	)
+	(wire
+		(pts
+			(xy 116.205 46.99) (xy 125.73 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d743a53e-9308-47e8-b1eb-e031ed3b000f")
+	)
+	(wire
+		(pts
+			(xy 73.025 59.055) (xy 73.025 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d992513d-51b5-4073-95cd-2c393fb8d4dc")
+	)
+	(wire
+		(pts
+			(xy 123.19 62.23) (xy 142.24 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7307815-e4d6-4220-96a2-0bb75eb08d0a")
+	)
+	(wire
+		(pts
+			(xy 116.205 73.66) (xy 121.285 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec59e3dc-8680-4b27-b332-bc2364457bdb")
+	)
+	(wire
+		(pts
+			(xy 116.205 60.96) (xy 121.285 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f41be960-fe5c-4132-a68f-6c925f79388c")
+	)
+	(wire
+		(pts
+			(xy 73.025 38.1) (xy 84.455 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f78f4de5-7d74-42c0-a435-dd1839fd4a9f")
+	)
+	(wire
+		(pts
+			(xy 130.175 54.61) (xy 130.175 37.465)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb548cb3-df14-436d-b365-ad2336a4e511")
+	)
+	(wire
+		(pts
+			(xy 125.73 46.99) (xy 125.73 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdf9dec7-3894-43de-93c2-5342e5fbc8b3")
+	)
+	(hierarchical_label "+3V3A"
+		(shape output)
+		(at 142.24 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
 		)
 		(uuid "148d8235-3d42-48a5-a4ec-9836616fc18a")
 	)
-	(hierarchical_label "DVDD"
-		(shape output)
-		(at 31.75 30.48 180)
+	(hierarchical_label "VIN"
+		(shape input)
+		(at 26.035 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
+		)
+		(uuid "15f793d5-d1a0-4813-80cb-0c27aac528aa")
+	)
+	(hierarchical_label "+3V3D"
+		(shape output)
+		(at 142.24 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
 		)
 		(uuid "4b53eb86-468c-48d3-b1a8-66da28868cf8")
 	)
-	(hierarchical_label "+48V"
+	(hierarchical_label "+5V"
 		(shape output)
-		(at 31.75 38.1 180)
+		(at 142.24 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
+		)
+		(uuid "66684beb-16a4-45c5-9a9f-10792d70dd5d")
+	)
+	(hierarchical_label "+48V"
+		(shape output)
+		(at 142.24 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
 		)
 		(uuid "8a3e6d7d-60b0-4685-b5d2-828895211b15")
 	)
-	(hierarchical_label "VSS"
+	(hierarchical_label "-15V"
 		(shape output)
-		(at 31.75 35.56 180)
+		(at 142.24 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "9a5b6156-4c53-4bf9-8063-02bf834db118")
 	)
-	(hierarchical_label "VDD"
+	(hierarchical_label "+15V"
 		(shape output)
-		(at 31.75 33.02 180)
+		(at 142.24 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "b959e790-d198-438f-b1fa-ebf4b8bc7895")
+	)
+	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 52.705 38.1 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ce0bf8e-90e8-4495-a951-4cdd5849a855")
+		(property "Reference" "F1"
+			(at 52.705 31.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Polyfuse"
+			(at 52.705 34.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.785 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.705 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 52.705 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8cbc4504-4bb0-4b3d-a957-297328818b8e")
+		)
+		(pin "1"
+			(uuid "1d0283b1-7edf-4dd0-9323-298a9fb64845")
+		)
+		(instances
+			(project "AudioBoard"
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/ee404ad0-726e-426f-8607-a7730f1919f6"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 84.455 70.485)
+		(size 31.75 5.715)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1be5cbb9-85cd-45d8-b0f1-73b7fc7bb211")
+		(property "Sheetname" "PhantomPower"
+			(at 84.455 69.7734 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PhantomPower.kicad_sch"
+			(at 84.455 76.7846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+48V" output
+			(at 116.205 73.66 0)
+			(uuid "09428e65-2f00-42bb-aca1-99f0365d721f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VIN" input
+			(at 84.455 73.66 180)
+			(uuid "dd6b936b-7402-4eb7-a646-42aa9abafcdc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "AudioBoard"
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/ee404ad0-726e-426f-8607-a7730f1919f6"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 84.455 55.245)
+		(size 31.75 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "24ef0f70-6cbf-4c31-95c2-48bcee616c0a")
+		(property "Sheetname" "AnalogPower"
+			(at 84.455 54.5334 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AnalogPower.kicad_sch"
+			(at 84.455 63.4496 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+15V" output
+			(at 116.205 57.785 0)
+			(uuid "d6a311ed-f6f5-478e-a079-c5b734e12e62")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "-15V" output
+			(at 116.205 60.96 0)
+			(uuid "81c33f9e-3942-4ce4-a990-94986e8654b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VIN" input
+			(at 84.455 59.055 180)
+			(uuid "cbe78289-f9c9-4b87-9248-3e2c8a65e2af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "AudioBoard"
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/ee404ad0-726e-426f-8607-a7730f1919f6"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 84.455 36.195)
+		(size 31.75 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "90fb3efd-d3f7-4792-a5a6-0ef3ff553a4e")
+		(property "Sheetname" "LoPower"
+			(at 84.455 35.4834 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LoPower.kicad_sch"
+			(at 84.455 49.4796 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+3V3A" output
+			(at 116.205 46.99 0)
+			(uuid "0058de91-a2d7-48c1-9f05-22e6b8633107")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+3V3D" output
+			(at 116.205 41.91 0)
+			(uuid "5b94685e-bdc9-42f6-8ce0-6be06a7374e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+5V" output
+			(at 116.205 37.465 0)
+			(uuid "4ded9820-24c1-4a84-b14f-9d357d8629b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VIN" input
+			(at 84.455 38.1 180)
+			(uuid "c3af0ebb-23de-4ade-8699-f2acdb4f97f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "AudioBoard"
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/ee404ad0-726e-426f-8607-a7730f1919f6"
+					(page "22")
+				)
+			)
+		)
 	)
 )
