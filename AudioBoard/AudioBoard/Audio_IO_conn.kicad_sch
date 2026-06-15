@@ -887,6 +887,331 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Audio:NMJ6HFD2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NMJ6HFD2"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NMJ6HFD2_Horizontal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.neutrik.com/en/product/nmj6hfd2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "M Series, 6.35mm (1/4in) stereo jack, switched, with full threaded nose and straight PCB pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "audio jack receptacle stereo headphones connector neutrik"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Jack*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "NMJ6HFD2_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end -6.35 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -5.08) (xy -1.27 -5.715) (xy -0.635 -5.08) (xy -0.635 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 4.826) (xy -1.016 4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0.635 -5.715) (xy 1.27 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -0.254) (xy 0.762 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -5.334) (xy 2.032 -5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 6.35)
+					(end -5.08 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy -2.54 5.08) (xy -2.54 -5.08) (xy -3.175 -5.715) (xy -3.81 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -1.27 2.54) (xy -1.27 4.826) (xy -1.524 4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 0.508 -2.54) (xy 0.508 -0.254) (xy 0.254 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -7.62) (xy 1.778 -7.62) (xy 1.778 -5.334) (xy 1.524 -5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NMJ6HFD2_1_1"
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "RN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "TN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Audio:XLR3_Ground"
 			(pin_names
 				(hide yes)
@@ -1309,6 +1634,18 @@
 		(uuid "671fd291-620a-4dad-bf10-1fb4dd68effa")
 	)
 	(rectangle
+		(start 17.145 147.955)
+		(end 97.155 183.515)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "7b38aaa7-95eb-484e-83cb-5bbec5457e7d")
+	)
+	(rectangle
 		(start 102.235 20.32)
 		(end 196.215 99.695)
 		(stroke
@@ -1355,6 +1692,16 @@
 			(type none)
 		)
 		(uuid "e0151959-3c54-41a2-9f74-be6e5ced55ae")
+	)
+	(text "HEADPHONE"
+		(exclude_from_sim no)
+		(at 22.86 146.685 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "19838d63-36cb-415a-b6dc-cdad32ba70b4")
 	)
 	(text "XLR_OUT"
 		(exclude_from_sim no)
@@ -1524,6 +1871,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 160.655) (xy 37.465 160.655)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ed859f5-08c4-49d7-8ec2-4215b43571d9")
+	)
+	(wire
+		(pts
 			(xy 176.53 81.915) (xy 173.355 81.915)
 		)
 		(stroke
@@ -1594,6 +1951,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 165.735) (xy 37.465 165.735)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cfc1fe3-c222-45df-891e-b78df9a37dd2")
+	)
+	(wire
+		(pts
 			(xy 20.955 42.545) (xy 33.655 42.545)
 		)
 		(stroke
@@ -1601,6 +1968,16 @@
 			(type default)
 		)
 		(uuid "7d60a7ae-dd90-47fb-8664-c7ceac33aa55")
+	)
+	(wire
+		(pts
+			(xy 35.56 155.575) (xy 55.88 155.575)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8331626e-d598-4233-9486-08bb4b89bb6b")
 	)
 	(wire
 		(pts
@@ -1812,6 +2189,17 @@
 		)
 		(uuid "f24cfbfe-02b0-4c0c-8581-15de46655aa9")
 	)
+	(hierarchical_label "HEADPHONE_L"
+		(shape input)
+		(at 37.465 160.655 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "010cb290-0ac6-4fa3-8a3d-33c42abe3eec")
+	)
 	(hierarchical_label "xlr_in_n"
 		(shape output)
 		(at 48.26 43.815 0)
@@ -1877,6 +2265,17 @@
 			(justify left)
 		)
 		(uuid "4ed3d158-58c4-4eb3-b47d-edf189aed4eb")
+	)
+	(hierarchical_label "HEADPHONE_R"
+		(shape input)
+		(at 37.465 165.735 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "67538bb9-b6e5-49de-9c2c-557cd8a06db0")
 	)
 	(hierarchical_label "OUT_R"
 		(shape output)
@@ -2516,6 +2915,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 55.88 155.575 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "453132ff-d66c-4e2c-b47e-6f5ba8a11d7a")
+		(property "Reference" "#PWR075"
+			(at 55.88 161.925 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.88 160.655 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 155.575 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 155.575 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 155.575 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1ddbe933-5d73-44c7-8037-d783546192a3")
+		)
+		(instances
+			(project "AudioBoard"
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/6c99cd00-a4a2-4f1f-8c45-97dcde60f012"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 21.59 118.11 0)
 		(unit 1)
 		(body_style 1)
@@ -3063,6 +3540,98 @@
 			(project "AudioBoard"
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/6c99cd00-a4a2-4f1f-8c45-97dcde60f012"
 					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:NMJ6HFD2")
+		(at 30.48 160.655 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c15424e-4353-4fd8-bc26-b5bdf7c4e026")
+		(property "Reference" "J8"
+			(at 28.575 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NMJ6HFD2"
+			(at 28.575 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NMJ6HFD2_Horizontal"
+			(at 30.48 160.655 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.neutrik.com/en/product/nmj6hfd2"
+			(at 30.48 160.655 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "M Series, 6.35mm (1/4in) stereo jack, switched, with full threaded nose and straight PCB pins"
+			(at 30.48 160.655 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "SN"
+			(uuid "fff88dea-c4bf-427e-a79a-245bc1a70665")
+		)
+		(pin "S"
+			(uuid "0d9f13bc-133e-42ed-afd4-a4c0f897750d")
+		)
+		(pin "R"
+			(uuid "fcb53dd9-5d8f-4383-8f52-03e40bb72704")
+		)
+		(pin "TN"
+			(uuid "22b1b8e3-b8b8-417a-9e64-2f3d444ec763")
+		)
+		(pin "RN"
+			(uuid "b5c9921e-47c7-4722-b51d-7874f1785a99")
+		)
+		(pin "T"
+			(uuid "263593ce-4dc7-44aa-b679-81740d2261c9")
+		)
+		(instances
+			(project "AudioBoard"
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/6c99cd00-a4a2-4f1f-8c45-97dcde60f012"
+					(reference "J8")
 					(unit 1)
 				)
 			)

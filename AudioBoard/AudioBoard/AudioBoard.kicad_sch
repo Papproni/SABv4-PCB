@@ -1767,16 +1767,6 @@
 				(justify right)
 			)
 		)
-		(pin "VIN" input
-			(at 119.38 64.135 180)
-			(uuid "625d7d3b-0417-4b91-afe3-f685a1f0e345")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(instances
 			(project "AudioBoard"
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae"
