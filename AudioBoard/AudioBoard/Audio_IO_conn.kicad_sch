@@ -1610,6 +1610,18 @@
 		)
 	)
 	(rectangle
+		(start 17.145 182.245)
+		(end 64.77 207.01)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "0b935091-a5b4-4010-89fb-9d0c89127931")
+	)
+	(rectangle
 		(start 15.875 19.685)
 		(end 95.25 57.785)
 		(stroke
@@ -1635,7 +1647,7 @@
 	)
 	(rectangle
 		(start 17.145 147.955)
-		(end 97.155 183.515)
+		(end 64.77 172.72)
 		(stroke
 			(width 0)
 			(type default)
@@ -1752,6 +1764,16 @@
 			)
 		)
 		(uuid "c66bc4f1-da32-4d03-a919-139a9861c403")
+	)
+	(text "EXP_PEDAL_INPUT"
+		(exclude_from_sim no)
+		(at 25.4 180.975 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c9b70ed0-9798-4df3-aa3e-c2d3e24439f2")
 	)
 	(text "FX LOOP"
 		(exclude_from_sim no)
@@ -1941,6 +1963,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 200.025) (xy 37.465 200.025)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74f748b1-590e-48d7-b190-a2fa66ed62fa")
+	)
+	(wire
+		(pts
 			(xy 175.895 43.815) (xy 172.72 43.815)
 		)
 		(stroke
@@ -2051,6 +2083,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 189.865) (xy 35.56 189.865)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0a4f361-c28c-4be7-b912-d33de2317333")
+	)
+	(wire
+		(pts
 			(xy 46.355 34.29) (xy 43.815 34.29)
 		)
 		(stroke
@@ -2088,6 +2130,16 @@
 			(type default)
 		)
 		(uuid "bea1b5c7-c7dc-4eaa-8d13-a3902d90b8c7")
+	)
+	(wire
+		(pts
+			(xy 35.56 194.945) (xy 37.465 194.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1fd48a6-4314-4beb-a06a-391418bc00b1")
 	)
 	(wire
 		(pts
@@ -2199,6 +2251,17 @@
 			(justify left)
 		)
 		(uuid "010cb290-0ac6-4fa3-8a3d-33c42abe3eec")
+	)
+	(hierarchical_label "EXP_PWR"
+		(shape input)
+		(at 37.465 200.025 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0303ff95-11a1-4cb4-ac08-285e1462ed92")
 	)
 	(hierarchical_label "xlr_in_n"
 		(shape output)
@@ -2343,6 +2406,17 @@
 		)
 		(uuid "d9da7054-5948-4d25-b3d0-03eabf253f19")
 	)
+	(hierarchical_label "EXP_SIG"
+		(shape output)
+		(at 37.465 194.945 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ecca75fe-3442-4b80-b658-43a8e8255981")
+	)
 	(hierarchical_label "OUT_L"
 		(shape output)
 		(at 47.625 81.28 0)
@@ -2456,6 +2530,84 @@
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/6c99cd00-a4a2-4f1f-8c45-97dcde60f012"
 					(reference "J1")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 54.61 189.865 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20c3a5a7-a298-4cc1-9036-125e427c570e")
+		(property "Reference" "#PWR076"
+			(at 54.61 196.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.61 194.945 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 189.865 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 189.865 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 189.865 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a6947f09-a945-4646-b26c-4a7605709357")
+		)
+		(instances
+			(project "AudioBoard"
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/6c99cd00-a4a2-4f1f-8c45-97dcde60f012"
+					(reference "#PWR076")
+					(unit 1)
 				)
 			)
 		)
@@ -3384,6 +3536,98 @@
 			(project "AudioBoard"
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/6c99cd00-a4a2-4f1f-8c45-97dcde60f012"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:NMJ6HFD2")
+		(at 30.48 194.945 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "931cf634-c6e0-445e-9928-e35400025059")
+		(property "Reference" "J9"
+			(at 28.575 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NMJ6HFD2"
+			(at 28.575 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NMJ6HFD2_Horizontal"
+			(at 30.48 194.945 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.neutrik.com/en/product/nmj6hfd2"
+			(at 30.48 194.945 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "M Series, 6.35mm (1/4in) stereo jack, switched, with full threaded nose and straight PCB pins"
+			(at 30.48 194.945 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "SN"
+			(uuid "1a828108-4418-4c33-9584-ac3d599f9a72")
+		)
+		(pin "S"
+			(uuid "9250bc3f-9e83-4f88-8580-4687b13b3d35")
+		)
+		(pin "R"
+			(uuid "da5e6675-04dd-4c9d-a394-d292a3fd2a90")
+		)
+		(pin "TN"
+			(uuid "28339255-4a8d-430a-a5f1-6c5909161e62")
+		)
+		(pin "RN"
+			(uuid "289c4198-b380-4bbc-82f1-889f7d3f4371")
+		)
+		(pin "T"
+			(uuid "fddc7be4-a828-4e0f-984a-2b9bad28ae9a")
+		)
+		(instances
+			(project "AudioBoard"
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/6c99cd00-a4a2-4f1f-8c45-97dcde60f012"
+					(reference "J9")
 					(unit 1)
 				)
 			)
