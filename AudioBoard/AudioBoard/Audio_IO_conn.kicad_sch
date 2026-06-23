@@ -2504,6 +2504,28 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C368458"
+			(at 70.485 34.925 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C368458"
+			(at 70.485 34.925 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "36fe4cb4-6eed-454b-9ff9-7988eea6f314")
 		)
@@ -2745,6 +2767,28 @@
 			)
 		)
 		(property "Description" "Audio Jack, Dual, 3 Poles (Stereo / TRS), Grounded Sleeve, Switched Poles (Normalling)"
+			(at 131.445 76.835 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C309286"
+			(at 131.445 76.835 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C309286"
 			(at 131.445 76.835 0)
 			(hide yes)
 			(show_name no)
@@ -3025,6 +3069,28 @@
 			)
 		)
 		(property "jlcpcbpart" "C368458"
+			(at 36.195 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C368458"
+			(at 36.195 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C368458"
 			(at 36.195 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -3520,6 +3586,28 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C23689430"
+			(at 33.02 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C23689430"
+			(at 33.02 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "G"
 			(uuid "02f56482-3ce5-4d20-b40a-65e8e1baf486")
 		)
@@ -3596,6 +3684,28 @@
 			)
 		)
 		(property "Description" "M Series, 6.35mm (1/4in) stereo jack, switched, with full threaded nose and straight PCB pins"
+			(at 30.48 194.945 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C309279"
+			(at 30.48 194.945 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C309279"
 			(at 30.48 194.945 0)
 			(hide yes)
 			(show_name no)
@@ -3854,6 +3964,28 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C309279"
+			(at 30.48 160.655 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C309279"
+			(at 30.48 160.655 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "SN"
 			(uuid "fff88dea-c4bf-427e-a79a-245bc1a70665")
 		)
@@ -4024,6 +4156,28 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C309286"
+			(at 130.81 38.735 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C309286"
+			(at 130.81 38.735 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "T2"
 			(uuid "2e63b85c-3343-4190-9acc-52f0e3a06ac4")
 		)
@@ -4137,6 +4291,28 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C309286"
+			(at 76.2 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C309286"
+			(at 76.2 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "T2"
 			(uuid "1b28ae2e-db24-4a6f-b38b-1f1eb88565c6")
 		)
@@ -4240,6 +4416,28 @@
 			)
 		)
 		(property "Description" "XLR Connector, Male or Female, 3 Pins, Discrete Ground Pin"
+			(at 71.755 118.745 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C23689430"
+			(at 71.755 118.745 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C23689430"
 			(at 71.755 118.745 0)
 			(hide yes)
 			(show_name no)
@@ -4414,6 +4612,28 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C309286"
+			(at 167.64 38.735 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C309286"
+			(at 167.64 38.735 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "T2"
 			(uuid "2e63b85c-3343-4190-9acc-52f0e3a06ac5")
 		)
@@ -4517,6 +4737,28 @@
 			)
 		)
 		(property "Description" "Audio Jack, Dual, 3 Poles (Stereo / TRS), Grounded Sleeve, Switched Poles (Normalling)"
+			(at 168.275 76.835 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C309286"
+			(at 168.275 76.835 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C309286"
 			(at 168.275 76.835 0)
 			(hide yes)
 			(show_name no)
@@ -4786,6 +5028,28 @@
 			)
 		)
 		(property "Description" "Audio Jack, Dual, 3 Poles (Stereo / TRS), Grounded Sleeve, Switched Poles (Normalling)"
+			(at 39.37 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C309286"
+			(at 39.37 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C309286"
 			(at 39.37 76.2 0)
 			(hide yes)
 			(show_name no)

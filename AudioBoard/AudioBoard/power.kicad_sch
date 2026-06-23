@@ -1390,6 +1390,28 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C2884748"
+			(at 84.455 38.735 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2884748"
+			(at 84.455 38.735 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "f9b4f5ca-4488-40ff-81d9-8ef30c094355")
 		)
@@ -1474,6 +1496,28 @@
 			)
 		)
 		(property "jlcpcbpart" "C3010533"
+			(at 59.69 33.655 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C3010533"
+			(at 59.69 33.655 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C3010533"
 			(at 59.69 33.655 0)
 			(hide yes)
 			(show_name no)

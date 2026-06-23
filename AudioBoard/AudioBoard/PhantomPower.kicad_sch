@@ -447,6 +447,28 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C2884748"
+			(at 90.805 61.595 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2884748"
+			(at 90.805 61.595 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "da3bdc84-e0be-413d-8bd6-bb129c289aff")
 		)
