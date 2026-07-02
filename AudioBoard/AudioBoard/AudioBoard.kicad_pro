@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [],
@@ -637,7 +637,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "JLCPCB"
+      "sort_field": "Value"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -680,7 +680,7 @@
         "uuid": "dd5d876d-fff7-4cb4-baee-a023036d12ae"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J10,#PWR90",
     "variants": []
   },
   "sheets": [
@@ -745,16 +745,12 @@
       "XLR_output_R"
     ],
     [
-      "11dcaa40-e971-49ab-837d-2cb1f2c35ed1",
-      "XLROUT"
+      "6531c55d-c406-44ac-9a40-6c136019803d",
+      "Logic_Board"
     ],
     [
       "c6b4bf78-79ee-434b-a7ef-765d7a62d4c8",
       "HeadphoneAmplifier"
-    ],
-    [
-      "11dcaa40-e971-49ab-837d-2cb1f2c35ed1",
-      "XLROUT"
     ],
     [
       "08242efd-44db-486f-bfcb-549ee5bdf808",

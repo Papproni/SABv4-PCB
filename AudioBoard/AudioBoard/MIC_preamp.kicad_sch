@@ -5187,10 +5187,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a0ba6a5e-cc73-43f8-ad4c-55ac524be55b")
-		(property "Reference" "U3"
-			(at 159.385 102.87 0)
+		(property "Reference" "U2"
+			(at 160.02 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5200,7 +5199,7 @@
 			)
 		)
 		(property "Value" "NE5532"
-			(at 159.385 100.33 0)
+			(at 159.385 98.425 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5291,7 +5290,7 @@
 		(instances
 			(project "AudioBoard"
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/07626587-873c-4131-ae5a-c23e8e886a82"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)

@@ -1609,10 +1609,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "6a4666d6-c673-48e0-8b29-80d04766fd84")
+			(uuid "e2d49a90-0829-44bf-90b8-12e21ac67b49")
 		)
 		(pin "2"
-			(uuid "e004db1a-f250-49b4-a489-3497611456ed")
+			(uuid "7425028d-19b1-4981-b637-cef0835101e4")
 		)
 		(instances
 			(project "AudioBoard"
@@ -1630,14 +1630,6 @@
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/f3292380-7839-4ae7-9234-9710c22ad032"
 					(reference "C114")
-					(unit 1)
-				)
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/dd7e807f-4b4f-494a-93a3-54e0064135c8/11dcaa40-e971-49ab-837d-2cb1f2c35ed1"
-					(reference "C143")
-					(unit 1)
-				)
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/e87fe4e0-dcc3-4a3a-a2f4-db36aaf0ad2f/11dcaa40-e971-49ab-837d-2cb1f2c35ed1"
-					(reference "C141")
 					(unit 1)
 				)
 			)
@@ -1730,10 +1722,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "df427a0e-2b4d-416f-96e7-399aecbebc18")
+			(uuid "cdbd1575-c77b-4534-98ac-22ff3ee2cbaa")
 		)
 		(pin "2"
-			(uuid "26f79d34-3e85-481e-ba54-c6b3f3329e87")
+			(uuid "65e0c987-d398-4304-af1d-7ef099eb3128")
 		)
 		(instances
 			(project "AudioBoard"
@@ -1751,14 +1743,6 @@
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/f3292380-7839-4ae7-9234-9710c22ad032"
 					(reference "C117")
-					(unit 1)
-				)
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/dd7e807f-4b4f-494a-93a3-54e0064135c8/11dcaa40-e971-49ab-837d-2cb1f2c35ed1"
-					(reference "C149")
-					(unit 1)
-				)
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/e87fe4e0-dcc3-4a3a-a2f4-db36aaf0ad2f/11dcaa40-e971-49ab-837d-2cb1f2c35ed1"
-					(reference "C147")
 					(unit 1)
 				)
 			)
@@ -1831,7 +1815,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "a9ff73a4-20f1-46d1-ae24-26b2bfd323f1")
+			(uuid "1a7bfcfa-5c2a-4cbb-819c-c6bc9bd8a066")
 		)
 		(instances
 			(project "AudioBoard"
@@ -1849,14 +1833,6 @@
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/f3292380-7839-4ae7-9234-9710c22ad032"
 					(reference "#PWR039")
-					(unit 1)
-				)
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/dd7e807f-4b4f-494a-93a3-54e0064135c8/11dcaa40-e971-49ab-837d-2cb1f2c35ed1"
-					(reference "#PWR053")
-					(unit 1)
-				)
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/e87fe4e0-dcc3-4a3a-a2f4-db36aaf0ad2f/11dcaa40-e971-49ab-837d-2cb1f2c35ed1"
-					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -1929,7 +1905,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ab493f32-157f-4a06-aa18-d6643cd9b191")
+			(uuid "ee2110b7-17b9-4bb4-8f57-72c133474c9a")
 		)
 		(instances
 			(project "AudioBoard"
@@ -1947,14 +1923,6 @@
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/f3292380-7839-4ae7-9234-9710c22ad032"
 					(reference "#PWR030")
-					(unit 1)
-				)
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/dd7e807f-4b4f-494a-93a3-54e0064135c8/11dcaa40-e971-49ab-837d-2cb1f2c35ed1"
-					(reference "#PWR052")
-					(unit 1)
-				)
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/e87fe4e0-dcc3-4a3a-a2f4-db36aaf0ad2f/11dcaa40-e971-49ab-837d-2cb1f2c35ed1"
-					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -2047,10 +2015,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "824d8995-a8ae-4214-b386-2e2a7499bfb8")
+			(uuid "cdb264d3-8a40-438d-92db-4d6e3795199b")
 		)
 		(pin "2"
-			(uuid "b8a82c17-7d37-4f0e-b9d5-c964f9574bd9")
+			(uuid "5330939d-f22f-4742-b1a7-10742cecabf1")
 		)
 		(instances
 			(project "AudioBoard"
@@ -2068,14 +2036,6 @@
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/f3292380-7839-4ae7-9234-9710c22ad032"
 					(reference "R71")
-					(unit 1)
-				)
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/dd7e807f-4b4f-494a-93a3-54e0064135c8/11dcaa40-e971-49ab-837d-2cb1f2c35ed1"
-					(reference "R115")
-					(unit 1)
-				)
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/e87fe4e0-dcc3-4a3a-a2f4-db36aaf0ad2f/11dcaa40-e971-49ab-837d-2cb1f2c35ed1"
-					(reference "R112")
 					(unit 1)
 				)
 			)
@@ -2147,7 +2107,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d295e6cd-89b0-4793-a5e9-9029d4bd8d87")
+			(uuid "d0b931c9-6b05-45ef-9283-6b999d9a697f")
 		)
 		(instances
 			(project "AudioBoard"
@@ -2165,14 +2125,6 @@
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/f3292380-7839-4ae7-9234-9710c22ad032"
 					(reference "#PWR096")
-					(unit 1)
-				)
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/dd7e807f-4b4f-494a-93a3-54e0064135c8/11dcaa40-e971-49ab-837d-2cb1f2c35ed1"
-					(reference "#PWR0109")
-					(unit 1)
-				)
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/e87fe4e0-dcc3-4a3a-a2f4-db36aaf0ad2f/11dcaa40-e971-49ab-837d-2cb1f2c35ed1"
-					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -2268,7 +2220,7 @@
 			)
 		)
 		(pin "4"
-			(uuid "7ad62875-091e-456e-a3ce-1909c7698a6b")
+			(uuid "bcff6d82-1d78-4c2f-b468-530de11967f4")
 		)
 		(pin "2"
 			(uuid "320f9942-fb43-42c1-9437-cdb0a7fefa10")
@@ -2280,7 +2232,7 @@
 			(uuid "77c5627d-9e16-4977-9cfd-b6fe6e2ddbc5")
 		)
 		(pin "8"
-			(uuid "6a26e6a7-2e7c-4bd0-bea6-66a69a74f066")
+			(uuid "4b20dc9d-4d23-4838-9b8b-312f2205f9f9")
 		)
 		(pin "5"
 			(uuid "199c1222-9931-4aab-b8d8-6f6b00faf81e")
@@ -2307,14 +2259,6 @@
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/f3292380-7839-4ae7-9234-9710c22ad032"
 					(reference "U8")
-					(unit 3)
-				)
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/dd7e807f-4b4f-494a-93a3-54e0064135c8/11dcaa40-e971-49ab-837d-2cb1f2c35ed1"
-					(reference "U13")
-					(unit 3)
-				)
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/e87fe4e0-dcc3-4a3a-a2f4-db36aaf0ad2f/11dcaa40-e971-49ab-837d-2cb1f2c35ed1"
-					(reference "U12")
 					(unit 3)
 				)
 			)
@@ -2421,10 +2365,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "d84bad28-348d-4eee-b730-dd282b3f38d0")
+			(uuid "53c083cb-7583-404c-b514-a0cf3ff69945")
 		)
 		(pin "1"
-			(uuid "2e80f1d9-d91d-4c05-b764-923ced332994")
+			(uuid "4827c13a-6e35-4ddf-8729-eb926c8d78db")
 		)
 		(instances
 			(project "AudioBoard"
@@ -2442,14 +2386,6 @@
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/f3292380-7839-4ae7-9234-9710c22ad032"
 					(reference "C41")
-					(unit 1)
-				)
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/dd7e807f-4b4f-494a-93a3-54e0064135c8/11dcaa40-e971-49ab-837d-2cb1f2c35ed1"
-					(reference "C62")
-					(unit 1)
-				)
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/e87fe4e0-dcc3-4a3a-a2f4-db36aaf0ad2f/11dcaa40-e971-49ab-837d-2cb1f2c35ed1"
-					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -2542,10 +2478,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "9f41d65c-adc1-4dc9-a73d-89a19ec7ebbf")
+			(uuid "765320c8-a530-4df8-bf51-a9e2a737100f")
 		)
 		(pin "2"
-			(uuid "ada225a7-ea87-4791-b7b3-1caf05915ed6")
+			(uuid "439734c9-81a0-462f-ae89-bc08a7e7fe0d")
 		)
 		(instances
 			(project "AudioBoard"
@@ -2563,14 +2499,6 @@
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/f3292380-7839-4ae7-9234-9710c22ad032"
 					(reference "R67")
-					(unit 1)
-				)
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/dd7e807f-4b4f-494a-93a3-54e0064135c8/11dcaa40-e971-49ab-837d-2cb1f2c35ed1"
-					(reference "R106")
-					(unit 1)
-				)
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/e87fe4e0-dcc3-4a3a-a2f4-db36aaf0ad2f/11dcaa40-e971-49ab-837d-2cb1f2c35ed1"
-					(reference "R104")
 					(unit 1)
 				)
 			)
@@ -2665,10 +2593,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a94314cd-1fa7-4a10-967e-64bb508273e1")
+			(uuid "33fd6f71-2e68-4395-a3de-97bbc162bb74")
 		)
 		(pin "2"
-			(uuid "dc01ac0d-71ff-4641-90fa-46a3b4fcef38")
+			(uuid "43d3f78f-633c-41c8-bf4e-8a6e717ab94a")
 		)
 		(instances
 			(project "AudioBoard"
@@ -2686,14 +2614,6 @@
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/f3292380-7839-4ae7-9234-9710c22ad032"
 					(reference "C113")
-					(unit 1)
-				)
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/dd7e807f-4b4f-494a-93a3-54e0064135c8/11dcaa40-e971-49ab-837d-2cb1f2c35ed1"
-					(reference "C142")
-					(unit 1)
-				)
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/e87fe4e0-dcc3-4a3a-a2f4-db36aaf0ad2f/11dcaa40-e971-49ab-837d-2cb1f2c35ed1"
-					(reference "C140")
 					(unit 1)
 				)
 			)
@@ -2786,10 +2706,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "56cbc220-53ad-4093-971e-aca81f94ae54")
+			(uuid "221bc267-7ce2-4ada-9fd6-036a91eadb68")
 		)
 		(pin "2"
-			(uuid "fe720b3b-124f-43e1-959b-a4df1a672eca")
+			(uuid "fa624982-9659-4826-aa75-4bd40c1122da")
 		)
 		(instances
 			(project "AudioBoard"
@@ -2807,14 +2727,6 @@
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/f3292380-7839-4ae7-9234-9710c22ad032"
 					(reference "R72")
-					(unit 1)
-				)
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/dd7e807f-4b4f-494a-93a3-54e0064135c8/11dcaa40-e971-49ab-837d-2cb1f2c35ed1"
-					(reference "R116")
-					(unit 1)
-				)
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/e87fe4e0-dcc3-4a3a-a2f4-db36aaf0ad2f/11dcaa40-e971-49ab-837d-2cb1f2c35ed1"
-					(reference "R114")
 					(unit 1)
 				)
 			)
@@ -2911,13 +2823,13 @@
 			(uuid "a58e13ab-072d-4b61-bd1b-52f1d4239645")
 		)
 		(pin "2"
-			(uuid "99455dbb-0632-40d4-9ed0-ed6d3cb51e6e")
+			(uuid "4df6cfd0-91d9-4013-a770-1890591b06a1")
 		)
 		(pin "1"
-			(uuid "837a9cd8-c567-4a59-a3f2-afd1ffe02e52")
+			(uuid "9ecb122f-6420-4785-b8e9-2df628a55dc8")
 		)
 		(pin "3"
-			(uuid "245ac15c-093c-40b3-92ea-3118fead7974")
+			(uuid "c10c54a6-3c8a-4b5f-a378-8089f11dfa73")
 		)
 		(pin "8"
 			(uuid "8c2b294e-8eaf-4356-939e-4463db623e67")
@@ -2947,14 +2859,6 @@
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/f3292380-7839-4ae7-9234-9710c22ad032"
 					(reference "U8")
-					(unit 1)
-				)
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/dd7e807f-4b4f-494a-93a3-54e0064135c8/11dcaa40-e971-49ab-837d-2cb1f2c35ed1"
-					(reference "U13")
-					(unit 1)
-				)
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/e87fe4e0-dcc3-4a3a-a2f4-db36aaf0ad2f/11dcaa40-e971-49ab-837d-2cb1f2c35ed1"
-					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -3047,10 +2951,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d229a2c0-bf3e-435a-a2d0-83e56469f26e")
+			(uuid "0692b6da-c924-4236-8ba5-c10835f5c2a4")
 		)
 		(pin "2"
-			(uuid "3c4ce213-4ff6-4076-aad3-d0f4fdd501d5")
+			(uuid "5a657e19-845f-410a-b674-c7db38a1e4d1")
 		)
 		(instances
 			(project "AudioBoard"
@@ -3068,14 +2972,6 @@
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/f3292380-7839-4ae7-9234-9710c22ad032"
 					(reference "R66")
-					(unit 1)
-				)
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/dd7e807f-4b4f-494a-93a3-54e0064135c8/11dcaa40-e971-49ab-837d-2cb1f2c35ed1"
-					(reference "R105")
-					(unit 1)
-				)
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/e87fe4e0-dcc3-4a3a-a2f4-db36aaf0ad2f/11dcaa40-e971-49ab-837d-2cb1f2c35ed1"
-					(reference "R103")
 					(unit 1)
 				)
 			)
@@ -3147,7 +3043,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "42847403-63cd-419a-bd6a-b137d3e657cc")
+			(uuid "a02bdf97-b2fb-4260-b33d-1714565907ad")
 		)
 		(instances
 			(project "AudioBoard"
@@ -3165,14 +3061,6 @@
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/f3292380-7839-4ae7-9234-9710c22ad032"
 					(reference "#PWR098")
-					(unit 1)
-				)
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/dd7e807f-4b4f-494a-93a3-54e0064135c8/11dcaa40-e971-49ab-837d-2cb1f2c35ed1"
-					(reference "#PWR0111")
-					(unit 1)
-				)
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/e87fe4e0-dcc3-4a3a-a2f4-db36aaf0ad2f/11dcaa40-e971-49ab-837d-2cb1f2c35ed1"
-					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -3265,10 +3153,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "fa548cdd-df88-4bd0-9f6a-24e2d27579f6")
+			(uuid "ca46a3d0-615f-4b3c-b6ea-bf9a1f05ad50")
 		)
 		(pin "2"
-			(uuid "82567b1d-c4c6-44ae-bde1-db0eae583e93")
+			(uuid "3b94d067-dd45-4f3d-90bb-92f4a93a0461")
 		)
 		(instances
 			(project "AudioBoard"
@@ -3286,14 +3174,6 @@
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/f3292380-7839-4ae7-9234-9710c22ad032"
 					(reference "R70")
-					(unit 1)
-				)
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/dd7e807f-4b4f-494a-93a3-54e0064135c8/11dcaa40-e971-49ab-837d-2cb1f2c35ed1"
-					(reference "R113")
-					(unit 1)
-				)
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/e87fe4e0-dcc3-4a3a-a2f4-db36aaf0ad2f/11dcaa40-e971-49ab-837d-2cb1f2c35ed1"
-					(reference "R111")
 					(unit 1)
 				)
 			)
@@ -3400,10 +3280,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "8ea71e96-e5e1-4f8d-b21b-5fe10e3c8f4e")
+			(uuid "2130ce02-7283-4141-a457-0da5d4765117")
 		)
 		(pin "1"
-			(uuid "7f58a6b6-51ae-44e8-9971-72568497c57e")
+			(uuid "7798bf38-f7e0-4f72-abf3-04dd889fec67")
 		)
 		(instances
 			(project "AudioBoard"
@@ -3421,14 +3301,6 @@
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/f3292380-7839-4ae7-9234-9710c22ad032"
 					(reference "C39")
-					(unit 1)
-				)
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/dd7e807f-4b4f-494a-93a3-54e0064135c8/11dcaa40-e971-49ab-837d-2cb1f2c35ed1"
-					(reference "C59")
-					(unit 1)
-				)
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/e87fe4e0-dcc3-4a3a-a2f4-db36aaf0ad2f/11dcaa40-e971-49ab-837d-2cb1f2c35ed1"
-					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -3523,10 +3395,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "03c9e21a-cfb8-41ab-b8fa-803cb6083c4d")
+			(uuid "f76b6020-b139-47ad-8bc5-b895d0ebe0e0")
 		)
 		(pin "2"
-			(uuid "4d124017-2f6c-49e3-9b78-11dc94d4260a")
+			(uuid "6996f373-1391-4052-995e-1398cf83b67d")
 		)
 		(instances
 			(project "AudioBoard"
@@ -3544,14 +3416,6 @@
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/f3292380-7839-4ae7-9234-9710c22ad032"
 					(reference "R69")
-					(unit 1)
-				)
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/dd7e807f-4b4f-494a-93a3-54e0064135c8/11dcaa40-e971-49ab-837d-2cb1f2c35ed1"
-					(reference "R110")
-					(unit 1)
-				)
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/e87fe4e0-dcc3-4a3a-a2f4-db36aaf0ad2f/11dcaa40-e971-49ab-837d-2cb1f2c35ed1"
-					(reference "R108")
 					(unit 1)
 				)
 			)
@@ -3646,10 +3510,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "8960de1d-7aed-4f31-abc6-1a20a0d6b0b9")
+			(uuid "c353419c-c736-40a2-9542-b926746033f2")
 		)
 		(pin "2"
-			(uuid "0c1489f5-c8bb-493b-8208-9edb0a1842f0")
+			(uuid "6d5c8520-2519-468b-95aa-67f55a789c41")
 		)
 		(instances
 			(project "AudioBoard"
@@ -3667,14 +3531,6 @@
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/f3292380-7839-4ae7-9234-9710c22ad032"
 					(reference "C116")
-					(unit 1)
-				)
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/dd7e807f-4b4f-494a-93a3-54e0064135c8/11dcaa40-e971-49ab-837d-2cb1f2c35ed1"
-					(reference "C148")
-					(unit 1)
-				)
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/e87fe4e0-dcc3-4a3a-a2f4-db36aaf0ad2f/11dcaa40-e971-49ab-837d-2cb1f2c35ed1"
-					(reference "C145")
 					(unit 1)
 				)
 			)
@@ -3769,10 +3625,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c28e50f7-d7b0-46dd-80aa-52ecfdd3c497")
+			(uuid "2c2803fe-404c-4670-9b50-5ef97c00b1a0")
 		)
 		(pin "2"
-			(uuid "12c0f8ec-9083-4ce5-871a-27d1a74567da")
+			(uuid "549c6989-8b6a-4aed-b36a-36ba96181096")
 		)
 		(instances
 			(project "AudioBoard"
@@ -3790,14 +3646,6 @@
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/f3292380-7839-4ae7-9234-9710c22ad032"
 					(reference "C115")
-					(unit 1)
-				)
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/dd7e807f-4b4f-494a-93a3-54e0064135c8/11dcaa40-e971-49ab-837d-2cb1f2c35ed1"
-					(reference "C146")
-					(unit 1)
-				)
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/e87fe4e0-dcc3-4a3a-a2f4-db36aaf0ad2f/11dcaa40-e971-49ab-837d-2cb1f2c35ed1"
-					(reference "C144")
 					(unit 1)
 				)
 			)
@@ -3892,10 +3740,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d87e992c-751e-43e7-9bc3-d7e26ad4a09f")
+			(uuid "52a17d56-968f-4e38-ab1b-9edcd69f90a7")
 		)
 		(pin "2"
-			(uuid "f9141c76-4191-4980-bcff-d5365006d645")
+			(uuid "8645a112-1920-4d04-b4bb-e3cd2c32151a")
 		)
 		(instances
 			(project "AudioBoard"
@@ -3913,14 +3761,6 @@
 				)
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/f3292380-7839-4ae7-9234-9710c22ad032"
 					(reference "R68")
-					(unit 1)
-				)
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/dd7e807f-4b4f-494a-93a3-54e0064135c8/11dcaa40-e971-49ab-837d-2cb1f2c35ed1"
-					(reference "R109")
-					(unit 1)
-				)
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/e87fe4e0-dcc3-4a3a-a2f4-db36aaf0ad2f/11dcaa40-e971-49ab-837d-2cb1f2c35ed1"
-					(reference "R107")
 					(unit 1)
 				)
 			)
