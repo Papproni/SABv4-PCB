@@ -1931,6 +1931,17 @@
 	)
 	(hierarchical_label "IN_N_P"
 		(shape input)
+		(at 29.845 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "15232580-c756-49c9-8f2a-ada97adfb865")
+	)
+	(hierarchical_label "IN_N_N"
+		(shape input)
 		(at 29.845 90.17 180)
 		(effects
 			(font
@@ -1938,7 +1949,7 @@
 			)
 			(justify right)
 		)
-		(uuid "1c50e5ce-1d18-4b09-8163-64f9f38bb6d4")
+		(uuid "219a4a76-301f-48f3-a1c8-1fac92a02bce")
 	)
 	(hierarchical_label "OUT_P"
 		(shape output)
@@ -1950,17 +1961,6 @@
 			(justify left)
 		)
 		(uuid "59aa3d8e-87ee-4de7-9b66-3e3e55605051")
-	)
-	(hierarchical_label "IN_N_N"
-		(shape input)
-		(at 29.845 114.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "85f255db-66c9-4a83-abca-8f88a0f1917a")
 	)
 	(hierarchical_label "OUT_N"
 		(shape output)
