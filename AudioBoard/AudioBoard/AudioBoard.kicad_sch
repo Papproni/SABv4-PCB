@@ -1115,7 +1115,7 @@
 			)
 		)
 	)
-	(global_label "+48V"
+	(global_label "Phantom_PWR"
 		(shape input)
 		(at 365.125 61.595 0)
 		(fields_autoplaced yes)
@@ -1127,7 +1127,7 @@
 		)
 		(uuid "ac791ef4-991f-4a8f-a492-eaa7dfd46ce8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 373.1902 61.595 0)
+			(at 381.3542 61.595 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2367,16 +2367,6 @@
 				(justify left top)
 			)
 		)
-		(pin "+48V" output
-			(at 360.68 61.595 0)
-			(uuid "53eab563-7377-4dd6-b595-7e9559b19b76")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "+3V3A" output
 			(at 360.68 30.48 0)
 			(uuid "22f84c3c-fd71-4ef9-9e10-1e305598c22d")
@@ -2420,6 +2410,16 @@
 		(pin "-15V" output
 			(at 360.68 52.705 0)
 			(uuid "531a910d-018c-484a-8382-21a24826bbe6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Phantom_PWR" output
+			(at 360.68 61.595 0)
+			(uuid "18d45217-1170-4a51-96ba-1253e006de8f")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -630,6 +630,18 @@
           "label": "jlcpcbpart",
           "name": "jlcpcbpart",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "I",
+          "name": "I",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "esr",
+          "name": "esr",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -680,7 +692,7 @@
         "uuid": "dd5d876d-fff7-4cb4-baee-a023036d12ae"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U3,U12-13,U21,R1-2,C56,C59,C61-62,C81-87,L1,#PWR91-94,#PWR108-111,#PWR121-127,FB1",
     "variants": []
   },
   "sheets": [

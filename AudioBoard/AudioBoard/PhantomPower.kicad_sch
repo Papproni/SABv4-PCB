@@ -308,9 +308,20 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Must Do:\n- 10mA current limiter\n- Voltage of 24 or 48 Low noise"
+		(exclude_from_sim no)
+		(at 27.305 31.115 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d84611d8-b32e-44f6-917f-1c329c5f754b")
+	)
 	(wire
 		(pts
-			(xy 101.6 61.595) (xy 95.885 61.595)
+			(xy 93.345 86.995) (xy 87.63 86.995)
 		)
 		(stroke
 			(width 0)
@@ -320,7 +331,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 64.135) (xy 85.725 64.135)
+			(xy 73.025 89.535) (xy 77.47 89.535)
 		)
 		(stroke
 			(width 0)
@@ -330,7 +341,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.915 59.055) (xy 85.725 59.055)
+			(xy 73.66 84.455) (xy 77.47 84.455)
 		)
 		(stroke
 			(width 0)
@@ -338,9 +349,20 @@
 		)
 		(uuid "fb34b1df-15bb-40a4-9a8e-37a8efacdc26")
 	)
-	(hierarchical_label "+48V_EN_I"
+	(hierarchical_label "Phantom_PWR"
+		(shape output)
+		(at 93.345 86.995 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "282e5b90-6cb1-45d4-9b2b-792a5543865a")
+	)
+	(hierarchical_label "PP_EN_I"
 		(shape input)
-		(at 81.915 59.055 180)
+		(at 73.66 84.455 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -348,17 +370,6 @@
 			(justify right)
 		)
 		(uuid "8429bc9e-380e-4265-aa38-16a57aca95aa")
-	)
-	(hierarchical_label "+48V"
-		(shape output)
-		(at 101.6 61.595 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "907ae665-9adc-4338-80f4-e532c7291ccc")
 	)
 	(hierarchical_label "VIN"
 		(shape input)
@@ -373,7 +384,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT_321")
-		(at 90.805 61.595 180)
+		(at 82.55 86.995 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -384,7 +395,7 @@
 		(fields_autoplaced yes)
 		(uuid "2325e51c-142a-46dd-ab86-dd1b4a7892e8")
 		(property "Reference" "SW2"
-			(at 90.805 70.485 0)
+			(at 82.55 95.885 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -394,7 +405,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT_321"
-			(at 90.805 67.945 0)
+			(at 82.55 93.345 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -404,7 +415,7 @@
 			)
 		)
 		(property "Footprint" "haoyu:SS-12D28G7"
-			(at 90.805 51.435 0)
+			(at 82.55 76.835 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -415,7 +426,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.805 53.975 0)
+			(at 82.55 79.375 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -426,7 +437,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 90.805 61.595 0)
+			(at 82.55 86.995 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -437,7 +448,7 @@
 			)
 		)
 		(property "jlcpcbpart" "C2884748"
-			(at 90.805 61.595 0)
+			(at 82.55 86.995 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -448,7 +459,7 @@
 			)
 		)
 		(property "JLCPCB" "C2884748"
-			(at 90.805 61.595 0)
+			(at 82.55 86.995 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -459,7 +470,7 @@
 			)
 		)
 		(property "LCSC Part" "C2884748"
-			(at 90.805 61.595 0)
+			(at 82.55 86.995 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -489,7 +500,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 64.135 0)
+		(at 73.025 89.535 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -500,7 +511,7 @@
 		(fields_autoplaced yes)
 		(uuid "d167f04f-c766-4209-8c70-e354db8329b2")
 		(property "Reference" "#PWR088"
-			(at 81.28 70.485 0)
+			(at 73.025 95.885 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -511,7 +522,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 69.215 0)
+			(at 73.025 94.615 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -521,7 +532,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 64.135 0)
+			(at 73.025 89.535 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -532,7 +543,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 64.135 0)
+			(at 73.025 89.535 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -543,7 +554,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 64.135 0)
+			(at 73.025 89.535 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
