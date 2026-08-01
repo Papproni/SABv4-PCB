@@ -2062,6 +2062,28 @@
 				)
 			)
 		)
+		(property "I" ""
+			(at 52.705 154.305 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 52.705 154.305 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "1c60ed0b-ef45-4ead-a6c6-e7d66576e372")
 		)
@@ -2281,6 +2303,28 @@
 				)
 			)
 		)
+		(property "I" ""
+			(at 40.64 165.735 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 40.64 165.735 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "35572c06-357b-42bf-93eb-3c26f51c5359")
 		)
@@ -2447,7 +2491,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C4184"
 			(at 115.57 111.125 0)
 			(hide yes)
 			(show_name no)
@@ -2458,7 +2502,29 @@
 				)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "C4184"
+			(at 115.57 111.125 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I" ""
+			(at 115.57 111.125 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
 			(at 115.57 111.125 0)
 			(hide yes)
 			(show_name no)
@@ -2510,7 +2576,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "100R"
 			(at 219.71 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2520,7 +2586,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 219.71 103.378 90)
 			(hide yes)
 			(show_name no)
@@ -2552,7 +2618,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C25076"
 			(at 219.71 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -2563,8 +2629,30 @@
 				)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "C25076"
 			(at 219.71 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I" ""
+			(at 219.71 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 219.71 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2679,6 +2767,28 @@
 				)
 			)
 		)
+		(property "I" ""
+			(at 61.595 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 61.595 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e94e5102-cb52-461f-9484-eed1faa6791a")
 		)
@@ -2784,6 +2894,28 @@
 				)
 			)
 		)
+		(property "I" ""
+			(at 201.295 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 201.295 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "a58e13ab-072d-4b61-bd1b-52f1d4239645")
 		)
@@ -2843,7 +2975,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "100R"
 			(at 220.345 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2853,7 +2985,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 220.345 75.438 90)
 			(hide yes)
 			(show_name no)
@@ -2885,7 +3017,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C25076"
 			(at 220.345 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -2896,8 +3028,30 @@
 				)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "C25076"
 			(at 220.345 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I" ""
+			(at 220.345 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 220.345 73.66 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3026,6 +3180,28 @@
 				)
 			)
 		)
+		(property "I" ""
+			(at 62.23 165.735 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 62.23 165.735 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "32383dd0-b056-4978-a358-314eb08c9f6e")
 		)
@@ -3124,6 +3300,28 @@
 			)
 		)
 		(property "LCSC Part" "C6961"
+			(at 34.925 154.305 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I" ""
+			(at 34.925 154.305 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
 			(at 34.925 154.305 0)
 			(hide yes)
 			(show_name no)
@@ -3338,6 +3536,28 @@
 				)
 			)
 		)
+		(property "I" ""
+			(at 109.855 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 109.855 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4e311490-00ec-46de-8ca2-b7c051a53ea1")
 		)
@@ -3435,6 +3655,28 @@
 			)
 		)
 		(property "LCSC Part" "C4211"
+			(at 48.895 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I" ""
+			(at 48.895 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
 			(at 48.895 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3564,6 +3806,28 @@
 				)
 			)
 		)
+		(property "I" ""
+			(at 40.64 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 40.64 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e972ddbc-59a3-47af-b189-507a711cb2b4")
 		)
@@ -3647,7 +3911,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C4184"
 			(at 201.295 120.015 0)
 			(hide yes)
 			(show_name no)
@@ -3658,8 +3922,30 @@
 				)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "C4184"
 			(at 201.295 120.015 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I" ""
+			(at 201.295 120.015 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 201.295 120.015 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3765,6 +4051,28 @@
 			)
 		)
 		(property "LCSC Part" "C6961"
+			(at 84.455 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I" ""
+			(at 84.455 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
 			(at 84.455 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -3970,6 +4278,28 @@
 			)
 		)
 		(property "LCSC Part" "C6961"
+			(at 150.495 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I" ""
+			(at 150.495 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
 			(at 150.495 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -4269,6 +4599,28 @@
 				)
 			)
 		)
+		(property "I" ""
+			(at 71.755 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 71.755 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "16481156-f723-4d31-af69-1c22b7cb8e45")
 		)
@@ -4365,6 +4717,28 @@
 		)
 		(property "LCSC Part" "C4211"
 			(at 40.005 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I" ""
+			(at 40.005 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 40.005 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4479,6 +4853,28 @@
 				)
 			)
 		)
+		(property "I" ""
+			(at 40.005 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 40.005 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7d15e81b-b876-482d-8d21-fa1d10480194")
 		)
@@ -4562,7 +4958,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C4184"
 			(at 171.45 120.015 0)
 			(hide yes)
 			(show_name no)
@@ -4573,8 +4969,30 @@
 				)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "C4184"
 			(at 171.45 120.015 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I" ""
+			(at 171.45 120.015 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 171.45 120.015 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4681,6 +5099,28 @@
 			)
 		)
 		(property "LCSC Part" "C1620"
+			(at 48.895 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I" ""
+			(at 48.895 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
 			(at 48.895 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -4798,6 +5238,28 @@
 				)
 			)
 		)
+		(property "I" ""
+			(at 48.895 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 48.895 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "240afe24-b3e7-4b7d-be1e-4a57d29bff5e")
 		)
@@ -4894,6 +5356,28 @@
 		)
 		(property "LCSC Part" "C4211"
 			(at 61.595 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I" ""
+			(at 61.595 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 61.595 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5000,6 +5484,28 @@
 			)
 		)
 		(property "LCSC Part" "C4211"
+			(at 48.895 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I" ""
+			(at 48.895 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
 			(at 48.895 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -5277,6 +5783,28 @@
 				)
 			)
 		)
+		(property "I" ""
+			(at 98.425 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 98.425 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cd257735-9de9-4946-b588-47164d6bbd06")
 		)
@@ -5374,6 +5902,28 @@
 			)
 		)
 		(property "LCSC Part" "C14858"
+			(at 71.755 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I" ""
+			(at 71.755 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
 			(at 71.755 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -5493,6 +6043,28 @@
 			)
 		)
 		(property "LCSC Part" "C1591"
+			(at 62.23 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I" ""
+			(at 62.23 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
 			(at 62.23 146.05 0)
 			(hide yes)
 			(show_name no)

@@ -769,16 +769,16 @@
 		(uuid "245813c9-7613-4e40-a2e6-e1ac34efdcc1")
 	)
 	(junction
+		(at 174.625 43.815)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f8cf40b-ffdb-4b5c-b329-755edf0ed8de")
+	)
+	(junction
 		(at 78.74 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3234a4fb-2f8f-492e-9737-0f51a31cf6aa")
-	)
-	(junction
-		(at 174.625 45.085)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6e6ee19b-9533-4257-a24c-a69edb8b027f")
 	)
 	(junction
 		(at 179.07 61.595)
@@ -790,7 +790,7 @@
 		(at 179.07 40.005)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "afae1518-e812-4e1d-ac6e-a252c7b6cb61")
+		(uuid "e48b37e7-ee37-4b6e-9c68-c0cee79c0efe")
 	)
 	(junction
 		(at 57.15 37.465)
@@ -803,6 +803,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4e37bc6-18c3-4e8c-86f7-3d498532524e")
+	)
+	(wire
+		(pts
+			(xy 179.07 38.735) (xy 179.07 40.005)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bbb64c3-eb35-4f33-8da3-65607db249f1")
 	)
 	(wire
 		(pts
@@ -926,7 +936,17 @@
 	)
 	(wire
 		(pts
-			(xy 234.315 43.815) (xy 234.315 57.15)
+			(xy 174.625 43.815) (xy 174.625 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54e0fe62-182e-45a7-8b5a-e5b7909cf0c1")
+	)
+	(wire
+		(pts
+			(xy 234.315 42.545) (xy 234.315 57.15)
 		)
 		(stroke
 			(width 0)
@@ -936,7 +956,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 45.085) (xy 174.625 45.085)
+			(xy 190.5 43.815) (xy 174.625 43.815)
 		)
 		(stroke
 			(width 0)
@@ -956,7 +976,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 39.37) (xy 222.25 39.37)
+			(xy 236.22 38.1) (xy 222.25 38.1)
 		)
 		(stroke
 			(width 0)
@@ -993,26 +1013,6 @@
 			(type default)
 		)
 		(uuid "811dde05-8f5a-429b-a2d6-3fd51ed38332")
-	)
-	(wire
-		(pts
-			(xy 174.625 45.085) (xy 174.625 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81360a3a-a51d-4658-8967-2d6cc125b89f")
-	)
-	(wire
-		(pts
-			(xy 174.625 43.815) (xy 174.625 45.085)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88f0d1cf-505a-4372-86ec-e2324c14846f")
 	)
 	(wire
 		(pts
@@ -1066,7 +1066,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 43.815) (xy 234.315 43.815)
+			(xy 222.25 42.545) (xy 234.315 42.545)
 		)
 		(stroke
 			(width 0)
@@ -1166,7 +1166,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 48.895) (xy 231.775 48.895)
+			(xy 222.25 47.625) (xy 231.775 47.625)
 		)
 		(stroke
 			(width 0)
@@ -1206,7 +1206,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 40.005) (xy 190.5 40.005)
+			(xy 179.07 38.735) (xy 190.5 38.735)
 		)
 		(stroke
 			(width 0)
@@ -1226,7 +1226,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 54.61) (xy 236.22 39.37)
+			(xy 236.22 54.61) (xy 236.22 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1236,7 +1236,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.775 48.895) (xy 231.775 59.69)
+			(xy 231.775 47.625) (xy 231.775 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1344,7 +1344,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 55.372 43.18 90)
 			(hide yes)
 			(show_name no)
@@ -1367,6 +1367,50 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 57.15 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I" ""
+			(at 57.15 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C25741"
+			(at 57.15 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25741"
+			(at 57.15 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
 			(at 57.15 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -1504,7 +1548,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 55.372 53.975 90)
 			(hide yes)
 			(show_name no)
@@ -1527,6 +1571,50 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 57.15 53.975 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I" ""
+			(at 57.15 53.975 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C4184"
+			(at 57.15 53.975 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C4184"
+			(at 57.15 53.975 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
 			(at 57.15 53.975 0)
 			(hide yes)
 			(show_name no)
@@ -1660,7 +1748,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 108.585 53.467 90)
 			(hide yes)
 			(show_name no)
@@ -1684,6 +1772,50 @@
 		)
 		(property "Description" "Resistor"
 			(at 108.585 55.245 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I" ""
+			(at 108.585 55.245 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 108.585 55.245 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C21189"
+			(at 108.585 55.245 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C21189"
+			(at 108.585 55.245 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1796,6 +1928,28 @@
 			)
 		)
 		(property "LCSC Part" "C2884748"
+			(at 71.12 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I" ""
+			(at 71.12 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
 			(at 71.12 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -1990,6 +2144,28 @@
 			)
 		)
 		(property "LCSC Part" "C3010533"
+			(at 37.465 34.925 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I" ""
+			(at 37.465 34.925 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
 			(at 37.465 34.925 0)
 			(hide yes)
 			(show_name no)
@@ -2273,7 +2449,7 @@
 		)
 	)
 	(sheet
-		(at 190.5 38.1)
+		(at 190.5 36.83)
 		(size 31.75 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2289,7 +2465,7 @@
 		)
 		(uuid "90fb3efd-d3f7-4792-a5a6-0ef3ff553a4e")
 		(property "Sheetname" "LoPower"
-			(at 190.5 37.3884 0)
+			(at 190.5 36.1184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2300,7 +2476,7 @@
 			)
 		)
 		(property "Sheetfile" "LoPower.kicad_sch"
-			(at 190.5 51.3846 0)
+			(at 190.5 50.1146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2311,7 +2487,7 @@
 			)
 		)
 		(pin "+3V3A" output
-			(at 222.25 48.895 0)
+			(at 222.25 47.625 0)
 			(uuid "0058de91-a2d7-48c1-9f05-22e6b8633107")
 			(effects
 				(font
@@ -2321,7 +2497,7 @@
 			)
 		)
 		(pin "+3V3D" output
-			(at 222.25 43.815 0)
+			(at 222.25 42.545 0)
 			(uuid "5b94685e-bdc9-42f6-8ce0-6be06a7374e2")
 			(effects
 				(font
@@ -2331,7 +2507,7 @@
 			)
 		)
 		(pin "+5V" output
-			(at 222.25 39.37 0)
+			(at 222.25 38.1 0)
 			(uuid "4ded9820-24c1-4a84-b14f-9d357d8629b6")
 			(effects
 				(font
@@ -2341,7 +2517,7 @@
 			)
 		)
 		(pin "VIN" input
-			(at 190.5 40.005 180)
+			(at 190.5 38.735 180)
 			(uuid "c3af0ebb-23de-4ade-8699-f2acdb4f97f7")
 			(effects
 				(font
@@ -2351,7 +2527,7 @@
 			)
 		)
 		(pin "EN" input
-			(at 190.5 45.085 180)
+			(at 190.5 43.815 180)
 			(uuid "22107925-7d1c-41a8-aa42-fb9ecf411ee8")
 			(effects
 				(font

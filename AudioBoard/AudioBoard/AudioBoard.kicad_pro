@@ -642,6 +642,12 @@
           "label": "esr",
           "name": "esr",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "lcscpart",
+          "name": "lcscpart",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -649,7 +655,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Value"
+      "sort_field": "Footprint"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -692,7 +698,7 @@
         "uuid": "dd5d876d-fff7-4cb4-baee-a023036d12ae"
       }
     ],
-    "used_designators": "J7_PWR_IN1,C56,C59,C61,C99-101,C141-143,SW3_pwr1,U3,R1-2,R46-55,#PWR34,#PWR50-53,#PWR85,#PWR87,#PWR91,#PWR131,#PWR134,#PWR139,#PWR147,FB2-3",
+    "used_designators": "J7_PWR_IN1,C56,C59,C61,C99-101,C141-143,SW3_pwr1,U3,R1-3,R26,R46-55,#PWR34,#PWR50-53,#PWR85,#PWR87,#PWR91,#PWR131,#PWR134,#PWR139,#PWR147,FB2-3",
     "variants": []
   },
   "sheets": [

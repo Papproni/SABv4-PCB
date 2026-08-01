@@ -4698,6 +4698,28 @@
 				)
 			)
 		)
+		(property "I" ""
+			(at 207.645 73.025 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 207.645 73.025 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "43dea17c-51ca-4473-baa6-374284854f3b")
 		)
@@ -4868,6 +4890,28 @@
 			)
 		)
 		(property "LCSC Part" "C7171"
+			(at 252.095 117.475 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I" ""
+			(at 252.095 117.475 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
 			(at 252.095 117.475 0)
 			(hide yes)
 			(show_name no)
@@ -5136,6 +5180,28 @@
 				)
 			)
 		)
+		(property "I" ""
+			(at 247.015 117.475 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 247.015 117.475 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0abcfc65-6ed8-48f0-a364-6366c234d899")
 		)
@@ -5229,6 +5295,28 @@
 			)
 		)
 		(property "LCSC Part" "C16133"
+			(at 248.285 71.755 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I" ""
+			(at 248.285 71.755 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
 			(at 248.285 71.755 0)
 			(hide yes)
 			(show_name no)
@@ -5342,6 +5430,28 @@
 				)
 			)
 		)
+		(property "I" ""
+			(at 188.595 67.945 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 188.595 67.945 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b8506d7b-0fc6-46d7-a1ce-44846ed4c214")
 		)
@@ -5433,6 +5543,28 @@
 			)
 		)
 		(property "LCSC Part" "C2913556"
+			(at 97.155 51.435 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I" ""
+			(at 97.155 51.435 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
 			(at 97.155 51.435 0)
 			(hide yes)
 			(show_name no)
@@ -5719,6 +5851,28 @@
 			)
 		)
 		(property "LCSC Part" "C2913556"
+			(at 100.965 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I" ""
+			(at 100.965 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
 			(at 100.965 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -6018,6 +6172,28 @@
 				)
 			)
 		)
+		(property "I" ""
+			(at 188.595 76.835 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 188.595 76.835 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "83237641-88bd-4ebe-8cf4-9655cd11415a")
 		)
@@ -6111,6 +6287,28 @@
 			)
 		)
 		(property "LCSC Part" "C1588"
+			(at 198.755 73.025 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I" ""
+			(at 198.755 73.025 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
 			(at 198.755 73.025 0)
 			(hide yes)
 			(show_name no)
@@ -6292,6 +6490,28 @@
 			)
 		)
 		(property "LCSC Part" "C14663"
+			(at 243.205 71.755 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I" ""
+			(at 243.205 71.755 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
 			(at 243.205 71.755 0)
 			(hide yes)
 			(show_name no)

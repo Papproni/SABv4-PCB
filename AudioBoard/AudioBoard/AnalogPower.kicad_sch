@@ -1850,6 +1850,12 @@
 		(uuid "ca6b9da4-46cf-4431-aef7-98f220f6276d")
 	)
 	(junction
+		(at 209.55 102.235)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02d8c4ab-72df-44ab-b64c-30710e6b184c")
+	)
+	(junction
 		(at 80.645 90.805)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1880,16 +1886,16 @@
 		(uuid "1d391b83-cb60-4186-924e-317a6a34898c")
 	)
 	(junction
+		(at 198.755 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20535ebe-4bbf-4d76-a544-6fc63bc78c07")
+	)
+	(junction
 		(at 64.135 90.805)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22185373-bf4d-46f5-a94c-730404a90d61")
-	)
-	(junction
-		(at 209.55 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "241af47c-1c3e-4de6-b7b2-f31d65f04b48")
 	)
 	(junction
 		(at 128.27 91.44)
@@ -1916,12 +1922,6 @@
 		(uuid "33539828-f80c-4888-9884-37724d53c0e8")
 	)
 	(junction
-		(at 198.755 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "367bcd9a-7728-4356-b081-7c6b4939aec2")
-	)
-	(junction
 		(at 46.355 106.045)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1932,12 +1932,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42cbbebc-2053-4cd5-ac9a-8e8fe8fe3efa")
-	)
-	(junction
-		(at 219.075 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "467aa0a7-b605-49d2-b061-00a177ab7e01")
 	)
 	(junction
 		(at 66.675 106.045)
@@ -1988,6 +1982,12 @@
 		(uuid "68c9c446-3770-4345-ba79-49706b2172a8")
 	)
 	(junction
+		(at 220.345 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "697dfd06-70ac-47ef-8339-c1e00aeffc41")
+	)
+	(junction
 		(at 34.29 106.045)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2030,12 +2030,6 @@
 		(uuid "900b202d-42d3-4852-89f0-0e516717bde4")
 	)
 	(junction
-		(at 209.55 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "97083239-5dd9-404a-adf1-ed2d38922397")
-	)
-	(junction
 		(at 145.415 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2070,6 +2064,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc1e2e52-ade7-46b7-b02d-5688f4da3141")
+	)
+	(junction
+		(at 220.345 102.235)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d29c4f86-8b95-4692-b119-eb29e8ad7d3e")
 	)
 	(junction
 		(at 20.32 90.805)
@@ -2183,16 +2183,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 93.98) (xy 219.075 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1230f68d-b63c-4149-91e7-dfa06a185153")
-	)
-	(wire
-		(pts
 			(xy 195.58 113.03) (xy 198.755 113.03)
 		)
 		(stroke
@@ -2263,7 +2253,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.075 90.805) (xy 219.075 93.98)
+			(xy 220.345 90.805) (xy 220.345 102.235)
 		)
 		(stroke
 			(width 0)
@@ -2353,7 +2343,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.755 99.06) (xy 198.755 100.33)
+			(xy 198.755 99.06) (xy 198.755 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2623,16 +2613,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 93.98) (xy 209.55 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b8f9a0a-d314-4490-8c8a-775643c43cfc")
-	)
-	(wire
-		(pts
 			(xy 209.55 111.76) (xy 198.755 111.76)
 		)
 		(stroke
@@ -2673,7 +2653,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 103.505) (xy 209.55 104.14)
+			(xy 220.345 110.49) (xy 220.345 112.395)
 		)
 		(stroke
 			(width 0)
@@ -2903,7 +2883,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.755 107.95) (xy 198.755 111.76)
+			(xy 198.755 110.49) (xy 198.755 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2963,7 +2943,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 83.82) (xy 219.075 83.82)
+			(xy 209.55 83.82) (xy 220.345 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3043,23 +3023,13 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 95.25) (xy 209.55 95.885)
+			(xy 220.345 102.235) (xy 220.345 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b99a4dd2-a686-4db5-9eac-4566ae4f5abd")
-	)
-	(wire
-		(pts
-			(xy 209.55 92.71) (xy 209.55 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9ac115e-6d4e-4fc3-8453-26abee29a242")
 	)
 	(wire
 		(pts
@@ -3143,6 +3113,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 92.71) (xy 209.55 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c25e4a3e-8288-4fa6-a77a-713ccc9b3a64")
+	)
+	(wire
+		(pts
 			(xy 127.635 102.87) (xy 127.635 106.68)
 		)
 		(stroke
@@ -3193,7 +3173,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 93.98) (xy 196.215 93.98)
+			(xy 189.23 93.98) (xy 201.93 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3213,17 +3193,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.075 83.82) (xy 229.87 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4a564ae-a3b6-400c-bd52-d2a2c1f620f8")
-	)
-	(wire
-		(pts
-			(xy 196.215 93.98) (xy 196.215 95.25)
+			(xy 201.93 93.98) (xy 201.93 102.235)
 		)
 		(stroke
 			(width 0)
@@ -3280,6 +3250,16 @@
 			(type default)
 		)
 		(uuid "e39ab945-0d1f-4d39-8432-0b687ac38d9a")
+	)
+	(wire
+		(pts
+			(xy 209.55 101.6) (xy 209.55 102.235)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3ad4e79-6582-4650-bebc-291fb63a9166")
 	)
 	(wire
 		(pts
@@ -3363,6 +3343,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 102.235) (xy 220.345 102.235)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f26f9727-79cc-4dcd-9903-15aa16a70c87")
+	)
+	(wire
+		(pts
 			(xy 27.305 90.805) (xy 34.29 90.805)
 		)
 		(stroke
@@ -3383,7 +3373,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.075 83.82) (xy 219.075 85.725)
+			(xy 220.345 83.82) (xy 220.345 85.725)
 		)
 		(stroke
 			(width 0)
@@ -3433,7 +3423,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.215 95.25) (xy 209.55 95.25)
+			(xy 201.93 102.235) (xy 209.55 102.235)
 		)
 		(stroke
 			(width 0)
@@ -3460,6 +3450,16 @@
 			(type default)
 		)
 		(uuid "fa4647a1-82db-46d6-b138-5664e22a7fdb")
+	)
+	(wire
+		(pts
+			(xy 220.345 83.82) (xy 229.87 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feefd86b-9871-48d7-bcc3-8b5748460518")
 	)
 	(image
 		(at 62.23 62.23)
@@ -10918,7 +10918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
 			(at 81.6102 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -10941,6 +10941,50 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 80.645 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I" ""
+			(at 80.645 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 80.645 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C48970701"
+			(at 80.645 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C48970701"
 			(at 80.645 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -11043,6 +11087,28 @@
 			)
 		)
 		(property "LCSC Part" "C2685819"
+			(at 179.07 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I" ""
+			(at 179.07 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
 			(at 179.07 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -11194,6 +11260,28 @@
 				)
 			)
 		)
+		(property "I" ""
+			(at 158.115 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 158.115 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2257d45e-659a-4f6e-aaf4-d612def3d3b1")
 		)
@@ -11204,88 +11292,6 @@
 			(project "AudioBoard"
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/ee404ad0-726e-426f-8607-a7730f1919f6/24ef0f70-6cbf-4c31-95c2-48bcee616c0a"
 					(reference "C93")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 209.55 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2184b43d-3ada-46d4-937a-a2fe1b20568c")
-		(property "Reference" "R3"
-			(at 212.09 87.6299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 212.09 90.1699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.772 88.9 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 209.55 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "80d18936-2d2c-45a1-bff3-04f142324f79")
-		)
-		(pin "1"
-			(uuid "15d00795-7142-4ef9-885c-b05d9f86a360")
-		)
-		(instances
-			(project "AudioBoard"
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/ee404ad0-726e-426f-8607-a7730f1919f6/24ef0f70-6cbf-4c31-95c2-48bcee616c0a"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -11381,6 +11387,28 @@
 		)
 		(property "LCSC Part" "C440198"
 			(at 86.995 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I" ""
+			(at 86.995 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 86.995 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11788,8 +11816,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 219.075 88.265 180)
+		(lib_id "Device:R")
+		(at 209.55 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11798,31 +11826,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4c77d6ff-acf9-48ff-8aa9-27ac1f1bf4a9")
-		(property "Reference" "C88"
-			(at 221.615 86.9885 0)
+		(uuid "41efa59d-e1aa-4942-be80-ddac04090b32")
+		(property "Reference" "R1"
+			(at 211.455 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 221.615 89.5285 0)
+		(property "Value" "39k"
+			(at 211.455 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 219.075 88.265 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 207.772 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11833,7 +11861,237 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.075 88.265 0)
+			(at 209.55 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 209.55 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C23153"
+			(at 209.55 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C23153"
+			(at 209.55 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4b9287e0-ade1-49d0-a691-70773bd65edd")
+		)
+		(pin "2"
+			(uuid "8aa87bce-80ac-484e-bb35-4d83e6709609")
+		)
+		(instances
+			(project "AudioBoard"
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/ee404ad0-726e-426f-8607-a7730f1919f6/24ef0f70-6cbf-4c31-95c2-48bcee616c0a"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 198.755 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "470feeed-99b0-4d2f-a862-2e41bb9b6e7d")
+		(property "Reference" "R3"
+			(at 201.295 116.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 201.295 119.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 196.977 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.755 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 198.755 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I" ""
+			(at 198.755 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C25741"
+			(at 198.755 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25741"
+			(at 198.755 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 198.755 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7f26db4e-ca86-4483-957d-68cd3d88dba3")
+		)
+		(pin "1"
+			(uuid "efc65e96-65b0-40ad-9678-e8ee10687a1c")
+		)
+		(instances
+			(project "AudioBoard"
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/ee404ad0-726e-426f-8607-a7730f1919f6/24ef0f70-6cbf-4c31-95c2-48bcee616c0a"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 220.345 88.265 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c77d6ff-acf9-48ff-8aa9-27ac1f1bf4a9")
+		(property "Reference" "C88"
+			(at 222.885 86.9885 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 222.885 89.5285 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 220.345 88.265 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.345 88.265 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11844,7 +12102,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 219.075 88.265 0)
+			(at 220.345 88.265 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11855,7 +12113,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 219.075 88.265 0)
+			(at 220.345 88.265 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11866,7 +12124,7 @@
 			)
 		)
 		(property "JLCPCB" "C1591"
-			(at 219.075 88.265 90)
+			(at 220.345 88.265 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11877,7 +12135,29 @@
 			)
 		)
 		(property "LCSC Part" "C1591"
-			(at 219.075 88.265 90)
+			(at 220.345 88.265 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I" ""
+			(at 220.345 88.265 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 220.345 88.265 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11957,6 +12237,50 @@
 		)
 		(property "Description" "-40℃~+105℃ 10MΩ 125V 1kΩ@10MHz、2.6kΩ@10MHz 200mA 50V 51uH@100kHz 700mΩ SMD-4P,3.2x2.5mm Common Mode Filters ROHS"
 			(at 140.589 101.092 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I" ""
+			(at 136.525 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 136.525 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C49420293"
+			(at 136.525 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C49420293"
+			(at 136.525 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12066,6 +12390,28 @@
 			)
 		)
 		(property "LCSC Part" "C21714378"
+			(at 103.505 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I" ""
+			(at 103.505 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
 			(at 103.505 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -12205,6 +12551,28 @@
 				)
 			)
 		)
+		(property "I" ""
+			(at 152.4 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 152.4 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "87bcb258-8cc2-4bff-8a7d-0a63f664dd70")
 		)
@@ -12253,7 +12621,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
 			(at 35.2552 99.695 0)
 			(hide yes)
 			(show_name no)
@@ -12276,6 +12644,50 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 34.29 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I" ""
+			(at 34.29 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 34.29 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C48970701"
+			(at 34.29 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C48970701"
 			(at 34.29 95.885 0)
 			(hide yes)
 			(show_name no)
@@ -12334,7 +12746,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
 			(at 67.6402 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -12367,6 +12779,50 @@
 				)
 			)
 		)
+		(property "I" ""
+			(at 66.675 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 66.675 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C48970701"
+			(at 66.675 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C48970701"
+			(at 66.675 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f2d7ad00-eff2-4022-975c-5694ea84a7b8")
 		)
@@ -12384,7 +12840,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 209.55 99.695 0)
+		(at 220.345 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12395,7 +12851,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c8c7904-1e6b-4ce2-85f0-22cb5355e1ef")
 		(property "Reference" "R7"
-			(at 211.455 98.4249 0)
+			(at 222.25 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12406,7 +12862,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 211.455 100.9649 0)
+			(at 222.25 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12416,8 +12872,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 207.772 99.695 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 218.567 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12428,7 +12884,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 99.695 0)
+			(at 220.345 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12439,7 +12895,51 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 209.55 99.695 0)
+			(at 220.345 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I" ""
+			(at 220.345 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 220.345 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C4184"
+			(at 220.345 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C4184"
+			(at 220.345 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12647,7 +13147,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 136.525 93.218 90)
 			(hide yes)
 			(show_name no)
@@ -12691,7 +13191,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C21189"
 			(at 136.525 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -12702,7 +13202,29 @@
 				)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "C21189"
+			(at 136.525 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I" ""
+			(at 136.525 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
 			(at 136.525 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -12783,6 +13305,50 @@
 		)
 		(property "Description" "-40℃~+105℃ 10MΩ 125V 1kΩ@10MHz、2.6kΩ@10MHz 200mA 50V 51uH@100kHz 700mΩ SMD-4P,3.2x2.5mm Common Mode Filters ROHS"
 			(at 59.309 100.457 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I" ""
+			(at 55.245 99.695 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 55.245 99.695 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C49420293"
+			(at 55.245 99.695 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C49420293"
+			(at 55.245 99.695 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12912,6 +13478,28 @@
 				)
 			)
 		)
+		(property "I" ""
+			(at 41.91 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 41.91 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8df8d3ab-1974-48b4-b54b-cae63a59f8d9")
 		)
@@ -13027,6 +13615,28 @@
 				)
 			)
 		)
+		(property "I" ""
+			(at 229.87 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 229.87 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e4f7c3b6-47a5-4b72-b029-132f356cb950")
 		)
@@ -13044,7 +13654,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 209.55 104.14 0)
+		(at 220.345 112.395 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13055,7 +13665,7 @@
 		(fields_autoplaced yes)
 		(uuid "88c683c7-c8ec-45a4-bf1e-dfb75d0af72b")
 		(property "Reference" "#PWR0128"
-			(at 209.55 110.49 0)
+			(at 220.345 118.745 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13066,7 +13676,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 209.55 109.22 0)
+			(at 220.345 117.475 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13076,7 +13686,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 104.14 0)
+			(at 220.345 112.395 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13087,7 +13697,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 104.14 0)
+			(at 220.345 112.395 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13098,7 +13708,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 209.55 104.14 0)
+			(at 220.345 112.395 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13204,6 +13814,28 @@
 				)
 			)
 		)
+		(property "I" ""
+			(at 164.465 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 164.465 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9ecccb46-1695-4b14-9f45-30ee7bd1bbd6")
 		)
@@ -13252,7 +13884,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
 			(at 28.2702 99.695 0)
 			(hide yes)
 			(show_name no)
@@ -13275,6 +13907,50 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 27.305 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I" ""
+			(at 27.305 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 27.305 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C48970701"
+			(at 27.305 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C48970701"
 			(at 27.305 95.885 0)
 			(hide yes)
 			(show_name no)
@@ -13477,6 +14153,28 @@
 				)
 			)
 		)
+		(property "I" ""
+			(at 209.55 117.475 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 209.55 117.475 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ac49474c-6025-4faa-81a6-0baae7b09d09")
 		)
@@ -13525,7 +14223,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
 			(at 21.2852 99.695 0)
 			(hide yes)
 			(show_name no)
@@ -13558,6 +14256,50 @@
 				)
 			)
 		)
+		(property "I" ""
+			(at 20.32 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 20.32 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C48970701"
+			(at 20.32 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C48970701"
+			(at 20.32 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8a3d109e-af54-462f-a364-0dbd433f94d1")
 		)
@@ -13568,88 +14310,6 @@
 			(project "AudioBoard"
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/ee404ad0-726e-426f-8607-a7730f1919f6/24ef0f70-6cbf-4c31-95c2-48bcee616c0a"
 					(reference "C103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 198.755 118.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a5e478b9-a434-4a90-b7bc-91a311310987")
-		(property "Reference" "R26"
-			(at 200.66 116.8399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "90k"
-			(at 200.66 119.3799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.977 118.11 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.755 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 198.755 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "452b25e9-b936-420c-90c8-d373dca524f0")
-		)
-		(pin "1"
-			(uuid "b77139a9-3df4-43bc-8b61-21d9da2e1591")
-		)
-		(instances
-			(project "AudioBoard"
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/ee404ad0-726e-426f-8607-a7730f1919f6/24ef0f70-6cbf-4c31-95c2-48bcee616c0a"
-					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -13745,6 +14405,28 @@
 		)
 		(property "LCSC Part" "C1591"
 			(at 165.1 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I" ""
+			(at 165.1 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 165.1 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13869,6 +14551,28 @@
 				)
 			)
 		)
+		(property "I" ""
+			(at 230.505 126.365 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 230.505 126.365 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bfa7569d-c939-47a5-9ce6-b527ec203a6c")
 		)
@@ -13915,7 +14619,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 55.245 92.583 90)
 			(hide yes)
 			(show_name no)
@@ -13959,7 +14663,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C21189"
 			(at 55.245 90.805 90)
 			(hide yes)
 			(show_name no)
@@ -13970,7 +14674,29 @@
 				)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "C21189"
+			(at 55.245 90.805 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I" ""
+			(at 55.245 90.805 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
 			(at 55.245 90.805 90)
 			(hide yes)
 			(show_name no)
@@ -14103,7 +14829,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 137.795 108.458 90)
 			(hide yes)
 			(show_name no)
@@ -14147,7 +14873,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C21189"
 			(at 137.795 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -14158,7 +14884,29 @@
 				)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "C21189"
+			(at 137.795 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I" ""
+			(at 137.795 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
 			(at 137.795 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -14283,6 +15031,28 @@
 				)
 			)
 		)
+		(property "I" ""
+			(at 149.86 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 149.86 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "992414ce-856d-4c6c-932c-cc3660bcd041")
 		)
@@ -14331,7 +15101,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
 			(at 74.6252 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -14364,6 +15134,50 @@
 				)
 			)
 		)
+		(property "I" ""
+			(at 73.66 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 73.66 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C48970701"
+			(at 73.66 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C48970701"
+			(at 73.66 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a5423a52-8d49-4be8-9bb0-48a3aca1684b")
 		)
@@ -14381,7 +15195,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 198.755 104.14 0)
+		(at 198.755 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14392,17 +15206,6 @@
 		(fields_autoplaced yes)
 		(uuid "e3aae075-134e-4ea4-9539-af7d654dbd11")
 		(property "Reference" "R25"
-			(at 201.295 102.8699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
 			(at 201.295 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14413,8 +15216,19 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 196.977 104.14 90)
+		(property "Value" "10k"
+			(at 201.295 107.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 196.977 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14425,7 +15239,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.755 104.14 0)
+			(at 198.755 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14436,7 +15250,51 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 198.755 104.14 0)
+			(at 198.755 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I" ""
+			(at 198.755 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 198.755 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C4184"
+			(at 198.755 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C4184"
+			(at 198.755 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14568,7 +15426,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 56.515 107.823 90)
 			(hide yes)
 			(show_name no)
@@ -14612,7 +15470,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C21189"
 			(at 56.515 106.045 90)
 			(hide yes)
 			(show_name no)
@@ -14623,7 +15481,29 @@
 				)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "C21189"
+			(at 56.515 106.045 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I" ""
+			(at 56.515 106.045 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
 			(at 56.515 106.045 90)
 			(hide yes)
 			(show_name no)
@@ -14644,6 +15524,110 @@
 			(project "AudioBoard"
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/ee404ad0-726e-426f-8607-a7730f1919f6/24ef0f70-6cbf-4c31-95c2-48bcee616c0a"
 					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 209.55 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1e385dd-0863-4405-bc76-836d286e1869")
+		(property "Reference" "R2"
+			(at 211.455 96.5199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "51k"
+			(at 211.455 99.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 207.772 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 209.55 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C23196"
+			(at 209.55 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C23196"
+			(at 209.55 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6ac46f3c-279a-4c69-81df-989ba13dfbb3")
+		)
+		(pin "2"
+			(uuid "ba02baa3-c1f2-4ac7-b977-e6c9a23b22c3")
+		)
+		(instances
+			(project "AudioBoard"
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/ee404ad0-726e-426f-8607-a7730f1919f6/24ef0f70-6cbf-4c31-95c2-48bcee616c0a"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -14739,6 +15723,28 @@
 		)
 		(property "LCSC Part" "C440198"
 			(at 162.56 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I" ""
+			(at 162.56 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 162.56 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14853,6 +15859,28 @@
 		)
 		(property "LCSC Part" "C440198"
 			(at 156.845 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I" ""
+			(at 156.845 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 156.845 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

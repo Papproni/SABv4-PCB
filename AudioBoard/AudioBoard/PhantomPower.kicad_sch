@@ -480,6 +480,28 @@
 				)
 			)
 		)
+		(property "I" ""
+			(at 82.55 86.995 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 82.55 86.995 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "da3bdc84-e0be-413d-8bd6-bb129c289aff")
 		)

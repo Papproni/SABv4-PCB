@@ -825,6 +825,28 @@
 				)
 			)
 		)
+		(property "I" ""
+			(at 75.565 34.925 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "esr" ""
+			(at 75.565 34.925 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "df562f9d-fa5a-4617-aeda-842ab224dd80")
 		)
