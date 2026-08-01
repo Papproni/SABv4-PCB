@@ -2397,7 +2397,7 @@
 				(justify right)
 			)
 		)
-		(pin "+15V" output
+		(pin "+12V" output
 			(at 360.68 48.895 0)
 			(uuid "34422c87-2fc9-4fbc-9a10-58c3134af53a")
 			(effects
@@ -2407,7 +2407,7 @@
 				(justify right)
 			)
 		)
-		(pin "-15V" output
+		(pin "-12V" output
 			(at 360.68 52.705 0)
 			(uuid "531a910d-018c-484a-8382-21a24826bbe6")
 			(effects

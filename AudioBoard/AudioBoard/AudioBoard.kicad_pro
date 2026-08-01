@@ -692,7 +692,7 @@
         "uuid": "dd5d876d-fff7-4cb4-baee-a023036d12ae"
       }
     ],
-    "used_designators": "U3,U12-13,U21,R1-2,C56,C59,C61-62,C81-87,L1,#PWR91-94,#PWR108-111,#PWR121-127,FB1",
+    "used_designators": "J7_PWR_IN1,C56,C59,C61,C99-101,C141-143,SW3_pwr1,U3,R1-2,R46-55,#PWR34,#PWR50-53,#PWR85,#PWR87,#PWR91,#PWR131,#PWR134,#PWR139,#PWR147,FB2-3",
     "variants": []
   },
   "sheets": [
@@ -763,6 +763,10 @@
     [
       "c6b4bf78-79ee-434b-a7ef-765d7a62d4c8",
       "HeadphoneAmplifier"
+    ],
+    [
+      "39205834-7616-42ff-891c-23bfa31d4b17",
+      "input_pwr_protection"
     ],
     [
       "08242efd-44db-486f-bfcb-549ee5bdf808",
