@@ -1,0 +1,912 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "38beba88-eb68-41b9-84ef-edb3ad05cc58")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 96.52 76.835) (xy 103.505 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "214f427e-57a3-43ef-944b-0010efa3775e")
+	)
+	(wire
+		(pts
+			(xy 72.39 90.17) (xy 80.01 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "285923c6-66ca-44f7-9f57-089e8e5d7cf7")
+	)
+	(wire
+		(pts
+			(xy 96.52 94.615) (xy 103.505 94.615)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f7eefc7-5d85-4140-9e01-2d2b2694b824")
+	)
+	(wire
+		(pts
+			(xy 72.39 63.5) (xy 80.01 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4634f4a7-bc94-49a8-9821-63f9c3a75052")
+	)
+	(wire
+		(pts
+			(xy 72.39 67.945) (xy 80.01 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "683e83db-7fa6-4eff-9e1a-d6bde6ed7200")
+	)
+	(wire
+		(pts
+			(xy 96.52 72.39) (xy 103.505 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "715686f8-a90e-4377-a40f-002009fe760d")
+	)
+	(wire
+		(pts
+			(xy 72.39 94.615) (xy 80.01 94.615)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c925875-3846-46a4-871e-a58ab0629abb")
+	)
+	(wire
+		(pts
+			(xy 96.52 63.5) (xy 103.505 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d97f84a-885e-4850-9243-89083f0da8cc")
+	)
+	(wire
+		(pts
+			(xy 72.39 76.835) (xy 80.01 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ac9aa7d-b202-4caf-90fd-92ae5bed6a7a")
+	)
+	(wire
+		(pts
+			(xy 103.505 81.28) (xy 96.52 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a005443a-ba77-4c00-982f-fea0211981f4")
+	)
+	(wire
+		(pts
+			(xy 72.39 81.28) (xy 80.01 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2306c02-0ae2-4a49-96a1-a2cd7dd05eeb")
+	)
+	(wire
+		(pts
+			(xy 96.52 67.945) (xy 103.505 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b00574e0-c96c-4186-a6c4-c4b8426948b6")
+	)
+	(wire
+		(pts
+			(xy 72.39 85.725) (xy 80.01 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c482595b-ad9d-416d-aa1b-2f9715dfd05a")
+	)
+	(wire
+		(pts
+			(xy 72.39 72.39) (xy 80.01 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c58774dd-4501-4eb6-bfd7-6f6c1609ad12")
+	)
+	(wire
+		(pts
+			(xy 96.52 85.725) (xy 103.505 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccc536e9-60de-423f-9958-846c3a2905f9")
+	)
+	(wire
+		(pts
+			(xy 96.52 90.17) (xy 103.505 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6e41128-4788-44ae-9a6a-46ebee883f3a")
+	)
+	(hierarchical_label "OUT6"
+		(shape output)
+		(at 103.505 85.725 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0f635fd6-8004-40c6-a41b-1df82c792403")
+	)
+	(hierarchical_label "OUT3"
+		(shape output)
+		(at 103.505 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "29a788fb-6bf0-4751-8e48-94e3a4180e42")
+	)
+	(hierarchical_label "IN8"
+		(shape input)
+		(at 72.39 94.615 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2e0bb209-a95c-4841-b673-eac5a2f16ec7")
+	)
+	(hierarchical_label "IN2"
+		(shape input)
+		(at 72.39 67.945 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6597e6bf-ea92-4e84-a982-fce63e378da7")
+	)
+	(hierarchical_label "OUT4"
+		(shape output)
+		(at 103.505 76.835 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7588798c-e209-4f5b-9500-fbc0d7916f19")
+	)
+	(hierarchical_label "OUT8"
+		(shape output)
+		(at 103.505 94.615 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "77fa6bd3-237c-4410-a7c9-85acd27392af")
+	)
+	(hierarchical_label "IN3"
+		(shape input)
+		(at 72.39 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "80a98710-73c0-4fce-8129-31c0d205aa8e")
+	)
+	(hierarchical_label "OUT1"
+		(shape output)
+		(at 103.505 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8d9f0fa8-3e6f-4ee1-a1a7-a192c5e6c278")
+	)
+	(hierarchical_label "IN6"
+		(shape input)
+		(at 72.39 85.725 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a389b70b-a183-4ca6-84ad-f174312e3fce")
+	)
+	(hierarchical_label "OUT2"
+		(shape output)
+		(at 103.505 67.945 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a9b20e40-dc1a-4f0a-a3e2-bb103645b4f7")
+	)
+	(hierarchical_label "IN7"
+		(shape input)
+		(at 72.39 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ad86c1c5-3ed6-4541-b4f8-85939f5178bd")
+	)
+	(hierarchical_label "IN4"
+		(shape input)
+		(at 72.39 76.835 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c2979f23-6923-4c39-a924-916ce82385b5")
+	)
+	(hierarchical_label "OUT7"
+		(shape output)
+		(at 103.505 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cc3870f3-a5cd-4f12-9283-b40b5f646ad2")
+	)
+	(hierarchical_label "IN1"
+		(shape input)
+		(at 72.39 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e2669b73-84d7-4d6d-9be7-15a1f50e1560")
+	)
+	(hierarchical_label "OUT5"
+		(shape output)
+		(at 103.505 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e5e18816-25aa-4a6a-8a8d-2d08e07d661f")
+	)
+	(hierarchical_label "IN5"
+		(shape input)
+		(at 72.39 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e6c6a126-f57b-4686-af66-ee0ddb657bda")
+	)
+	(sheet
+		(at 80.01 70.485)
+		(size 16.51 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0560e758-f949-47bd-a4f6-3876d222462e")
+		(property "Sheetname" "fsw_lpf2"
+			(at 80.01 69.7734 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fsw_lpf.kicad_sch"
+			(at 80.01 74.8796 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 80.01 72.39 180)
+			(uuid "cfce2b91-42a3-4029-a036-9c1539d33959")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT_FILT" output
+			(at 96.52 72.39 0)
+			(uuid "6a8f8c39-14ab-4cbd-8a1d-6ad302c27fe3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "AudioBoard"
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/16830e07-4680-4afb-a401-9eef6cd884a6/3baa4b27-16ff-4448-a5a4-b2e5d92533d9"
+					(page "25")
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/16830e07-4680-4afb-a401-9eef6cd884a6/eea271a8-7865-49cc-a307-5356bb03c813"
+					(page "34")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 80.01 83.82)
+		(size 16.51 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1f81dc81-802d-446f-b6f0-0a7712c3ef9a")
+		(property "Sheetname" "fsw_lpf5"
+			(at 80.01 83.1084 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fsw_lpf.kicad_sch"
+			(at 80.01 88.2146 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 80.01 85.725 180)
+			(uuid "c488e2e0-c12b-4181-bda7-5d42360f244b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT_FILT" output
+			(at 96.52 85.725 0)
+			(uuid "84921ff9-23aa-4396-bdfd-0d37b6727234")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "AudioBoard"
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/16830e07-4680-4afb-a401-9eef6cd884a6/3baa4b27-16ff-4448-a5a4-b2e5d92533d9"
+					(page "28")
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/16830e07-4680-4afb-a401-9eef6cd884a6/eea271a8-7865-49cc-a307-5356bb03c813"
+					(page "37")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 80.01 74.93)
+		(size 16.51 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "438d98a5-7bd9-4d4d-8698-fffc9159e707")
+		(property "Sheetname" "fsw_lpf3"
+			(at 80.01 74.2184 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fsw_lpf.kicad_sch"
+			(at 80.01 79.3246 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 80.01 76.835 180)
+			(uuid "d79f104f-ba75-44c6-a85a-07b3ff78f13a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT_FILT" output
+			(at 96.52 76.835 0)
+			(uuid "c7cdcf23-817f-4c5a-b715-b3529ef5fe8f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "AudioBoard"
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/16830e07-4680-4afb-a401-9eef6cd884a6/3baa4b27-16ff-4448-a5a4-b2e5d92533d9"
+					(page "29")
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/16830e07-4680-4afb-a401-9eef6cd884a6/eea271a8-7865-49cc-a307-5356bb03c813"
+					(page "38")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 80.01 79.375)
+		(size 16.51 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5328fdf2-2674-4c6a-b332-4a21d8fec109")
+		(property "Sheetname" "fsw_lpf4"
+			(at 80.01 78.6634 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fsw_lpf.kicad_sch"
+			(at 80.01 83.7696 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 80.01 81.28 180)
+			(uuid "211d1ea6-66be-49cd-ad23-1bccae019c77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT_FILT" output
+			(at 96.52 81.28 0)
+			(uuid "868725fb-f0a2-4081-8516-6175e6bdbbea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "AudioBoard"
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/16830e07-4680-4afb-a401-9eef6cd884a6/3baa4b27-16ff-4448-a5a4-b2e5d92533d9"
+					(page "30")
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/16830e07-4680-4afb-a401-9eef6cd884a6/eea271a8-7865-49cc-a307-5356bb03c813"
+					(page "39")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 80.01 88.265)
+		(size 16.51 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7de1f841-4921-4b34-8c3b-00b42f588390")
+		(property "Sheetname" "fsw_lpf6"
+			(at 80.01 87.5534 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fsw_lpf.kicad_sch"
+			(at 80.01 92.6596 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 80.01 90.17 180)
+			(uuid "032ed9bd-d16d-4cf1-85ca-dde6c31ae4af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT_FILT" output
+			(at 96.52 90.17 0)
+			(uuid "e7f589ea-8972-4a77-bb98-87d6b1659b3a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "AudioBoard"
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/16830e07-4680-4afb-a401-9eef6cd884a6/3baa4b27-16ff-4448-a5a4-b2e5d92533d9"
+					(page "31")
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/16830e07-4680-4afb-a401-9eef6cd884a6/eea271a8-7865-49cc-a307-5356bb03c813"
+					(page "40")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 80.01 66.04)
+		(size 16.51 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8a8faa70-cc70-4eb3-b4ea-7ccd73216d00")
+		(property "Sheetname" "fsw_lpf1"
+			(at 80.01 65.3284 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fsw_lpf.kicad_sch"
+			(at 80.01 70.4346 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 80.01 67.945 180)
+			(uuid "4be5dd4c-83e0-4a50-9138-a5e77bad433d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT_FILT" output
+			(at 96.52 67.945 0)
+			(uuid "2622f75b-6cb1-437b-9cdb-5d06f682a304")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "AudioBoard"
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/16830e07-4680-4afb-a401-9eef6cd884a6/3baa4b27-16ff-4448-a5a4-b2e5d92533d9"
+					(page "26")
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/16830e07-4680-4afb-a401-9eef6cd884a6/eea271a8-7865-49cc-a307-5356bb03c813"
+					(page "35")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 80.01 61.595)
+		(size 16.51 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8d9656c5-0b48-433d-8828-a35363e1e7ac")
+		(property "Sheetname" "fsw_lpf"
+			(at 80.01 60.8834 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fsw_lpf.kicad_sch"
+			(at 80.01 65.9896 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 80.01 63.5 180)
+			(uuid "b459334d-1d39-430b-be27-1fa13cfaac59")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT_FILT" output
+			(at 96.52 63.5 0)
+			(uuid "70bd507e-027e-4bb2-8ea5-0d570874f8af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "AudioBoard"
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/16830e07-4680-4afb-a401-9eef6cd884a6/3baa4b27-16ff-4448-a5a4-b2e5d92533d9"
+					(page "27")
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/16830e07-4680-4afb-a401-9eef6cd884a6/eea271a8-7865-49cc-a307-5356bb03c813"
+					(page "36")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 80.01 92.71)
+		(size 16.51 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b1d0743e-a18c-4ab8-882d-dc8bc5ab132b")
+		(property "Sheetname" "fsw_lpf7"
+			(at 80.01 91.9984 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fsw_lpf.kicad_sch"
+			(at 80.01 97.1046 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 80.01 94.615 180)
+			(uuid "176f97d0-0022-4d2e-9ad8-936729b868a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT_FILT" output
+			(at 96.52 94.615 0)
+			(uuid "87347775-5b72-41ea-826c-cf8211c13033")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "AudioBoard"
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/16830e07-4680-4afb-a401-9eef6cd884a6/3baa4b27-16ff-4448-a5a4-b2e5d92533d9"
+					(page "32")
+				)
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/16830e07-4680-4afb-a401-9eef6cd884a6/eea271a8-7865-49cc-a307-5356bb03c813"
+					(page "41")
+				)
+			)
+		)
+	)
+)

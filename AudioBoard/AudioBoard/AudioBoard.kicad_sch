@@ -4,7 +4,147 @@
 	(generator_version "10.0")
 	(uuid "dd5d876d-fff7-4cb4-baee-a023036d12ae")
 	(paper "A3")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "power:+5V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
 	(text "--OUTPUT--"
 		(exclude_from_sim no)
 		(at 59.69 99.695 0)
@@ -24,6 +164,12 @@
 			)
 		)
 		(uuid "f018febc-5abf-49e3-9d7b-3a739333ae83")
+	)
+	(junction
+		(at 255.27 32.385)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82548066-515d-4b6e-b0a2-a1f67e8ccea4")
 	)
 	(wire
 		(pts
@@ -107,7 +253,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 181.61) (xy 83.82 181.61)
+			(xy 82.55 182.245) (xy 83.82 182.245)
 		)
 		(stroke
 			(width 0)
@@ -127,7 +273,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 71.755) (xy 67.31 80.645)
+			(xy 67.31 74.295) (xy 67.31 80.645)
 		)
 		(stroke
 			(width 0)
@@ -337,16 +483,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.105 68.58) (xy 53.34 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b4a900a-4617-4d7e-8768-7dd6d07b220e")
-	)
-	(wire
-		(pts
 			(xy 151.765 33.655) (xy 151.765 37.465)
 		)
 		(stroke
@@ -354,6 +490,16 @@
 			(type default)
 		)
 		(uuid "53b2b025-de9c-447e-b254-879966f69250")
+	)
+	(wire
+		(pts
+			(xy 53.34 71.12) (xy 67.31 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5635e7dc-730a-4f38-bf61-ef89a0f80531")
 	)
 	(wire
 		(pts
@@ -407,6 +553,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 65.405) (xy 78.105 65.405)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5df4a8dc-4a09-4223-85bd-e5e639237224")
+	)
+	(wire
+		(pts
 			(xy 121.285 81.915) (xy 130.175 81.915)
 		)
 		(stroke
@@ -437,7 +593,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 71.755) (xy 67.31 71.755)
+			(xy 53.34 74.295) (xy 67.31 74.295)
 		)
 		(stroke
 			(width 0)
@@ -497,7 +653,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 26.67) (xy 364.49 26.67)
+			(xy 245.11 36.195) (xy 247.65 36.195)
 		)
 		(stroke
 			(width 0)
@@ -597,7 +753,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 181.61) (xy 82.55 188.595)
+			(xy 82.55 182.245) (xy 82.55 188.595)
 		)
 		(stroke
 			(width 0)
@@ -627,7 +783,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.125 52.705) (xy 360.68 52.705)
+			(xy 247.015 48.26) (xy 245.11 48.26)
 		)
 		(stroke
 			(width 0)
@@ -707,6 +863,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 71.12) (xy 67.31 65.405)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0be463e-cadd-43d9-be46-6a83e53bf920")
+	)
+	(wire
+		(pts
 			(xy 135.255 154.305) (xy 137.795 154.305)
 		)
 		(stroke
@@ -724,6 +890,16 @@
 			(type default)
 		)
 		(uuid "b49896c4-1602-40be-9d87-f1f38aac28ce")
+	)
+	(wire
+		(pts
+			(xy 245.11 32.385) (xy 255.27 32.385)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4fa8012-6bcb-40a8-95e0-9d51700f80d1")
 	)
 	(wire
 		(pts
@@ -897,6 +1073,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 32.385) (xy 278.765 32.385)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db76eff3-b9bd-421a-9789-c3b1f8da2027")
+	)
+	(wire
+		(pts
 			(xy 118.745 53.34) (xy 124.46 53.34)
 		)
 		(stroke
@@ -907,13 +1093,13 @@
 	)
 	(wire
 		(pts
-			(xy 78.105 65.405) (xy 78.105 68.58)
+			(xy 255.27 29.845) (xy 255.27 32.385)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e2f9b228-8dc2-4d24-9ff3-cee13b548e84")
+		(uuid "e313888e-902b-4b94-86c3-5cb6124ace74")
 	)
 	(wire
 		(pts
@@ -947,7 +1133,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.125 61.595) (xy 360.68 61.595)
+			(xy 247.015 53.34) (xy 245.11 53.34)
 		)
 		(stroke
 			(width 0)
@@ -957,7 +1143,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 30.48) (xy 364.49 30.48)
+			(xy 245.11 40.005) (xy 247.65 40.005)
 		)
 		(stroke
 			(width 0)
@@ -967,7 +1153,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 48.895) (xy 365.125 48.895)
+			(xy 245.11 45.085) (xy 247.015 45.085)
 		)
 		(stroke
 			(width 0)
@@ -1021,7 +1207,7 @@
 	)
 	(global_label "VSS"
 		(shape input)
-		(at 365.125 52.705 0)
+		(at 247.015 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1031,7 +1217,7 @@
 		)
 		(uuid "315b268d-4932-4e11-bf67-8b380fdf7be3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 371.6178 52.705 0)
+			(at 253.5078 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1093,7 +1279,7 @@
 	)
 	(global_label "DVDD"
 		(shape input)
-		(at 364.49 26.67 0)
+		(at 247.65 36.195 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1103,7 +1289,7 @@
 		)
 		(uuid "93973aa7-0372-4f3f-9e06-e08c48c2228c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 372.3738 26.67 0)
+			(at 255.5338 36.195 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1117,7 +1303,7 @@
 	)
 	(global_label "Phantom_PWR"
 		(shape input)
-		(at 365.125 61.595 0)
+		(at 247.015 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1127,7 +1313,7 @@
 		)
 		(uuid "ac791ef4-991f-4a8f-a492-eaa7dfd46ce8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 381.3542 61.595 0)
+			(at 263.2442 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1165,7 +1351,7 @@
 	)
 	(global_label "VDD"
 		(shape input)
-		(at 365.125 48.895 0)
+		(at 247.015 45.085 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1175,7 +1361,7 @@
 		)
 		(uuid "e9a4304d-6b55-44a7-aa4d-51c9be7eacbc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 371.7388 48.895 0)
+			(at 253.6288 45.085 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1189,7 +1375,7 @@
 	)
 	(global_label "AVDD"
 		(shape input)
-		(at 364.49 30.48 0)
+		(at 247.65 40.005 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1199,7 +1385,7 @@
 		)
 		(uuid "f4ed44db-7b79-4f01-b9f3-cef78d6834b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 372.1924 30.48 0)
+			(at 255.3524 40.005 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1208,6 +1394,84 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 255.27 29.845 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a33a8123-3b70-475d-9fc2-8b8ace3a6036")
+		(property "Reference" "#PWR034"
+			(at 255.27 33.655 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 255.27 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 29.845 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 29.845 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 255.27 29.845 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "97d9520e-86b6-4047-82c6-cad886d0fa87")
+		)
+		(instances
+			(project "AudioBoard"
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae"
+					(reference "#PWR034")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1648,52 +1912,6 @@
 		)
 	)
 	(sheet
-		(at 222.25 95.885)
-		(size 24.765 59.69)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "6531c55d-c406-44ac-9a40-6c136019803d")
-		(property "Sheetname" "Logic_Board"
-			(at 222.25 95.1734 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Logic_Board.kicad_sch"
-			(at 222.25 156.1596 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "AudioBoard"
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae"
-					(page "16")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 33.655 24.13)
 		(size 19.685 201.295)
 		(exclude_from_sim no)
@@ -1822,7 +2040,7 @@
 			)
 		)
 		(pin "RET_1" output
-			(at 53.34 68.58 0)
+			(at 53.34 71.12 0)
 			(uuid "89dc517b-251e-45f7-9951-56dd4989ffc7")
 			(effects
 				(font
@@ -1832,7 +2050,7 @@
 			)
 		)
 		(pin "RET_2" output
-			(at 53.34 71.755 0)
+			(at 53.34 74.295 0)
 			(uuid "4f124402-27e6-456b-a314-2d9c5a482345")
 			(effects
 				(font
@@ -1905,6 +2123,63 @@
 			(project "AudioBoard"
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 285.75 75.565)
+		(size 24.13 34.925)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "735e399b-f010-4676-87df-b606fd1a2384")
+		(property "Sheetname" "logic_board_conn"
+			(at 285.75 74.8534 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "logic_board_conn.kicad_sch"
+			(at 285.75 111.0746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 285.75 75.565 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "AudioBoard"
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae"
+					(page "16")
 				)
 			)
 		)
@@ -2330,8 +2605,8 @@
 		)
 	)
 	(sheet
-		(at 314.96 20.32)
-		(size 45.72 55.245)
+		(at 224.155 29.845)
+		(size 20.955 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2346,7 +2621,7 @@
 		)
 		(uuid "ee404ad0-726e-426f-8607-a7730f1919f6")
 		(property "Sheetname" "power"
-			(at 314.96 19.6084 0)
+			(at 224.155 29.1334 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2357,7 +2632,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 314.96 76.1496 0)
+			(at 224.155 57.0996 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2368,7 +2643,7 @@
 			)
 		)
 		(pin "+3V3A" output
-			(at 360.68 30.48 0)
+			(at 245.11 40.005 0)
 			(uuid "22f84c3c-fd71-4ef9-9e10-1e305598c22d")
 			(effects
 				(font
@@ -2378,7 +2653,7 @@
 			)
 		)
 		(pin "+3V3D" output
-			(at 360.68 26.67 0)
+			(at 245.11 36.195 0)
 			(uuid "cce43a85-b1de-4772-a213-fd0d9dee5c08")
 			(effects
 				(font
@@ -2388,7 +2663,7 @@
 			)
 		)
 		(pin "+5V" output
-			(at 360.68 22.86 0)
+			(at 245.11 32.385 0)
 			(uuid "7748fdc6-f6de-44c4-a81e-48a0b0821722")
 			(effects
 				(font
@@ -2398,7 +2673,7 @@
 			)
 		)
 		(pin "+12V" output
-			(at 360.68 48.895 0)
+			(at 245.11 45.085 0)
 			(uuid "34422c87-2fc9-4fbc-9a10-58c3134af53a")
 			(effects
 				(font
@@ -2408,7 +2683,7 @@
 			)
 		)
 		(pin "-12V" output
-			(at 360.68 52.705 0)
+			(at 245.11 48.26 0)
 			(uuid "531a910d-018c-484a-8382-21a24826bbe6")
 			(effects
 				(font
@@ -2418,7 +2693,7 @@
 			)
 		)
 		(pin "Phantom_PWR" output
-			(at 360.68 61.595 0)
+			(at 245.11 53.34 0)
 			(uuid "18d45217-1170-4a51-96ba-1253e006de8f")
 			(effects
 				(font
@@ -2582,6 +2857,72 @@
 			(project "AudioBoard"
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 278.765 30.48)
+		(size 29.21 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f52fb95f-c170-4019-a1de-76d051ae381f")
+		(property "Sheetname" "usb_interface"
+			(at 278.765 29.7684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_interface.kicad_sch"
+			(at 278.765 34.8746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+5V" input
+			(at 278.765 32.385 180)
+			(uuid "cf4027db-c080-4a80-9ef0-833b93631fa0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB{VBUS,D+,D-}" bidirectional
+			(at 307.975 32.385 0)
+			(uuid "e6477e78-2612-4b27-99ff-f89b8195c364")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "AudioBoard"
+				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae"
+					(page "23")
 				)
 			)
 		)

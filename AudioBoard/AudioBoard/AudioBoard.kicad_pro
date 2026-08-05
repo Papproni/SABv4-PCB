@@ -698,7 +698,7 @@
         "uuid": "dd5d876d-fff7-4cb4-baee-a023036d12ae"
       }
     ],
-    "used_designators": "J7_PWR_IN1,C56,C59,C61,C99-101,C141-143,SW3_pwr1,U3,R1-3,R26,R46-55,#PWR34,#PWR50-53,#PWR85,#PWR87,#PWR91,#PWR131,#PWR134,#PWR139,#PWR147,FB2-3",
+    "used_designators": "#PWR150-165,C147-149,C160-172,R100,R103-116,R139",
     "variants": []
   },
   "sheets": [
@@ -763,8 +763,8 @@
       "XLR_output_R"
     ],
     [
-      "6531c55d-c406-44ac-9a40-6c136019803d",
-      "Logic_Board"
+      "735e399b-f010-4676-87df-b606fd1a2384",
+      "logic_board_conn"
     ],
     [
       "c6b4bf78-79ee-434b-a7ef-765d7a62d4c8",
@@ -789,6 +789,82 @@
     [
       "90fb3efd-d3f7-4792-a5a6-0ef3ff553a4e",
       "LoPower"
+    ],
+    [
+      "f52fb95f-c170-4019-a1de-76d051ae381f",
+      "usb_interface"
+    ],
+    [
+      "3baa4b27-16ff-4448-a5a4-b2e5d92533d9",
+      "8x_lpf"
+    ],
+    [
+      "0560e758-f949-47bd-a4f6-3876d222462e",
+      "fsw_lpf2"
+    ],
+    [
+      "8a8faa70-cc70-4eb3-b4ea-7ccd73216d00",
+      "fsw_lpf1"
+    ],
+    [
+      "8d9656c5-0b48-433d-8828-a35363e1e7ac",
+      "fsw_lpf"
+    ],
+    [
+      "1f81dc81-802d-446f-b6f0-0a7712c3ef9a",
+      "fsw_lpf5"
+    ],
+    [
+      "438d98a5-7bd9-4d4d-8698-fffc9159e707",
+      "fsw_lpf3"
+    ],
+    [
+      "5328fdf2-2674-4c6a-b332-4a21d8fec109",
+      "fsw_lpf4"
+    ],
+    [
+      "7de1f841-4921-4b34-8c3b-00b42f588390",
+      "fsw_lpf6"
+    ],
+    [
+      "b1d0743e-a18c-4ab8-882d-dc8bc5ab132b",
+      "fsw_lpf7"
+    ],
+    [
+      "eea271a8-7865-49cc-a307-5356bb03c813",
+      "8x_lpf1"
+    ],
+    [
+      "0560e758-f949-47bd-a4f6-3876d222462e",
+      "fsw_lpf2"
+    ],
+    [
+      "8a8faa70-cc70-4eb3-b4ea-7ccd73216d00",
+      "fsw_lpf1"
+    ],
+    [
+      "8d9656c5-0b48-433d-8828-a35363e1e7ac",
+      "fsw_lpf"
+    ],
+    [
+      "1f81dc81-802d-446f-b6f0-0a7712c3ef9a",
+      "fsw_lpf5"
+    ],
+    [
+      "438d98a5-7bd9-4d4d-8698-fffc9159e707",
+      "fsw_lpf3"
+    ],
+    [
+      "5328fdf2-2674-4c6a-b332-4a21d8fec109",
+      "fsw_lpf4"
+    ],
+    [
+      "7de1f841-4921-4b34-8c3b-00b42f588390",
+      "fsw_lpf6"
+    ],
+    [
+      "b1d0743e-a18c-4ab8-882d-dc8bc5ab132b",
+      "fsw_lpf7"
     ]
   ],
   "text_variables": {},

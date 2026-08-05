@@ -1313,6 +1313,7 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 57.15 43.18 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1320,10 +1321,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1d72210c-b932-451c-b94e-ed7f1bc65b31")
 		(property "Reference" "R52"
-			(at 59.055 41.9099 0)
+			(at 55.245 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1334,7 +1334,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 59.055 44.4499 0)
+			(at 55.245 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1345,7 +1345,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 55.372 43.18 90)
+			(at 58.928 43.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1723,7 +1723,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
