@@ -648,6 +648,12 @@
           "label": "lcscpart",
           "name": "lcscpart",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC aprt",
+          "name": "LCSC aprt",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -655,7 +661,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Footprint"
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -698,7 +704,7 @@
         "uuid": "dd5d876d-fff7-4cb4-baee-a023036d12ae"
       }
     ],
-    "used_designators": "#PWR150-165,C147-149,C160-172,R100,R103-116,R139",
+    "used_designators": "D19-25,#PWR37-38,#PWR88,#PWR167-171,R38,R46,C175",
     "variants": []
   },
   "sheets": [
@@ -779,8 +785,8 @@
       "HeadphoneAmplifier1"
     ],
     [
-      "1be5cbb9-85cd-45d8-b0f1-73b7fc7bb211",
-      "PhantomPower"
+      "b961661d-99c3-411b-bc49-3afb6d90e4bb",
+      "exp_preamp"
     ],
     [
       "24ef0f70-6cbf-4c31-95c2-48bcee616c0a",

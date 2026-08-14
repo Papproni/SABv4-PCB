@@ -781,12 +781,6 @@
 		(uuid "3234a4fb-2f8f-492e-9737-0f51a31cf6aa")
 	)
 	(junction
-		(at 179.07 61.595)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "856b32de-2694-415b-b20d-fcdc05f9d80a")
-	)
-	(junction
 		(at 179.07 40.005)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -836,16 +830,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 75.565) (xy 190.5 75.565)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e71a651-e4b5-4000-b71d-6d812843eda4")
-	)
-	(wire
-		(pts
 			(xy 78.74 41.275) (xy 78.74 46.99)
 		)
 		(stroke
@@ -853,16 +837,6 @@
 			(type default)
 		)
 		(uuid "3253832f-f1c7-4433-a76e-d498e31d247a")
-	)
-	(wire
-		(pts
-			(xy 222.25 76.2) (xy 226.695 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37e24e81-c6ee-4634-836e-5d6995b09734")
 	)
 	(wire
 		(pts
@@ -906,16 +880,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.695 76.2) (xy 226.695 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "478b3a7a-c787-42f7-a5eb-fba2c4e62315")
-	)
-	(wire
-		(pts
 			(xy 179.07 61.595) (xy 190.5 61.595)
 		)
 		(stroke
@@ -923,16 +887,6 @@
 			(type default)
 		)
 		(uuid "4fc692b9-fbf2-4411-be03-60a231eabd73")
-	)
-	(wire
-		(pts
-			(xy 226.695 67.31) (xy 247.65 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50c8f4c7-03b0-4aca-bb74-1db112fc8ecc")
 	)
 	(wire
 		(pts
@@ -1116,16 +1070,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 61.595) (xy 179.07 75.565)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7efc51f-7892-4421-ab0b-75a9fe38165e")
-	)
-	(wire
-		(pts
 			(xy 57.15 46.99) (xy 57.15 49.53)
 		)
 		(stroke
@@ -1276,17 +1220,6 @@
 			(justify left)
 		)
 		(uuid "66684beb-16a4-45c5-9a9f-10792d70dd5d")
-	)
-	(hierarchical_label "Phantom_PWR"
-		(shape output)
-		(at 247.65 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8a3e6d7d-60b0-4685-b5d2-828895211b15")
 	)
 	(hierarchical_label "-12V"
 		(shape output)
@@ -2187,82 +2120,6 @@
 				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/ee404ad0-726e-426f-8607-a7730f1919f6"
 					(reference "J7_PWR_IN1")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 190.5 74.295)
-		(size 31.75 5.715)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "1be5cbb9-85cd-45d8-b0f1-73b7fc7bb211")
-		(property "Sheetname" "PhantomPower"
-			(at 190.5 73.5834 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "PhantomPower.kicad_sch"
-			(at 190.5 80.5946 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "VIN" input
-			(at 190.5 75.565 180)
-			(uuid "dd6b936b-7402-4eb7-a646-42aa9abafcdc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PP_EN_I" input
-			(at 190.5 78.74 180)
-			(uuid "7472dea4-eecc-4737-8094-96ba90468a22")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Phantom_PWR" output
-			(at 222.25 76.2 0)
-			(uuid "fa7c551c-00be-4ab2-a13f-07fd21a66d9e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "AudioBoard"
-				(path "/dd5d876d-fff7-4cb4-baee-a023036d12ae/ee404ad0-726e-426f-8607-a7730f1919f6"
-					(page "20")
 				)
 			)
 		)
